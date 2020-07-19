@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-07-19T04:29:23-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">Book Notes - Managing Humans</title><link href="https://jonwhittlestone.github.io/notes/book%20notes/work%20life/2020/07/19/book-notes-managing-humans.html" rel="alternate" type="text/html" title="Book Notes - Managing Humans" /><published>2020-07-19T00:00:00-05:00</published><updated>2020-07-19T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/book%20notes/work%20life/2020/07/19/book-notes-managing-humans</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/book%20notes/work%20life/2020/07/19/book-notes-managing-humans.html">&lt;p&gt;Some great passages tbc.&lt;/p&gt;</content><author><name></name></author><summary type="html">Some great passages tbc.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images-na.ssl-images-amazon.com/images/I/51iKBuGKQxL._SX328_BO1,204,203,200_.jpg" /><media:content medium="image" url="https://images-na.ssl-images-amazon.com/images/I/51iKBuGKQxL._SX328_BO1,204,203,200_.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-07-19T14:23:40-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">Book Notes - Managing Humans</title><link href="https://jonwhittlestone.github.io/notes/book%20notes/work%20life/non-fiction/2020/07/19/book-notes-managing-humans.html" rel="alternate" type="text/html" title="Book Notes - Managing Humans" /><published>2020-07-19T00:00:00-05:00</published><updated>2020-07-19T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/book%20notes/work%20life/non-fiction/2020/07/19/book-notes-managing-humans</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/book%20notes/work%20life/non-fiction/2020/07/19/book-notes-managing-humans.html">&lt;h1 id=&quot;managing-humans---biting-and-humourous-tales-of-a-software-engineering-manager&quot;&gt;Managing Humans - Biting and humourous tales of a Software Engineering Manager&lt;/h1&gt;
+
+&lt;p&gt;A Christmas 2020 present from Mum and Steve on management and leadership.&lt;/p&gt;
+
+&lt;p&gt;Does a great job in explaining empathy, archetypes and ‘general craziness of dysfunctional bright people’ with plenty of pertinent and amusing anecodotes.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-rating-45&quot;&gt;My rating: 4/5&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;CH4 - Rands Test&lt;/p&gt;
+
+    &lt;p&gt;Where the &lt;a href=&quot;https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/&quot;&gt;‘Joel test’&lt;/a&gt; can be an effective way to get a health check on a software team, the Rands test does the same for general team fitness in the context of management.&lt;/p&gt;
+
+    &lt;p&gt;A score of 10 or lower - ‘you’ve got serious problems’&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Do you have consistent one-on-ones, about topics other than status? (+1)&lt;/li&gt;
+      &lt;li&gt;Do you have consistent team meetings? (+1)&lt;/li&gt;
+      &lt;li&gt;Are handwitten status reports delivered weely via email? (-1)&lt;/li&gt;
+      &lt;li&gt;Are you comfotable saying ‘no’ to your boss? (+1)&lt;/li&gt;
+      &lt;li&gt;Can you explain the strategy of your company to a stranger? (+1)&lt;/li&gt;
+      &lt;li&gt;Can you explain current health of the business? (+1)&lt;/li&gt;
+      &lt;li&gt;Is there a regular standup by the person in charge? Do you buy it? (+1)&lt;/li&gt;
+      &lt;li&gt;Do you know what you want to do next? (+1) Does your boss? (+1)&lt;/li&gt;
+      &lt;li&gt;Do you have time to be strategic? (+1)&lt;/li&gt;
+      &lt;li&gt;Are you actively killing the grapevine? IE. Do you make a point to kill gossip? (+1)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Managing Humans - Biting and humourous tales of a Software Engineering Manager</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://i.imgur.com/924BgKj.png" /><media:content medium="image" url="http://i.imgur.com/924BgKj.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
