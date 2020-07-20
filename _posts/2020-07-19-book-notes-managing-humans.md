@@ -7,8 +7,6 @@ title: Book Notes - Managing Humans
 image: http://i.imgur.com/924BgKj.png
 ---
 
-# Managing Humans - Biting and humourous tales of a Software Engineering Manager
-
 A Christmas 2020 present from Mum and Steve on management and leadership. 
 
 It does a great job in explaining empathy, archetypes and 'general craziness of dysfunctional bright people' with plenty of pertinent and amusing anecodotes.
