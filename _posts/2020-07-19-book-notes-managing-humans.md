@@ -51,7 +51,7 @@ A score of 10 or lower - 'you've got serious problems'
 
 ### CH40 - Organics and Mechanics
 
-The chapter covers how to speak to your manager and to identify if they are one of two personalities and the interpersonal conflict that may arise between the two. Lopp comments that the ensuing 'organisational warfare' is a waste of time (and money) as it focuses everyone on the peculiar personality quirks of the other rather than on the business (waste )
+The chapter covers how to speak to your manager and to identify if they are one of two personalities and the interpersonal conflict that may arise between the two. Lopp comments that the ensuing 'organisational warfare' is a waste of time (and money) as it focuses everyone on the peculiar personality quirks of the other rather than on the business.
 
 > Mechanics move forward methodically. They carefully gather information in a structured manner. They quietly observe and are comfortable predictable. They annoy the hell out of the organics
 
