@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: 'Do you like my vehicle?'
 categories: ['Memories']
-title: Memories - Lego
+title: Lego
 image: http://www.howapped.com/assets/files/lego.png
 hide: false
 ---
