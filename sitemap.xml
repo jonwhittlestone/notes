@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://jonwhittlestone.github.io/notes/book%20notes/work%20life/non-fiction/2020/07/19/book-notes-managing-humans.html</loc>
+<loc>https://jonwhittlestone.github.io/notes/book%20notes/2020/07/19/book-notes-managing-humans.html</loc>
 <lastmod>2020-07-19T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>https://jonwhittlestone.github.io/notes/music/productivity/2020/07/21/march-to-the-beat.html</loc>
 <lastmod>2020-07-21T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://jonwhittlestone.github.io/notes/aws/revision/2020/07/29/saa-c02-chad-smith-pearson-live-lesson.html</loc>
+<lastmod>2020-07-29T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>https://jonwhittlestone.github.io/notes/memories/2020/07/31/playing-lego.html</loc>
