@@ -19,6 +19,8 @@ During the Great Lockdown of 2020, it was a definite help for keeping sanity in 
 <figure>
     <audio
         controls
+        type="audio/mpeg"
+        preload="auto"
         src="http://www.howapped.com/assets/files/2020_07_19_11_55_30_the_sound_of_joseph_playing_lego_on_a_sunday_morning.mp3">
             Your browser does not support the
             <code>audio</code> element.

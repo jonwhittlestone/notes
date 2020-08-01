@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [music, productivity]
+categories: [Music, Productivity]
 title: March to the Beat - Music to code to 2020
 image: https://i.imgur.com/8vVz9I2.png
 ---

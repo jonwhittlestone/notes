@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: Notes on 'Managing Humans' by Michael Lopp.
-categories: [book notes, work life, non-fiction]
+categories: [Book Notes]
 title: Book Notes - Managing Humans
 image: http://i.imgur.com/924BgKj.png
 ---
