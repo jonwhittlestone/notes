@@ -195,20 +195,81 @@ Elasticity: The ability to **increase** and **decrease**. Automation is implied.
     - _As traffic increases over time, the number of EC2 instances launched into the Auto Scaling group will increase. These will count against the regional EC2 vCPU quote along with the other EC2 instances. Watching this value and comparing against usage can ensure a smooth scaling experience_
 
 
+### L7: Performant Architectures > High-performing, scalabale storage for workloads
+
+- Max data rates (approx. at Mar 2020) but important to benchmark yourself
+    - EBS standard HDD
+        - 90 MiB/s
+        - Low IOPS
+    - SC1 - EBS Cold HDD
+        - 250 MiB/s
+        - IOPS dependent on size
+    - ST1 - EBS Throughput optimised: 
+        - 500 MiB/s
+        - IOPS dependent on size
+    - GP2 - EBS general purpose default:
+        - 128 - 250 MiB/s
+        - Up to 16,000 IOPS dependent on size
+    - EBS Provisioned IOPS SSD
+        - 1000 MiB/s
+        - 64,000 IOPS
+    - Striping multiple volumes together
+        - 3500 Mbps
+        - 160k IOPS
+
+    
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_07_06)
+
+> When migrating an on-premises legacy database, an AWS architect must recommend an Oracle database hosting option that supports 32Tb of database storage and handles a sustained load higher than 60,000 IOPS. Which of the following choices should the architect recommend? (Choose two.)
+
+- r5.12xlarge EC2 instance with multiple IOPS EBS volumes configured as a striped RAID. 
+- **r4.16xlarge EC2 instance with multiple PIOPS EBS volumes configured as a striped RAID.**
+    - Supports a total of 75,000 IOPS across all EBS volumes
+- r4.16xlarge EC2 instance with a single GP2 EBS volume.
+- **db.r5.24xlarge RDS instance with PIOPS storage.**
+    - Supports up to 80,000 IOPS
+    - RDS gives you option of setting storage as PIOPS
+- db.r5.24xlarge RDS instance with GP2 storage.
+
+> During the peak load every weekday, an MSSQL RDS database becomes overloaded due to heavy read traffic, impacting user request latencies. You've been asked to recommend a solution that improves the user experience and enables easier scaling during future anticipated increased load. Which of the following will best meet the requirements?
+
+- **Configure an Elasticache cluster to cache database reads. Query the cache from the application before issuing reads to the database.**
+- Increase either the RDS storage size or PIOPS to maximum value to improve database performance.
+- Upsize the RDS database instance to improve database performance.
+- Scale the application tier horizontally to accommodate more concurrent requests.
 
 
-<!-- 
-## Module 1: Overview
+### L8: Performant Architectures > High-performing, network solutions for a workload
 
-### Lesson 1: Exam Strategies
+- Consolodate resources into single AZ to minimise latency and ensure they are in same colocated data centre with sub 1ms latency (smallest in AWS)
+    - Weigh up with Resillience priorities
 
-#### Section 1: Logistics
-* Cornell Method Question 1
-    * Cornell Method Answer 1
-#### Section 2: Exam Guide
-* Cornell Method Question 1
-    * Cornell Method Answer 1
--->
+- Enable Jumbo frames @ 9000 MTU to ensure the efficiency of TCP traffic (esp large payloads) and we need to know if data is egressing at a gateway, will the packet fragment.
+
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_08_04)
+
+> An application is deployed with Apache Kafka onto a fleet of EC2 instances. There are multiple Kafka topics and multiple partitions per topic. The application requires high performance and low latency. Which of the following recommendations would achieve this? (Choose two.)
+
+- Use an EC2 Spread Placement Group during instance launch.
+    - _Designed more for resillience than performance_
+- Use an EC2 Cluster Placement Group during instance launch.
+    - _not good for resillience or outside communication_
+- **Use an EC2 Partition Placement Group during instance launch.**
+    - _Good for spreading instances accross hardware so instances in one partitiion don't share underlying hardware with instances in other partitiions and ideal for distributed workloads_
+- Configure jumbo frames on the EC2 instances.
+- **Use EC2 instance types that support Enhanced Networking.**
+
+> You've been asked to design a network and application infrastructure for a three-tier app consisting of the following: load balancer, application servers and database. The application servers must communicate with S3 regularly. What would be your design recommendation, assuming that performance is the highest priority?
+
+- Deploy separate ALB and EC2 Auto Scaling into each AZ. Deploy Multi-AZ RDS, with read replica in the second AZ. S3 communication through a VPC Gateway Endpoint.
+- **Deploy separate ALB and EC2 Auto Scaling into each AZ. Deploy Aurora multi-master into same two AZ. S3 communication through a VPC Gateway Endpoint.**
+- Deploy ALB, EC2 and RDS using multi-AZ configuration of each. S3 communication through the Internet Gateway.
+- Deploy multi-AZ ALB. Deploy separate EC2 Auto Scaling into each AZ. Deploy multi-AZ RDS with read replica in the second AZ. S3 communication through the Internet Gateway.
+
+
+
+
 
 [^1]: [https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false)
 
