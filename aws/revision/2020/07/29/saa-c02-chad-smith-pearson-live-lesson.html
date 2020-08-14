@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      9 min read
+      13 min read
     
 </span></p>
 
@@ -592,18 +592,132 @@ table td {max-width:inherit}
   </li>
 </ul>
 
-<!-- 
-## Module 1: Overview
+<h3 id="l7-performant-architectures--high-performing-scalabale-storage-for-workloads">L7: Performant Architectures &gt; High-performing, scalabale storage for workloads</h3>
 
-### Lesson 1: Exam Strategies
+<ul>
+  <li>Max data rates (approx. at Mar 2020) but important to benchmark yourself
+    <ul>
+      <li>EBS standard HDD
+        <ul>
+          <li>90 MiB/s</li>
+          <li>Low IOPS</li>
+        </ul>
+      </li>
+      <li>SC1 - EBS Cold HDD
+        <ul>
+          <li>250 MiB/s</li>
+          <li>IOPS dependent on size</li>
+        </ul>
+      </li>
+      <li>ST1 - EBS Throughput optimised:
+        <ul>
+          <li>500 MiB/s</li>
+          <li>IOPS dependent on size</li>
+        </ul>
+      </li>
+      <li>GP2 - EBS general purpose default:
+        <ul>
+          <li>128 - 250 MiB/s</li>
+          <li>Up to 16,000 IOPS dependent on size</li>
+        </ul>
+      </li>
+      <li>EBS Provisioned IOPS SSD
+        <ul>
+          <li>1000 MiB/s</li>
+          <li>64,000 IOPS</li>
+        </ul>
+      </li>
+      <li>Striping multiple volumes together
+        <ul>
+          <li>3500 Mbps</li>
+          <li>160k IOPS</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
-#### Section 1: Logistics
-* Cornell Method Question 1
-    * Cornell Method Answer 1
-#### Section 2: Exam Guide
-* Cornell Method Question 1
-    * Cornell Method Answer 1
--->
+<h4 id="chads-question-breakdown"><a href="https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_07_06">Chad’s Question Breakdown</a></h4>
+
+<blockquote>
+  <p>When migrating an on-premises legacy database, an AWS architect must recommend an Oracle database hosting option that supports 32Tb of database storage and handles a sustained load higher than 60,000 IOPS. Which of the following choices should the architect recommend? (Choose two.)</p>
+</blockquote>
+
+<ul>
+  <li>r5.12xlarge EC2 instance with multiple IOPS EBS volumes configured as a striped RAID.</li>
+  <li><strong>r4.16xlarge EC2 instance with multiple PIOPS EBS volumes configured as a striped RAID.</strong>
+    <ul>
+      <li>Supports a total of 75,000 IOPS across all EBS volumes</li>
+    </ul>
+  </li>
+  <li>r4.16xlarge EC2 instance with a single GP2 EBS volume.</li>
+  <li><strong>db.r5.24xlarge RDS instance with PIOPS storage.</strong>
+    <ul>
+      <li>Supports up to 80,000 IOPS</li>
+      <li>RDS gives you option of setting storage as PIOPS</li>
+    </ul>
+  </li>
+  <li>db.r5.24xlarge RDS instance with GP2 storage.</li>
+</ul>
+
+<blockquote>
+  <p>During the peak load every weekday, an MSSQL RDS database becomes overloaded due to heavy read traffic, impacting user request latencies. You’ve been asked to recommend a solution that improves the user experience and enables easier scaling during future anticipated increased load. Which of the following will best meet the requirements?</p>
+</blockquote>
+
+<ul>
+  <li><strong>Configure an Elasticache cluster to cache database reads. Query the cache from the application before issuing reads to the database.</strong></li>
+  <li>Increase either the RDS storage size or PIOPS to maximum value to improve database performance.</li>
+  <li>Upsize the RDS database instance to improve database performance.</li>
+  <li>Scale the application tier horizontally to accommodate more concurrent requests.</li>
+</ul>
+
+<h3 id="l8-performant-architectures--high-performing-network-solutions-for-a-workload">L8: Performant Architectures &gt; High-performing, network solutions for a workload</h3>
+
+<ul>
+  <li>Consolodate resources into single AZ to minimise latency and ensure they are in same colocated data centre with sub 1ms latency (smallest in AWS)
+    <ul>
+      <li>Weigh up with Resillience priorities</li>
+    </ul>
+  </li>
+  <li>Enable Jumbo frames @ 9000 MTU to ensure the efficiency of TCP traffic (esp large payloads) and we need to know if data is egressing at a gateway, will the packet fragment.</li>
+</ul>
+
+<h4 id="chads-question-breakdown-1"><a href="https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_08_04">Chad’s Question Breakdown</a></h4>
+
+<blockquote>
+  <p>An application is deployed with Apache Kafka onto a fleet of EC2 instances. There are multiple Kafka topics and multiple partitions per topic. The application requires high performance and low latency. Which of the following recommendations would achieve this? (Choose two.)</p>
+</blockquote>
+
+<ul>
+  <li>Use an EC2 Spread Placement Group during instance launch.
+    <ul>
+      <li><em>Designed more for resillience than performance</em></li>
+    </ul>
+  </li>
+  <li>Use an EC2 Cluster Placement Group during instance launch.
+    <ul>
+      <li><em>not good for resillience or outside communication</em></li>
+    </ul>
+  </li>
+  <li><strong>Use an EC2 Partition Placement Group during instance launch.</strong>
+    <ul>
+      <li><em>Good for spreading instances accross hardware so instances in one partitiion don’t share underlying hardware with instances in other partitiions and ideal for distributed workloads</em></li>
+    </ul>
+  </li>
+  <li>Configure jumbo frames on the EC2 instances.</li>
+  <li><strong>Use EC2 instance types that support Enhanced Networking.</strong></li>
+</ul>
+
+<blockquote>
+  <p>You’ve been asked to design a network and application infrastructure for a three-tier app consisting of the following: load balancer, application servers and database. The application servers must communicate with S3 regularly. What would be your design recommendation, assuming that performance is the highest priority?</p>
+</blockquote>
+
+<ul>
+  <li>Deploy separate ALB and EC2 Auto Scaling into each AZ. Deploy Multi-AZ RDS, with read replica in the second AZ. S3 communication through a VPC Gateway Endpoint.</li>
+  <li><strong>Deploy separate ALB and EC2 Auto Scaling into each AZ. Deploy Aurora multi-master into same two AZ. S3 communication through a VPC Gateway Endpoint.</strong></li>
+  <li>Deploy ALB, EC2 and RDS using multi-AZ configuration of each. S3 communication through the Internet Gateway.</li>
+  <li>Deploy multi-AZ ALB. Deploy separate EC2 Auto Scaling into each AZ. Deploy multi-AZ RDS with read replica in the second AZ. S3 communication through the Internet Gateway.</li>
+</ul>
 
 <div class="footnotes">
   <ol>
