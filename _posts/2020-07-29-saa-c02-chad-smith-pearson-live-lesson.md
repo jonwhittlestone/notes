@@ -256,7 +256,7 @@ Elasticity: The ability to **increase** and **decrease**. Automation is implied.
 - Use an EC2 Cluster Placement Group during instance launch.
     - _not good for resillience or outside communication_
 - **Use an EC2 Partition Placement Group during instance launch.**
-    - _Good for spreading instances accross hardware so instances in one partitiion don't share underlying hardware with instances in other partitiions and ideal for distributed workloads_
+    - _Good for spreading instances accross hardware so instances in one partition don't share underlying hardware with instances in other partitiions and ideal for distributed workloads_
 - Configure jumbo frames on the EC2 instances.
 - **Use EC2 instance types that support Enhanced Networking.**
 
@@ -269,6 +269,28 @@ Elasticity: The ability to **increase** and **decrease**. Automation is implied.
 
 
 
+### L9: Performant Architectures > High-performing databases
+
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_09_03)
+
+An HR application back end is running Postgres on an m5.xlarge EC2 instance with a single 100Gb IOPS EBS volume with 2000 provisioned IOPS. During company holidays and other slow times, the database experiences almost zero load. During mid-year and end-of-year reviews, the database gets overloaded during the days. What change would you propose to improve performance during the peaks while optimizing for cost during the slow times?
+
+- Provision the maximum (based on 100Gb) of 5000 IOPS on the EBS volume.
+- **Migrate the database to RDS Aurora Serverless and provision appropriate min/max ACUS (Aurora Compute Units) to match the peaks and slow times.**
+    - _Will address peak and slow periods although min and max may need to be adjusted periodically_
+
+- Migrate the database to RDS and provision read replicas to handle the peak load.
+    - _This migration may address the peak times but there is no guarantee_
+- Resize the instance to m5.4xlarge to increase resources available to Postgres.
+
+> For a new application, a database architect has been asked to design a DynamoDB table that must store persistent session data. The table must be designed for high performance, and a TTL will be configured to expire items when they reach 30 days age. What partition key choice would lead to the highest performing table that will scale with the size of the table?
+
+- **Username**
+    - _A reasonable choice for a partition key as tends to have even distribution across a wide range of alphanumeric characters_
+- Session Creation Date
+- User Region
+- Last Name
 
 
 [^1]: [https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false)
