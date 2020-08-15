@@ -79,7 +79,7 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+        <div class="trigger"><a class="page-link" href="/notes/about/">About</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      13 min read
+      14 min read
     
 </span></p>
 
@@ -701,7 +701,7 @@ table td {max-width:inherit}
   </li>
   <li><strong>Use an EC2 Partition Placement Group during instance launch.</strong>
     <ul>
-      <li><em>Good for spreading instances accross hardware so instances in one partitiion don’t share underlying hardware with instances in other partitiions and ideal for distributed workloads</em></li>
+      <li><em>Good for spreading instances accross hardware so instances in one partition don’t share underlying hardware with instances in other partitiions and ideal for distributed workloads</em></li>
     </ul>
   </li>
   <li>Configure jumbo frames on the EC2 instances.</li>
@@ -717,6 +717,42 @@ table td {max-width:inherit}
   <li><strong>Deploy separate ALB and EC2 Auto Scaling into each AZ. Deploy Aurora multi-master into same two AZ. S3 communication through a VPC Gateway Endpoint.</strong></li>
   <li>Deploy ALB, EC2 and RDS using multi-AZ configuration of each. S3 communication through the Internet Gateway.</li>
   <li>Deploy multi-AZ ALB. Deploy separate EC2 Auto Scaling into each AZ. Deploy multi-AZ RDS with read replica in the second AZ. S3 communication through the Internet Gateway.</li>
+</ul>
+
+<h3 id="l9-performant-architectures--high-performing-databases">L9: Performant Architectures &gt; High-performing databases</h3>
+
+<h4 id="chads-question-breakdown-2"><a href="https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_09_03">Chad’s Question Breakdown</a></h4>
+
+<p>An HR application back end is running Postgres on an m5.xlarge EC2 instance with a single 100Gb IOPS EBS volume with 2000 provisioned IOPS. During company holidays and other slow times, the database experiences almost zero load. During mid-year and end-of-year reviews, the database gets overloaded during the days. What change would you propose to improve performance during the peaks while optimizing for cost during the slow times?</p>
+
+<ul>
+  <li>Provision the maximum (based on 100Gb) of 5000 IOPS on the EBS volume.</li>
+  <li><strong>Migrate the database to RDS Aurora Serverless and provision appropriate min/max ACUS (Aurora Compute Units) to match the peaks and slow times.</strong>
+    <ul>
+      <li><em>Will address peak and slow periods although min and max may need to be adjusted periodically</em></li>
+    </ul>
+  </li>
+  <li>Migrate the database to RDS and provision read replicas to handle the peak load.
+    <ul>
+      <li><em>This migration may address the peak times but there is no guarantee</em></li>
+    </ul>
+  </li>
+  <li>Resize the instance to m5.4xlarge to increase resources available to Postgres.</li>
+</ul>
+
+<blockquote>
+  <p>For a new application, a database architect has been asked to design a DynamoDB table that must store persistent session data. The table must be designed for high performance, and a TTL will be configured to expire items when they reach 30 days age. What partition key choice would lead to the highest performing table that will scale with the size of the table?</p>
+</blockquote>
+
+<ul>
+  <li><strong>Username</strong>
+    <ul>
+      <li><em>A reasonable choice for a partition key as tends to have even distribution across a wide range of alphanumeric characters</em></li>
+    </ul>
+  </li>
+  <li>Session Creation Date</li>
+  <li>User Region</li>
+  <li>Last Name</li>
 </ul>
 
 <div class="footnotes">
