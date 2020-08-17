@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      14 min read
+      16 min read
     
 </span></p>
 
@@ -753,6 +753,96 @@ table td {max-width:inherit}
   <li>Session Creation Date</li>
   <li>User Region</li>
   <li>Last Name</li>
+</ul>
+
+<h3 id="l10-secure-architectures--design-secure-access-to-aws-resources">L10: Secure Architectures &gt; Design Secure access to AWS resources</h3>
+
+<ul>
+  <li>
+    <p>Account and user-based access control</p>
+  </li>
+  <li>Service Control Policy (SCP) specify boundaries of what and cannot be done in AWS account(s).
+    <ul>
+      <li>Can only be used to deny</li>
+    </ul>
+  </li>
+  <li>
+    <p>At the user level, permissions are defined to ALLOW whereas permission boundaries can be set to define boundaries as the maximum set of permissions allowed regardless of what’s been granted in permission policy documents.</p>
+  </li>
+  <li>IAM roles are like <code class="highlighter-rouge">sudo</code> and most efficient way to grant access and allow temporary permissions.
+    <ul>
+      <li>Good for cross account access. E.g for consulting</li>
+      <li>Good for cross-service access</li>
+    </ul>
+  </li>
+  <li>Resource-based permissions
+    <ul>
+      <li>eg. S3 - only applies to single bucket
+        <ul>
+          <li><em>be super aware of S3 Block public access override</em></li>
+        </ul>
+      </li>
+      <li>eg. Lambda function access policy</li>
+      <li>eg. API Gateway resource policy
+        <ul>
+          <li>Can force user to be authenticated before request is granted.</li>
+        </ul>
+      </li>
+      <li>eg. SNS access policy (for AWS budgets say) to individual topics</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="chads-question-breakdown-3"><a href="https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_10_04">Chad’s Question Breakdown</a></h4>
+
+<blockquote>
+  <p>Which of the following would be an appropriate least-privilege policy addition for an SCP to be applied to all member accounts in an AWS Organization?</p>
+</blockquote>
+
+<ul>
+  <li>Deny EC2 Termination actions to all users.
+    <ul>
+      <li><em>a functionality breaker rather than least-privilege</em></li>
+    </ul>
+  </li>
+  <li>Deny S3 Bucket delete actions to all users.
+    <ul>
+      <li><em>a functionality breaker rather than least-privilege</em></li>
+    </ul>
+  </li>
+  <li>Allow administrative permissions to all IT admin.
+    <ul>
+      <li><em>any time a question asks about least-privilege, the answer will not be related to <strong>ALLOW</strong>ing permissions</em></li>
+    </ul>
+  </li>
+  <li><strong>Deny Cloudtrail delete actions to all users.</strong></li>
+</ul>
+
+<blockquote>
+  <p>In an AWS account, the following permissions have been configured:<br /><br />
+    1. IAM Policy granting full access to objects in a single S3 bucket<br />
+    2. IAM Permission boundary granting administrative access to EC2<br />
+    3. S3 Bucket policy that denies delete actions on the bucket<br /><br />
+Which of the following actions is possible with all of the above permissions in place for a single IAM User?</p>
+</blockquote>
+
+<ul>
+  <li>Upload a new object to the S3 Bucket.
+    <ul>
+      <li><em>Overridden by the IAM permission boundary which does not permit this action so will be denied</em></li>
+    </ul>
+  </li>
+  <li>Launch an EC2 instance.</li>
+  <li>Delete the S3 bucket.</li>
+  <li>Resize an EC2 instance.
+    <ul>
+      <li><em>Not included in an IAM policy. No condition/keyword for this</em></li>
+    </ul>
+  </li>
+  <li><strong>None of these are possible</strong>.
+&lt;!–
+    <h3 id="l11-secure-architectures--design-secure-application-tiers-">L11: Secure Architectures &gt; Design Secure Application Tiers –&gt;</h3>
+  </li>
 </ul>
 
 <div class="footnotes">

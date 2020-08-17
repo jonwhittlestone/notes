@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-08-15T01:46:53-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">Just Do It</title><link href="https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification.html" rel="alternate" type="text/html" title="Just Do It" /><published>2020-08-14T00:00:00-05:00</published><updated>2020-08-14T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification.html">&lt;p&gt;I’m partial to a brain hack.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-08-17T02:45:02-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">Just Do It</title><link href="https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification.html" rel="alternate" type="text/html" title="Just Do It" /><published>2020-08-14T00:00:00-05:00</published><updated>2020-08-14T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification.html">&lt;p&gt;I’m partial to a brain hack.&lt;/p&gt;
 
 &lt;p&gt;Not a physically violent, murderous one, but the type of fix for something where you can be fooled into doing something when your unconscious mind is trying to stop or distract you because it thinks it can do better.&lt;/p&gt;
 
@@ -685,6 +685,96 @@ table td {max-width:inherit}
   &lt;li&gt;Session Creation Date&lt;/li&gt;
   &lt;li&gt;User Region&lt;/li&gt;
   &lt;li&gt;Last Name&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;l10-secure-architectures--design-secure-access-to-aws-resources&quot;&gt;L10: Secure Architectures &amp;gt; Design Secure access to AWS resources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Account and user-based access control&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Service Control Policy (SCP) specify boundaries of what and cannot be done in AWS account(s).
+    &lt;ul&gt;
+      &lt;li&gt;Can only be used to deny&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the user level, permissions are defined to ALLOW whereas permission boundaries can be set to define boundaries as the maximum set of permissions allowed regardless of what’s been granted in permission policy documents.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;IAM roles are like &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt; and most efficient way to grant access and allow temporary permissions.
+    &lt;ul&gt;
+      &lt;li&gt;Good for cross account access. E.g for consulting&lt;/li&gt;
+      &lt;li&gt;Good for cross-service access&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resource-based permissions
+    &lt;ul&gt;
+      &lt;li&gt;eg. S3 - only applies to single bucket
+        &lt;ul&gt;
+          &lt;li&gt;&lt;em&gt;be super aware of S3 Block public access override&lt;/em&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;eg. Lambda function access policy&lt;/li&gt;
+      &lt;li&gt;eg. API Gateway resource policy
+        &lt;ul&gt;
+          &lt;li&gt;Can force user to be authenticated before request is granted.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;eg. SNS access policy (for AWS budgets say) to individual topics&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;chads-question-breakdown-3&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_10_04&quot;&gt;Chad’s Question Breakdown&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Which of the following would be an appropriate least-privilege policy addition for an SCP to be applied to all member accounts in an AWS Organization?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deny EC2 Termination actions to all users.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;a functionality breaker rather than least-privilege&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deny S3 Bucket delete actions to all users.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;a functionality breaker rather than least-privilege&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Allow administrative permissions to all IT admin.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;any time a question asks about least-privilege, the answer will not be related to &lt;strong&gt;ALLOW&lt;/strong&gt;ing permissions&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deny Cloudtrail delete actions to all users.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In an AWS account, the following permissions have been configured:&lt;br /&gt;&lt;br /&gt;
+    1. IAM Policy granting full access to objects in a single S3 bucket&lt;br /&gt;
+    2. IAM Permission boundary granting administrative access to EC2&lt;br /&gt;
+    3. S3 Bucket policy that denies delete actions on the bucket&lt;br /&gt;&lt;br /&gt;
+Which of the following actions is possible with all of the above permissions in place for a single IAM User?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Upload a new object to the S3 Bucket.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;Overridden by the IAM permission boundary which does not permit this action so will be denied&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Launch an EC2 instance.&lt;/li&gt;
+  &lt;li&gt;Delete the S3 bucket.&lt;/li&gt;
+  &lt;li&gt;Resize an EC2 instance.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;Not included in an IAM policy. No condition/keyword for this&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;None of these are possible&lt;/strong&gt;.
+&amp;lt;!–
+    &lt;h3 id=&quot;l11-secure-architectures--design-secure-application-tiers-&quot;&gt;L11: Secure Architectures &amp;gt; Design Secure Application Tiers –&amp;gt;&lt;/h3&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
