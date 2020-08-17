@@ -292,6 +292,55 @@ An HR application back end is running Postgres on an m5.xlarge EC2 instance with
 - User Region
 - Last Name
 
+### L10: Secure Architectures > Design Secure access to AWS resources
+
+- Account and user-based access control
+
+- Service Control Policy (SCP) specify boundaries of what and cannot be done in AWS account(s).
+    - Can only be used to deny
+
+- At the user level, permissions are defined to ALLOW whereas permission boundaries can be set to define boundaries as the maximum set of permissions allowed regardless of what's been granted in permission policy documents.
+
+- IAM roles are like `sudo` and most efficient way to grant access and allow temporary permissions.
+    - Good for cross account access. E.g for consulting
+    - Good for cross-service access
+
+- Resource-based permissions
+    - eg. S3 - only applies to single bucket
+        - _be super aware of S3 Block public access override_
+    - eg. Lambda function access policy
+    - eg. API Gateway resource policy
+        - Can force user to be authenticated before request is granted.
+    - eg. SNS access policy (for AWS budgets say) to individual topics
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_10_04)
+
+> Which of the following would be an appropriate least-privilege policy addition for an SCP to be applied to all member accounts in an AWS Organization?
+
+- Deny EC2 Termination actions to all users.
+    - _a functionality breaker rather than least-privilege_
+- Deny S3 Bucket delete actions to all users.
+    - _a functionality breaker rather than least-privilege_
+- Allow administrative permissions to all IT admin.
+    - _any time a question asks about least-privilege, the answer will not be related to **ALLOW**ing permissions_
+- **Deny Cloudtrail delete actions to all users.**
+
+> In an AWS account, the following permissions have been configured:<br><br>
+    1. IAM Policy granting full access to objects in a single S3 bucket<br>
+    2. IAM Permission boundary granting administrative access to EC2<br>
+    3. S3 Bucket policy that denies delete actions on the bucket<br><br>
+Which of the following actions is possible with all of the above permissions in place for a single IAM User?
+
+- Upload a new object to the S3 Bucket.
+    - _Overridden by the IAM permission boundary which does not permit this action so will be denied_
+- Launch an EC2 instance.
+- Delete the S3 bucket.
+- Resize an EC2 instance.
+    - _Not included in an IAM policy. No condition/keyword for this_
+- **None of these are possible**.
+<!-- 
+### L11: Secure Architectures > Design Secure Application Tiers -->
+
 
 [^1]: [https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false)
 
