@@ -338,8 +338,256 @@ Which of the following actions is possible with all of the above permissions in 
 - Resize an EC2 instance.
     - _Not included in an IAM policy. No condition/keyword for this_
 - **None of these are possible**.
-<!-- 
-### L11: Secure Architectures > Design Secure Application Tiers -->
+
+### L11: Secure Architectures > Design Secure Application Tiers
+
+- NACL as block-list between subnets because acting as allow-list in both directions can mean for overly complex network configuration
+    - eg. Block outbound from a Public subnet to a database subnet
+    - eg. Block inbound  from database subnet to a public subnet 
+
+- Security groups will block all by default and because security groups are stateful (attached to resources) - the rules only need to be created in one direction.
+    - _'security groups whitelist application traffic'_
+
+- Gateway endpoints can be used to provide private network access to either S3 or Dynamo DB
+
+- Virtual Private Gateway can be used by a non-encrypted network into your VPC and VPN connections to outside networks as well as Direct Connect.
+
+- Unauthorized requests containing a SQL injection attack (or missing authorisation headers) can be rejected by using a web application firewall.
+
+- Tools for monitoring network & application activity
+    - Cloudtrail > CloudwWatch Logs > apply alarm
+        - _audit trail of actions taken in AWS account_
+    - EC2 running CW Agent
+    - AWS Config
+        - _specify rules to monitor resource changes to get notified if resource are no longer complying with your security control_
+    - GuardDuty
+        - Start a workflow with this tool that monitors API key usage by generating an ML model on your account's normal behaviour
+    - Amazon Macie
+        - Monitors sensitive S3 objects
+    - CloudWatch Event Bus
+        - Transaction Log of important happenings on Account
+        - Event Rules watch for happenings
+            - Target through to SNS
+            - Target through to Lambda if more complex logic
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_11_05)
+
+> Your team supports a Java-based application that uses a JDBC connection to an RDS database running MySQL. The connection string contains hard-coded credentials. You've been asked to improve the security of the database credentials, and must account for a new 30-day password rotation policy on RDS. Which of the following meet the requirements with the least ongoing overhead?
+
+- Move the database credentials to a text file on each instance. Read the text file upon application start. Update the text file on each instance when password is rotated. 
+- Move the database credentials to SSM Parameter Store. Read the Parameter upon
+application start. Update the Parameter when password is rotated.
+- **Move the database credentials to AWS Secrets Manager. Read the Secret upon application start. Configure the Secret to rotate automatically**. 
+- Move the database credentials to 53. Download the object upon application start. Update the S3 object when password is rotated.
+
+> As an AWS network architect, you've been asked to design a VPC that must host the following:<br><br>
+    1. ALB front end<br>
+    2. Docker containers managed by ECS<br>
+    3. RDS Aurora database.<br> 
+Which of the following VPC security strategies would ensure the greatest security control over each of the application tiers?
+
+- All applications in the same public subnets. Isolate workloads via Security Groups. 
+- **Each application in dedicated subnets (ALB - public, ECS - private, RDS - private). Isolate workloads via Security Groups and NACLS.**
+- ALB and ECS containers in the same public subnets, RDS in dedicated private subnets. Isolate workloads via Security Groups and NACLS. 
+- ALB in dedicated public subnets, ECS and RDS colocated in the same private subnets. Isolate workloads via Security Groups and NACLS.
+
+
+### L12: Secure Architectures > Select secure storage
+
+- Securing data at-rest
+    - EBS: has only a 1-2% impact on latency
+    - EFS: has only a 1-2% impact on latency
+    - RDS: option on Aurora
+    - RedShift: 20-40% effect on performance
+    - S3: enforce SSE with bucket policy
+- All use KMS
+    - Shared-tenancy service for sharing master keys
+    - region-scoped
+- Can always fallback to client side encryption
+
+- Securing data In-transit
+    - SSL cert installed on Cloudfront
+    - SSL cert install on API gateway w/o HTTP listener
+    - SSL cert installed on ELB
+
+- Fully securing data in-transit end-to-end
+    - VPN Gateway
+        - No guarantees on performance as traffic traverses the internet
+    - VPC peering
+        - Guaranteed private because it doesn't touch public internet
+        - Uses Amazon's LAN links
+    - Direct Connect
+        - secure by running a fibre link from your datacentre to a partner's data centre.
+    - Do It Yourself
+        - VPC -> Non-AWS Cloud using OpenVPN if instances on either end run software but you introduce SPOF
+
+- Key Management Solutions
+    - KMS
+        - Largest integrations
+    - CloudHSM
+        - Hardware backed
+    - AWS Certificate manager
+    - Secrets Manager
+        - Secure credential storage
+
+
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_12_05)
+
+> A company is building a data lake containing healthcare data that must be properly secured. The data will be stored in S3 using SSE-KMS and accessed by users who will be separated into two groups:<br><br> 
+1. those that can view PHI (protected health information), and<br>
+2. those that cannot.<br>
+Which of the following strategies will meet the requirements using least privilege techniques and low operational overhead? (Choose two.)
+
+- **Tag all S3 buckets and objects to indicate the presence of PHI. Create IAM Policies and S3 bucket policies using conditions based on the tags.**
+    - _Tagging alone isn't a security control but may be used as a building block towards least privilege_
+
+- Create an S3 full-access IAM policy and associate with users requiring PHI access. Create a more restrictive IAM policy for the non-PHI users. 
+    - _Any strategy tbat involves "full" access to any any service will struggle to meet a least privilege requirement_
+
+- **Tag all IAM users based on PHI access. Test for those tags using IAM Policy and S3 bucket policy conditions for object access and KMS CMK usage.** 
+    - _Along with tagging, provides a mechanism for testing users with access rights_
+
+- Write an application to interface with S3 and implement access using custom code. Create IAM policies and S3 bucket policies to allow access only through the application
+    - _Meets functional requirement but introduces operational overhead and SPOF_
+
+> An application has a requirement for end-to-end, in-transit encryption for all web traffic. The architecture will require a load balancer, and the Elastic Load Balancer service is being considered. Which of the load balancer options would meet the application encryption requirement? (Choose two.)
+
+- **Classic Load Balancer, SSL listener**
+    - _The SSL listener does not terminate the connection (because operates on layer 4) and will preserve the encryption from the client to the backend resource_
+- Classic Load Balancer, TCP listener 
+    - _Does not terminate connection but not encrypted so does not meet requirement_
+- Classic Load Balancer, HTTPS listener
+    - _HTTPS listener operates at layer 7 (Application layer) and will terminate the connection before reencrypting so does not meet requirement_
+- Application Load Balancer
+    - _Can only create HTTPS listener and will terminate and reincrypt_
+- **Network Load Balancer**
+    - _Only implements layer 4 listeners so will be sufficient if SSL listener is used_
+
+### L13: Cost-Optimised Architectures > Cost-effective storage
+
+```
+                  Cost Optimised          Resilience               Performance
+
+EBS Standard  +   Charged for IOPS        Lower limit on size      Lower IOPS capacity
+              |                           (1 TB)                   (Low x00 IOP/S)
+              |
+              |                                                    IOPS not dependent on size
+              |
+              |
++--------------------------------------------------------------------------------------------+
+              |
+ EBS SC1      |   Appropriate for         Easy to upsize as        Throughput
+ Cold HDD     |   cold storage data       data increases           dependent on
+              |   sets                    (16 TB)                  size
+              |
++---------------------------------------------------------------------------------------------+
+              |
+ EBS ST1      |   Appropriate for         Easy to upsize           Throughput
+ Throughput   |   high throughput         as data increases        dependent on
+ Optimised    |   datasets                (16 TB)                  size
+              |
+              |
++----------------------------------------------------------------------------------------------+
+              |
+  EBS GP2     |   Appropriate for        Easy to upsize            Throughput
+  General     |   medium to high         as data increases         dependent on
+  Purpose     |   IOPS-bound                                       size
+  SSD         |   workloads
+              |
+              |
+ +---------------------------------------------------------------------------------------------+
+              |
+  EBS PIOPS   |  Charged for            Easy to upsize
+              |  provisioned IOPS       as data and
+              |                         throughput increases
+              |
+              |
+ +----------------------------------------------------------------------------------------------+
+              |
+  EFS         |  Only charged           File system is             IOPS/Throughput
+              |  for data used          elastic so no              dependent on
+              |                         need to provision size     amount of data
+              |  Appropriate for
+              |  larger data sets
+              |  and file sizes
+              v
+
+```
+
+#### Object storage costs
+
+```
+                      Cost Optimise         Resilience               Performance
+
+  S3         Object   Highest storage       Highest availability     Appropriate for
+  Standard   Access   cost                  of S3 storage            static website
+             Cost                           classes                  objects
+              +
+              |                             4 9s
+              |
++--------------------------------------------------------------------------------------------+
+              |
+              |      Lower                                           Appropriate for backups
+  S3-IA       |      storage                Lower availability       requiring low latency
+              |      cost                                            access
+              |
++---------------------------------------------------------------------------------------------+
+              |
+              |     Dynamic moving          Availability           Appropriate for
+ S3           |     between storage         according to           objects with
+ Intelligent  |     class so cost is        current                changing
+ Tiering      |     ^ariable                storage class          access patterns
+              |
+              |
+              |     Monitoring &
+              |     Automation
+              |     charges
+              |
+ +---------------------------------------------------------------------------------------------+
+              |                             Lowest availability    Appropriate for
+  S3 onezone  |    Same as S3-IA                                   backups with
+  infrequent  |                                                    lower availability
+  access      |                                                    needs
+  Z-IA        |
+              |
+ +----------------------------------------------------------------------------------------------+
+              |
+  Regular     |                             4 9s of                Appropriate
+  Glacier     |                             availability           for archival
+              |                                                    with min-hours
+              |                                                    latency needs
+              |
+              |
+              v
+
+```
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_13_03)
+
+> After an audit of your company's AWS bill, there is an initiative to reduce costs, and you've been asked to focus on S3 usage. There are tens of millions of large objects spread across many buckets. The usage patterns are varied by bucket and prefix, and are not always predictable. Which of the following cost optimization strategies would be the most appropriate?
+
+- Provision CloudFront distributions using the S3 buckets as origins to reduce the cost of
+accessing the objects by caching.
+    - _Cloudfront won't impact actual S3 storage costs_
+
+- Manually migrate all objects to S3 Infrequent Access to reduce storage costs. 
+    - _May make a difference but if we don't know access costs, may baloon costs_
+
+- Create lifecycle policies on the S3 buckets that migrate objects to cheaper storage classes as they age, regardless of usage patterns. 
+
+- Migrate objects to the S3 Intelligent-Tiering storage class to automate the optimization of
+storage costs based on access frequency
+    - _Solution that will allow you to account for variability_
+
+> An application has a storage requirement of several terabytes on a single volume. The application owner would like to optimize for cost, and performance is not a priority. The application owner cannot predict the number of IOPS that will be required, but is ok with the drive being throttled as long as cost is top priority. Which EBS volume type would best meet the requirements?
+
+- Standard
+- **SC1**
+    - _will only charge you based on volume size_
+- ST1
+- GP2
+- PIOPS
 
 
 [^1]: [https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false)
