@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      28 min read
+      30 min read
     
 </span></p>
 
@@ -1338,6 +1338,105 @@ types defined.
     <ul>
       <li><em>will require a minimum time obligation</em></li>
     </ul>
+  </li>
+</ul>
+
+<h4 id="chads-question-breakdown-8"><a href="https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04">Chad’s Question Breakdown</a></h4>
+
+<h3 id="l15-cost-optimised-architectures--cost-effective-network-design">L15: Cost-Optimised Architectures &gt; Cost-effective network design</h3>
+
+<ul>
+  <li>Free resources
+    <ul>
+      <li>VPC (but useless without anything)</li>
+      <li>subnets</li>
+      <li>route tables</li>
+      <li>NACL</li>
+      <li>internet gateway</li>
+      <li>inbound traffic from the internet</li>
+      <li>gateway endpoints (to allow connectivity to S3/DynamoDB)</li>
+      <li>Elastic Network Interface/ENA/EFA
+        <ul>
+          <li><em>but will be charged for traffic depending on destination</em></li>
+        </ul>
+      </li>
+      <li>Security group
+        <ul>
+          <li><em>but having many will impact perf</em></li>
+        </ul>
+      </li>
+      <li>Same-AZ network traffic unless public IP is used, then traffic will using public internet and incur costs</li>
+      <li>Less Expensive/Free: S3 origin =&gt; cloudfront =&gt; end user</li>
+      <li>More Expensive: S3 end user</li>
+    </ul>
+  </li>
+  <li>Charged VPC network resources
+    <ul>
+      <li><em>charged per hour</em></li>
+      <li><em>charged based on throughput</em></li>
+      <li>NAT Gateway</li>
+      <li>VPC peering</li>
+      <li>Interface endpoints (services that are not S3)</li>
+      <li>VPC Flow logs</li>
+    </ul>
+  </li>
+  <li>
+    <p>Cross-region traffic, you pay just for the traffic itself including built in features like S3 cross region replication</p>
+  </li>
+  <li>
+    <p>All outbound traffic is charged from a region</p>
+  </li>
+  <li>To get data out to users, optimise with cloudfront instead of S3 or ALB</li>
+</ul>
+
+<h4 id="chads-question-breakdown-9"><a href="https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_15_03">Chad’s Question Breakdown</a></h4>
+
+<blockquote>
+  <p>Your production network consists of a VPC with public and private subnets. The private subnets (in three Availability Zones) use a single NAT Gateway in the first AZ for outbound access to S3 and the Internet. Network traffic charges have increased and you’ve been asked to propose network architecture changes that can reduce cost. Which of the following solutions will meet the requirement without compromising network security? (Choose two.)</p>
+</blockquote>
+
+<ul>
+  <li>Migrate all VPC resources into public subnets and remove the NAT Gateway.
+    <ul>
+      <li><em>will compromise security</em></li>
+    </ul>
+  </li>
+  <li>Deploy an Auto Scaled EC2-based Squid proxy behind an ALB that will replace the NAT Gateway.
+    <ul>
+      <li><em>Replacing NAT gateway costs with ALB, but cross AZ traffic will reduce costs but not overall cost</em></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Deploy NAT Gateways into the other two AZs and update route tables accordingly.</strong></p>
+  </li>
+  <li>Route all traffic through a Virtual Private Gateway back to the corporate network and use corporate Internet connection for all outbound traffic,
+    <ul>
+      <li><em>traffic charges for a VPG wil be higher than those incurred by NAT Gateway and will harm performance by forcing traffic accross the VPN</em></li>
+    </ul>
+  </li>
+  <li><strong>Deploy a Gateway VPC Endpoint for S3 and route all private subnet S3 traffic through it.</strong>
+    <ul>
+      <li><em>no charge for resource or traffic</em></li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Your company has deployed a high-bandwidth website that is entirely static content and served directly from S3. The monthly charges are significant and you’ve been asked to reduce cost if possible. Which of the following strategies would result in lower charges for the site?</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>Deploy an ALB with EC2 instances and migrate the content to an EFS volume shared to EC2.</p>
+  </li>
+  <li>
+    <p><strong>Deploy a CloudFront distribution which uses the 53 bucket as an origin and migrate DNS to the CloudFront distribution endpoint.</strong></p>
+  </li>
+  <li>
+    <p>Replicate the S3 content to multiple regions and configure Route 53 latency-based routing entries to direct traffic to the appropriate region.</p>
+  </li>
+  <li>
+    <p>Write a script to migrate all of the static S3 objects to S3-IA storage class.</p>
   </li>
 </ul>
 
