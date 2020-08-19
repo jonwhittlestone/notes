@@ -656,10 +656,6 @@ Managed services to reduce operational overhead
 
 ```
 
-
-
-
-
 #### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04)
 
 > A new application is being deployed onto EC2 instances, with a requirement for horizontal scaling. The EC2 instance type doesn't need to be static, as long as the instances meet minimum CPU and memory requirements. What would be the lowest cost deployment strategy for the application as well as lowest operational overhead?
@@ -686,6 +682,70 @@ types defined.
     - _will allow for a much larger cluster and larger instance size for same price as on demand_
 - Reserved
     - _will require a minimum time obligation_
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04)
+
+### L15: Cost-Optimised Architectures > Cost-effective network design
+
+- Free resources
+    - VPC (but useless without anything)
+    - subnets
+    - route tables
+    - NACL
+    - internet gateway
+    - inbound traffic from the internet
+    - gateway endpoints (to allow connectivity to S3/DynamoDB)
+    - Elastic Network Interface/ENA/EFA
+        - _but will be charged for traffic depending on destination_
+    - Security group
+        - _but having many will impact perf_
+    - Same-AZ network traffic unless public IP is used, then traffic will using public internet and incur costs
+    - Less Expensive/Free: S3 origin => cloudfront => end user
+    - More Expensive: S3 end user
+
+
+- Charged VPC network resources
+    - _charged per hour_
+    - _charged based on throughput_
+    - NAT Gateway
+    - VPC peering
+    - Interface endpoints (services that are not S3)
+    - VPC Flow logs
+
+- Cross-region traffic, you pay just for the traffic itself including built in features like S3 cross region replication
+
+- All outbound traffic is charged from a region
+
+- To get data out to users, optimise with cloudfront instead of S3 or ALB
+
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_15_03)
+
+> Your production network consists of a VPC with public and private subnets. The private subnets (in three Availability Zones) use a single NAT Gateway in the first AZ for outbound access to S3 and the Internet. Network traffic charges have increased and you've been asked to propose network architecture changes that can reduce cost. Which of the following solutions will meet the requirement without compromising network security? (Choose two.)
+
+- Migrate all VPC resources into public subnets and remove the NAT Gateway. 
+    - _will compromise security_
+
+- Deploy an Auto Scaled EC2-based Squid proxy behind an ALB that will replace the NAT Gateway.
+    - _Replacing NAT gateway costs with ALB, but cross AZ traffic will reduce costs but not overall cost_
+
+- **Deploy NAT Gateways into the other two AZs and update route tables accordingly.**
+
+- Route all traffic through a Virtual Private Gateway back to the corporate network and use corporate Internet connection for all outbound traffic,
+    - _traffic charges for a VPG wil be higher than those incurred by NAT Gateway and will harm performance by forcing traffic accross the VPN_
+
+- **Deploy a Gateway VPC Endpoint for S3 and route all private subnet S3 traffic through it.**
+    - _no charge for resource or traffic_
+
+> Your company has deployed a high-bandwidth website that is entirely static content and served directly from S3. The monthly charges are significant and you've been asked to reduce cost if possible. Which of the following strategies would result in lower charges for the site?
+
+- Deploy an ALB with EC2 instances and migrate the content to an EFS volume shared to EC2.
+
+- **Deploy a CloudFront distribution which uses the 53 bucket as an origin and migrate DNS to the CloudFront distribution endpoint.**
+
+- Replicate the S3 content to multiple regions and configure Route 53 latency-based routing entries to direct traffic to the appropriate region.
+
+- Write a script to migrate all of the static S3 objects to S3-IA storage class.
 
 
 
