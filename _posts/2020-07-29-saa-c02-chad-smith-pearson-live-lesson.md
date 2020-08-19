@@ -576,8 +576,8 @@ accessing the objects by caching.
 
 - Create lifecycle policies on the S3 buckets that migrate objects to cheaper storage classes as they age, regardless of usage patterns. 
 
-- Migrate objects to the S3 Intelligent-Tiering storage class to automate the optimization of
-storage costs based on access frequency
+- **Migrate objects to the S3 Intelligent-Tiering storage class to automate the optimization of
+storage costs based on access frequency**
     - _Solution that will allow you to account for variability_
 
 > An application has a storage requirement of several terabytes on a single volume. The application owner would like to optimize for cost, and performance is not a priority. The application owner cannot predict the number of IOPS that will be required, but is ok with the drive being throttled as long as cost is top priority. Which EBS volume type would best meet the requirements?
@@ -588,6 +588,105 @@ storage costs based on access frequency
 - ST1
 - GP2
 - PIOPS
+
+### L14: Cost-Optimised Architectures > Cost-effective compute & database
+
+- EC2 pricing (cost ascending)
+    - Spot: paying for unsused capacity
+    - Reserved instances: guaranteed pricing for up to 3 years
+    - On Demand instances: pay as you go
+    - Dedicated instances: dedicated hardware
+    - Dedicated hosts: dedicated host w/single instance type
+
+On Demand ==> Dedicated Instances = ++PRICE INCREASE++
+
+On Demand ==> Reserved/Spot Mix = --PRICE DECREASE--
+
+Dedicated Hose ==> Dedicated Instance = ?? IT DEPENDS ON UTILISATION ??
+
+Managed services to reduce operational overhead
+- Auto Scaling
+- Elastic Beanstalk
+- ECS on Fargate
+- Lambda
+
+```
+                  Cost Optimise            Resilience               Performance
+              +
+              |   Pay for provisioned      Resilience dependent     Dependent on single
+  RDS         |   compute resources        on single node limits    node limits
+              |
+              |   pay for provisioned
+              |   storage resources
+              |
++-------------------------------------------------------------------------------------------+
+              |
+  Aurora      |   Pay for provisioned compute
+              |   or actual compute                                 Serverless capability
+              |                             Better than RDS/EC2     enables horizontal
+              |   Pay for actual storage                            scaling
+              |
++-------------------------------------------------------------------------------------------+
+              |
+              |
+              |  Only pay for               Much higher than        Scales according
+              |  provisioned                RDS/Aurora              to number of cluster
+  Redshift    |  resources                                          nodes
+              |
+              |  Storage charged
+              |  according to compute
+              |
+              |
++---------------------------------------------------------------------------------------------+
+              |
+              |  Pay for provisioned                                 Perf only limited by
+              |  or actual                  Higher resilience than   account quotas
+  DynamoDB    |  read/write ops             RDS, Aurora, Redshift
+              |
+              |                                                      Perf limited by
+              |  Pay for actual storage                              partition key choice
+              |
+              |
++----------------------------------------------------------------------------------------------+
+              |
+  Elasticache |  Pay for provisioned        Memecached: SPOF         Depends on no. of nodes
+              |  compute resources          Redis: depends on 1 node
+              |  (in memory)
+             <+
+
+```
+
+
+
+
+
+#### [Chad's Question Breakdown](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04)
+
+> A new application is being deployed onto EC2 instances, with a requirement for horizontal scaling. The EC2 instance type doesn't need to be static, as long as the instances meet minimum CPU and memory requirements. What would be the lowest cost deployment strategy for the application as well as lowest operational overhead?
+
+- **Deploy one Auto Scaling group using single launch template with multiple instance types defined. Specify an appropriate percentage of On Demand instances to maintain resilience.**
+    - _fewer moving parts, launch template have ability to select multiple AZ to maximise resilience_
+
+- Deploy two Auto Scaling groups for On Demand and Spot pricing. Specify baseline maximum instances for On Demand and everything else will be Spot instances, with multiple instance
+types defined.
+    - _Functionally correct but needing to manage both Auto scaling groups will increase operational overhead_
+
+- Deploy one steady-state Auto Scaling group with reserved instances for baseline traffic. Deploy a second Auto Scaling group with On Demand instances for variable traffic.
+    - _Reserved instances have to be one instance type so lose flexibility_
+
+- Deploy one Auto Scaling group using only Spot instances in two AZ to minimize chances of spot price spikes having a cost impact.
+    - _risks that spot price will go up, run risk of AWS having to reclaim machines_
+
+> Your company's analytics team has been tasked with processing a large amount of historical data in the shortest time possible, using EC2 instances running custom code. Which EC2 pricing model would be optimal for this job?
+
+- Dedicated Instances
+    - _will cost more due to region specific surcharge_
+- On Demand
+- **Spot**
+    - _will allow for a much larger cluster and larger instance size for same price as on demand_
+- Reserved
+    - _will require a minimum time obligation_
+
 
 
 [^1]: [https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false](https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_00_00_00?autoplay=false)
