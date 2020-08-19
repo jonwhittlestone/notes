@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-08-18T03:16:54-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">Just Do It</title><link href="https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification.html" rel="alternate" type="text/html" title="Just Do It" /><published>2020-08-14T00:00:00-05:00</published><updated>2020-08-14T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification.html">&lt;p&gt;I’m partial to a brain hack.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-08-19T01:39:07-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">Just Do It</title><link href="https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification.html" rel="alternate" type="text/html" title="Just Do It" /><published>2020-08-14T00:00:00-05:00</published><updated>2020-08-14T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/productivity/2020/08/14/kicking-a-bad-habbit-by-understanding-instant-vs-delayed-gratification.html">&lt;p&gt;I’m partial to a brain hack.&lt;/p&gt;
 
 &lt;p&gt;Not a physically violent, murderous one, but the type of fix for something where you can be fooled into doing something when your unconscious mind is trying to stop or distract you because it thinks it can do better.&lt;/p&gt;
 
@@ -1123,8 +1123,8 @@ accessing the objects by caching.
   &lt;li&gt;
     &lt;p&gt;Create lifecycle policies on the S3 buckets that migrate objects to cheaper storage classes as they age, regardless of usage patterns.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Migrate objects to the S3 Intelligent-Tiering storage class to automate the optimization of
-storage costs based on access frequency
+  &lt;li&gt;&lt;strong&gt;Migrate objects to the S3 Intelligent-Tiering storage class to automate the optimization of
+storage costs based on access frequency&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;em&gt;Solution that will allow you to account for variability&lt;/em&gt;&lt;/li&gt;
     &lt;/ul&gt;
@@ -1145,6 +1145,132 @@ storage costs based on access frequency
   &lt;li&gt;ST1&lt;/li&gt;
   &lt;li&gt;GP2&lt;/li&gt;
   &lt;li&gt;PIOPS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;l14-cost-optimised-architectures--cost-effective-compute--database&quot;&gt;L14: Cost-Optimised Architectures &amp;gt; Cost-effective compute &amp;amp; database&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;EC2 pricing (cost ascending)
+    &lt;ul&gt;
+      &lt;li&gt;Spot: paying for unsused capacity&lt;/li&gt;
+      &lt;li&gt;Reserved instances: guaranteed pricing for up to 3 years&lt;/li&gt;
+      &lt;li&gt;On Demand instances: pay as you go&lt;/li&gt;
+      &lt;li&gt;Dedicated instances: dedicated hardware&lt;/li&gt;
+      &lt;li&gt;Dedicated hosts: dedicated host w/single instance type&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On Demand ==&amp;gt; Dedicated Instances = ++PRICE INCREASE++&lt;/p&gt;
+
+&lt;p&gt;On Demand ==&amp;gt; Reserved/Spot Mix = –PRICE DECREASE–&lt;/p&gt;
+
+&lt;p&gt;Dedicated Hose ==&amp;gt; Dedicated Instance = ?? IT DEPENDS ON UTILISATION ??&lt;/p&gt;
+
+&lt;p&gt;Managed services to reduce operational overhead&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Auto Scaling&lt;/li&gt;
+  &lt;li&gt;Elastic Beanstalk&lt;/li&gt;
+  &lt;li&gt;ECS on Fargate&lt;/li&gt;
+  &lt;li&gt;Lambda&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                  Cost Optimise            Resilience               Performance
+              +
+              |   Pay for provisioned      Resilience dependent     Dependent on single
+  RDS         |   compute resources        on single node limits    node limits
+              |
+              |   pay for provisioned
+              |   storage resources
+              |
++-------------------------------------------------------------------------------------------+
+              |
+  Aurora      |   Pay for provisioned compute
+              |   or actual compute                                 Serverless capability
+              |                             Better than RDS/EC2     enables horizontal
+              |   Pay for actual storage                            scaling
+              |
++-------------------------------------------------------------------------------------------+
+              |
+              |
+              |  Only pay for               Much higher than        Scales according
+              |  provisioned                RDS/Aurora              to number of cluster
+  Redshift    |  resources                                          nodes
+              |
+              |  Storage charged
+              |  according to compute
+              |
+              |
++---------------------------------------------------------------------------------------------+
+              |
+              |  Pay for provisioned                                 Perf only limited by
+              |  or actual                  Higher resilience than   account quotas
+  DynamoDB    |  read/write ops             RDS, Aurora, Redshift
+              |
+              |                                                      Perf limited by
+              |  Pay for actual storage                              partition key choice
+              |
+              |
++----------------------------------------------------------------------------------------------+
+              |
+  Elasticache |  Pay for provisioned        Memecached: SPOF         Depends on no. of nodes
+              |  compute resources          Redis: depends on 1 node
+              |  (in memory)
+             &amp;lt;+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;chads-question-breakdown-7&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04&quot;&gt;Chad’s Question Breakdown&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A new application is being deployed onto EC2 instances, with a requirement for horizontal scaling. The EC2 instance type doesn’t need to be static, as long as the instances meet minimum CPU and memory requirements. What would be the lowest cost deployment strategy for the application as well as lowest operational overhead?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Deploy one Auto Scaling group using single launch template with multiple instance types defined. Specify an appropriate percentage of On Demand instances to maintain resilience.&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;fewer moving parts, launch template have ability to select multiple AZ to maximise resilience&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deploy two Auto Scaling groups for On Demand and Spot pricing. Specify baseline maximum instances for On Demand and everything else will be Spot instances, with multiple instance
+types defined.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;Functionally correct but needing to manage both Auto scaling groups will increase operational overhead&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deploy one steady-state Auto Scaling group with reserved instances for baseline traffic. Deploy a second Auto Scaling group with On Demand instances for variable traffic.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;Reserved instances have to be one instance type so lose flexibility&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deploy one Auto Scaling group using only Spot instances in two AZ to minimize chances of spot price spikes having a cost impact.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;risks that spot price will go up, run risk of AWS having to reclaim machines&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Your company’s analytics team has been tasked with processing a large amount of historical data in the shortest time possible, using EC2 instances running custom code. Which EC2 pricing model would be optimal for this job?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dedicated Instances
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;will cost more due to region specific surcharge&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;On Demand&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spot&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;will allow for a much larger cluster and larger instance size for same price as on demand&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Reserved
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;will require a minimum time obligation&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;

@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      25 min read
+      28 min read
     
 </span></p>
 
@@ -1191,8 +1191,8 @@ accessing the objects by caching.
   <li>
     <p>Create lifecycle policies on the S3 buckets that migrate objects to cheaper storage classes as they age, regardless of usage patterns.</p>
   </li>
-  <li>Migrate objects to the S3 Intelligent-Tiering storage class to automate the optimization of
-storage costs based on access frequency
+  <li><strong>Migrate objects to the S3 Intelligent-Tiering storage class to automate the optimization of
+storage costs based on access frequency</strong>
     <ul>
       <li><em>Solution that will allow you to account for variability</em></li>
     </ul>
@@ -1213,6 +1213,132 @@ storage costs based on access frequency
   <li>ST1</li>
   <li>GP2</li>
   <li>PIOPS</li>
+</ul>
+
+<h3 id="l14-cost-optimised-architectures--cost-effective-compute--database">L14: Cost-Optimised Architectures &gt; Cost-effective compute &amp; database</h3>
+
+<ul>
+  <li>EC2 pricing (cost ascending)
+    <ul>
+      <li>Spot: paying for unsused capacity</li>
+      <li>Reserved instances: guaranteed pricing for up to 3 years</li>
+      <li>On Demand instances: pay as you go</li>
+      <li>Dedicated instances: dedicated hardware</li>
+      <li>Dedicated hosts: dedicated host w/single instance type</li>
+    </ul>
+  </li>
+</ul>
+
+<p>On Demand ==&gt; Dedicated Instances = ++PRICE INCREASE++</p>
+
+<p>On Demand ==&gt; Reserved/Spot Mix = –PRICE DECREASE–</p>
+
+<p>Dedicated Hose ==&gt; Dedicated Instance = ?? IT DEPENDS ON UTILISATION ??</p>
+
+<p>Managed services to reduce operational overhead</p>
+<ul>
+  <li>Auto Scaling</li>
+  <li>Elastic Beanstalk</li>
+  <li>ECS on Fargate</li>
+  <li>Lambda</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                  Cost Optimise            Resilience               Performance
+              +
+              |   Pay for provisioned      Resilience dependent     Dependent on single
+  RDS         |   compute resources        on single node limits    node limits
+              |
+              |   pay for provisioned
+              |   storage resources
+              |
++-------------------------------------------------------------------------------------------+
+              |
+  Aurora      |   Pay for provisioned compute
+              |   or actual compute                                 Serverless capability
+              |                             Better than RDS/EC2     enables horizontal
+              |   Pay for actual storage                            scaling
+              |
++-------------------------------------------------------------------------------------------+
+              |
+              |
+              |  Only pay for               Much higher than        Scales according
+              |  provisioned                RDS/Aurora              to number of cluster
+  Redshift    |  resources                                          nodes
+              |
+              |  Storage charged
+              |  according to compute
+              |
+              |
++---------------------------------------------------------------------------------------------+
+              |
+              |  Pay for provisioned                                 Perf only limited by
+              |  or actual                  Higher resilience than   account quotas
+  DynamoDB    |  read/write ops             RDS, Aurora, Redshift
+              |
+              |                                                      Perf limited by
+              |  Pay for actual storage                              partition key choice
+              |
+              |
++----------------------------------------------------------------------------------------------+
+              |
+  Elasticache |  Pay for provisioned        Memecached: SPOF         Depends on no. of nodes
+              |  compute resources          Redis: depends on 1 node
+              |  (in memory)
+             &lt;+
+
+</code></pre></div></div>
+
+<h4 id="chads-question-breakdown-7"><a href="https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04">Chad’s Question Breakdown</a></h4>
+
+<blockquote>
+  <p>A new application is being deployed onto EC2 instances, with a requirement for horizontal scaling. The EC2 instance type doesn’t need to be static, as long as the instances meet minimum CPU and memory requirements. What would be the lowest cost deployment strategy for the application as well as lowest operational overhead?</p>
+</blockquote>
+
+<ul>
+  <li><strong>Deploy one Auto Scaling group using single launch template with multiple instance types defined. Specify an appropriate percentage of On Demand instances to maintain resilience.</strong>
+    <ul>
+      <li><em>fewer moving parts, launch template have ability to select multiple AZ to maximise resilience</em></li>
+    </ul>
+  </li>
+  <li>Deploy two Auto Scaling groups for On Demand and Spot pricing. Specify baseline maximum instances for On Demand and everything else will be Spot instances, with multiple instance
+types defined.
+    <ul>
+      <li><em>Functionally correct but needing to manage both Auto scaling groups will increase operational overhead</em></li>
+    </ul>
+  </li>
+  <li>Deploy one steady-state Auto Scaling group with reserved instances for baseline traffic. Deploy a second Auto Scaling group with On Demand instances for variable traffic.
+    <ul>
+      <li><em>Reserved instances have to be one instance type so lose flexibility</em></li>
+    </ul>
+  </li>
+  <li>Deploy one Auto Scaling group using only Spot instances in two AZ to minimize chances of spot price spikes having a cost impact.
+    <ul>
+      <li><em>risks that spot price will go up, run risk of AWS having to reclaim machines</em></li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Your company’s analytics team has been tasked with processing a large amount of historical data in the shortest time possible, using EC2 instances running custom code. Which EC2 pricing model would be optimal for this job?</p>
+</blockquote>
+
+<ul>
+  <li>Dedicated Instances
+    <ul>
+      <li><em>will cost more due to region specific surcharge</em></li>
+    </ul>
+  </li>
+  <li>On Demand</li>
+  <li><strong>Spot</strong>
+    <ul>
+      <li><em>will allow for a much larger cluster and larger instance size for same price as on demand</em></li>
+    </ul>
+  </li>
+  <li>Reserved
+    <ul>
+      <li><em>will require a minimum time obligation</em></li>
+    </ul>
+  </li>
 </ul>
 
 <div class="footnotes">
