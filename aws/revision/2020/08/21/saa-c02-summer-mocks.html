@@ -179,8 +179,8 @@ table td {max-width:inherit}
 <blockquote>
 <p>1 &amp; 2:What is the purpose of the VPC “Main” route table?</p>
 </blockquote>
-<p>✔️ A default route table all subnets will leverage if a custom table is not defined and associated</p>
 <ul>
+<li>A default route table all subnets will leverage if a custom table is not defined and associated</li>
 <li>All routes build off the main table, and both tables are evaluated simultaneously to create routes.</li>
 <li>The main route table only applies to the default VPC to uniquely identify the default VPC route tables.</li>
 <li>Main simply identifies the first route table.</li>
@@ -202,7 +202,7 @@ table td {max-width:inherit}
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- A default route table all subnets will leverage if a custom table is not defined and associated</span>
+<span class="s1">✔️ A default route table all subnets will leverage if a custom table is not defined and associated</span>
 <span class="s1">- All routes build off the main table, and both tables are evaluated simultaneously to create routes.</span>
 <span class="s1">- The main route table only applies to the default VPC to uniquely identify the default VPC route tables.</span>
 <span class="s1">- Main simply identifies the first route table.</span>
