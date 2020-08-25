@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      18 min read
+      23 min read
     
 </span></p>
 
@@ -1448,7 +1448,7 @@ table td {max-width:inherit}
 
 <span class="s1">- VPC peering connection</span>
 
-<span class="s1">- NAT gateway</span>
+<span class="s1">✔️ NAT gateway</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -1498,7 +1498,7 @@ table td {max-width:inherit}
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- RedShift cluster</span>
+<span class="s1">✔️ RedShift cluster</span>
 
 <span class="s1">- S3 bucket</span>
 
@@ -1556,7 +1556,7 @@ table td {max-width:inherit}
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- None of these</span>
 
-<span class="s1">- Fault tolerant</span>
+<span class="s1">✔️ Fault tolerant</span>
 
 <span class="s1">- Not highly available</span>
 
@@ -1612,7 +1612,7 @@ table td {max-width:inherit}
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- None of these</span>
 
-<span class="s1">- within the AZ</span>
+<span class="s1">✔️ within the AZ</span>
 
 <span class="s1">- globally</span>
 
@@ -1668,7 +1668,7 @@ table td {max-width:inherit}
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- 3 9s</span>
 
-<span class="s1">- There is no published SLA for EFS mount points.</span>
+<span class="s1">✔️ There is no published SLA for EFS mount points.</span>
 
 <span class="s1">- 5 9s</span>
 
@@ -1724,7 +1724,7 @@ table td {max-width:inherit}
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- None of these</span>
 
-<span class="s1">- Fault tolerant</span>
+<span class="s1">✔️ Fault tolerant</span>
 
 <span class="s1">- Not highly available</span>
 
@@ -1784,7 +1784,8 @@ table td {max-width:inherit}
 
 <span class="s1">- 3.5 9s availability and 11 9s durability</span>
 
-<span class="s1">- 4 9s availability and 11 9s durability</span>
+<span class="s1">✔️ 4 9s availability and 11 9s durability</span>
+<span class="s1">    - https://aws.amazon.com/s3/storage-classes/</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -1840,7 +1841,9 @@ table td {max-width:inherit}
 
 <span class="s1">- Reliability</span>
 
-<span class="s1">- Cost optimization</span>
+<span class="s1">✔️ Cost optimization</span>
+<span class="s1">    - https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/design-principles.html</span>
+<span class="s1">    - _Measure the business output of the workload and the costs associated with delivery. Use this data to understand the gains you make from increasing output, increasing functionality, and reducing cost._</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -1896,7 +1899,8 @@ Which of the following has the longest retrieval latency in Glacier?</p>
 
 <span class="s1">- Expedited retrieval</span>
 
-<span class="s1">- Anything stored in Glacier Deep Archive</span>
+<span class="s1">✔️ Anything stored in Glacier Deep Archive</span>
+<span class="s1">    - https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html#sc-glacier</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -1950,7 +1954,9 @@ Which of the following has the longest retrieval latency in Glacier?</p>
 
 <span class="s1">- Synchronize the files to an EBS volume on a regular schedule.</span>
 
-<span class="s1">- Do an AWS Backup partial restore.</span>
+<span class="s1">✔️ Do an AWS Backup partial restore.</span>
+<span class="s1">    - https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html</span>
+<span class="s1">    - _The AWS Backup service allows for partial file system restores (even a single file) to be recovered to another location on the file system._</span>
 
 <span class="s1">- Use the AWS CLI to sync files to S3.</span>
 <span class="s1">'''</span>
@@ -2002,13 +2008,640 @@ Which of the following has the longest retrieval latency in Glacier?</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- NAT gateway</span>
+<span class="s1">✔️ NAT gateway</span>
 
 <span class="s1">- Internet gateway</span>
 
 <span class="s1">- VPC gateway endpoint</span>
 
 <span class="s1">- VPC peering connection</span>
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-01-15</p>
+<blockquote>
+<p>Which of the following storage choices is the least resilient?</p>
+</blockquote>
+<ul>
+<li>
+<p>EBS PIOPS</p>
+</li>
+<li>
+<p>EFS</p>
+</li>
+<li>
+<p>EBS GP2</p>
+</li>
+<li>
+<p>Instance store</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">- EBS PIOPS</span>
+
+<span class="s1">- EFS</span>
+
+<span class="s1">- EBS GP2</span>
+
+<span class="s1">✔️ Instance store</span>
+<span class="s1">    - Instance store volumes are tied directly to the hardware that runs the hypervisor and are not designed for resiliency.</span>
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-02-18</p>
+<blockquote>
+<p>When configuring S3 cross-region replication, which of the following must be executed for a complete solution?</p>
+</blockquote>
+<ul>
+<li>
+<p>Enable server-side encryption on both buckets.</p>
+</li>
+<li>
+<p>No extra steps are required.</p>
+</li>
+<li>
+<p>Ensure that all objects are using the same storage class.</p>
+</li>
+<li>
+<p>Manually copy existing objects.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">- Enable server-side encryption on both buckets.</span>
+
+<span class="s1">- No extra steps are required.</span>
+
+<span class="s1">- Ensure that all objects are using the same storage class.</span>
+
+<span class="s1">✔️ Manually copy existing objects.</span>
+<span class="s1">    - _Enabling cross-region replication does not copy existing objects by default, and so it is up to the customer to perform this task._</span>
+<span class="s1">    - https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html</span>
+
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-01-09</p>
+<blockquote>
+<p>Which of these is an availability-zone-scoped resource?</p>
+</blockquote>
+<ul>
+<li>
+<p>DynamoDB table</p>
+</li>
+<li>
+<p>EBS volume</p>
+</li>
+<li>
+<p>SQS queue</p>
+</li>
+<li>
+<p>IAM user</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">- DynamoDB table</span>
+
+<span class="s1">✔️ EBS volume</span>
+<span class="s1">    - _An EBS volume is deployed at the AZ scope and can be directly attached to an EC2 instance in the same AZ._</span>
+
+<span class="s1">- SQS queue</span>
+
+<span class="s1">- IAM user</span>
+
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-02-17</p>
+<blockquote>
+<p>In order to maintain 11 9s durability, how many times does S3 replicate each object within the storage class scope?</p>
+</blockquote>
+<ul>
+<li>
+<p>Four</p>
+</li>
+<li>
+<p>Three</p>
+</li>
+<li>
+<p>Five</p>
+</li>
+<li>
+<p>Two</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">- Four</span>
+
+<span class="s1">✔️ Three</span>
+<span class="s1">    - By replicating each object three times within the region (or AZ, for Z-IA), S3 can deliver 11 9s data durability.</span>
+
+<span class="s1">- Five</span>
+
+<span class="s1">- Two</span>
+
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-03-04</p>
+<blockquote>
+<p>The VPC endpoint resource is best described as which of the following?</p>
+</blockquote>
+<ul>
+<li>
+<p>Fault tolerant</p>
+</li>
+<li>
+<p>Highly available</p>
+</li>
+<li>
+<p>Not highly available</p>
+</li>
+<li>
+<p>None of these</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">️️✔️ Fault tolerant</span>
+<span class="s1">    - The VPC endpoint resource is defined as a horizontally scaled, redundant resource, which means it is fault tolerant.</span>
+
+<span class="s1">- Highly available</span>
+
+<span class="s1">- Not highly available</span>
+
+<span class="s1">- None of these</span>
+
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-03-01</p>
+<p>Which pillar of the Well-Architected Framework includes the principle “Use serverless architectures”?</p>
+<ul>
+<li>
+<p>Performance efficiency</p>
+</li>
+<li>
+<p>Reliability</p>
+</li>
+<li>
+<p>Cost optimization</p>
+</li>
+<li>
+<p>Security</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+
+<span class="s1">✔️ Performance efficiency</span>
+<span class="s1">    - https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/design-principles.html</span>
+
+<span class="s1">- Reliability</span>
+
+<span class="s1">- Cost optimization</span>
+
+<span class="s1">- Security</span>
+
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-03-09</p>
+<blockquote>
+<p>Which of these is a globally scoped resource?</p>
+</blockquote>
+<ul>
+<li>
+<p>Lambda function</p>
+</li>
+<li>
+<p>Lambda@Edge function</p>
+</li>
+<li>
+<p>SQS queue</p>
+</li>
+<li>
+<p>SNS topic</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+
+<span class="s1">- Lambda function</span>
+
+<span class="s1">✔️ Lambda@Edge function</span>
+<span class="s1">    - When a Lambda function version is deployed to Lambda@Edge, it becomes a globally scoped resource.</span>
+
+<span class="s1">- SQS queue</span>
+
+<span class="s1">- SNS topic</span>
+
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-02-07</p>
+<blockquote>
+<p>What is the published SLA for an RDS Multi-AZ deployment?</p>
+</blockquote>
+<ul>
+<li>
+<p>4 9s</p>
+</li>
+<li>
+<p>2 9s</p>
+</li>
+<li>
+<p>3.5 9s</p>
+</li>
+<li>
+<p>3 9s</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+
+<span class="s1">- 4 9s</span>
+
+<span class="s1">- 2 9s</span>
+
+<span class="s1">✔️ 3.5 9s</span>
+<span class="s1">    - 99.95%</span>
+<span class="s1">    - https://aws.amazon.com/rds/sla/</span>
+
+<span class="s1">- 3 9s</span>
+
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-02-13</p>
+<blockquote>
+<p>Which of the following best explains synchronous communication?</p>
+</blockquote>
+<ul>
+<li>
+<p>Two-way communication between a client and an app or between two apps that require a response to each request</p>
+</li>
+<li>
+<p>One-way communication using message-passing where responses are required</p>
+</li>
+<li>
+<p>Two-way communication between two applications that require a response to each request</p>
+</li>
+<li>
+<p>One-way communication using message-passing where a response is not required</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">- Two-way communication between a client and an app or between two apps that require a response to each request</span>
+
+<span class="s1">- One-way communication using message-passing where responses are required</span>
+
+<span class="s1">✔️ Two-way communication between two applications that require a response to each request</span>
+<span class="s1">    - In synchronous communication, multiple parties are participating at the same time and wait for replies from each other.</span>
+
+<span class="s1">- One-way communication using message-passing where a response is not required</span>
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-03-06</p>
+<blockquote>
+<p>Which of the following is the definition of the term availability?</p>
+</blockquote>
+<ul>
+<li>
+<p>Availability involves multiple resources dedicated to performing the same task.</p>
+</li>
+<li>
+<p>The system will continue to function despite the complete failure of any component of the architecture.</p>
+</li>
+<li>
+<p>Availability is determined by percentage uptime, in 9s.</p>
+</li>
+<li>
+<p>The system will continue to function without degradation in performance despite the complete failure of any component of the architecture.
+You answered this question incorrectly. The correct answers are highlighted.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">- Availability involves multiple resources dedicated to performing the same task.</span>
+
+<span class="s1">- The system will continue to function despite the complete failure of any component of the architecture.</span>
+
+<span class="s1">✔️ Availability is determined by percentage uptime, in 9s.</span>
+
+<span class="s1">- The system will continue to function without degradation in performance despite the complete failure of any component of the architecture.</span>
+<span class="s1">You answered this question incorrectly. The correct answers are highlighted.</span>
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SAA-C02-AB-01-13</p>
+<blockquote>
+<p>When using SNS for decoupling purposes, which of the subscriber types would be most appropriate? (Select two.)</p>
+</blockquote>
+<ul>
+<li>HTTP/HTTPS</li>
+<li>SQS</li>
+<li>SMS</li>
+<li>Email</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">✔️ HTTP/HTTPS</span>
+<span class="s1">✔️ SQS</span>
+<span class="s1">    - SNS can be used to pass messages in a resilient manner to a downstream application. Two possible mechanisms for accomplishing this are SQS and HTTP/HTTPS subscribers to a topic.</span>
+<span class="s1">- SMS</span>
+<span class="s1">- Email</span>
 <span class="s1">'''</span>
 </pre></div>
 
