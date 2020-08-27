@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      31 min read
+      34 min read
     
 </span></p>
 
@@ -2701,7 +2701,7 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- Improved query concurrency</span>
+<span class="s1">✔️ Improved query concurrency</span>
 
 <span class="s1">- Simpler architecture</span>
 
@@ -2761,9 +2761,11 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Throughput-optimized</span>
 
-<span class="s1">- General Purpose</span>
+<span class="s1">✔️ General Purpose</span>
+<span class="s1">    - https://docs.aws.amazon.com/efs/latest/ug/performance.html</span>
 
-<span class="s1">- MaxIO</span>
+<span class="s1">✔️ MaxIO</span>
+<span class="s1">    - https://docs.aws.amazon.com/efs/latest/ug/performance.html</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -2815,7 +2817,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Both Memcached and Redis</span>
 
-<span class="s1">- Redis</span>
+<span class="s1">✔️ Redis</span>
+<span class="s1">    - Redis is actually a NoSQL database engine that replicates all data to every node in the cluster, which improves data durability.</span>
+<span class="s1">    - https://aws.amazon.com/elasticache/redis-vs-memcached/</span>
 
 <span class="s1">- Memcached</span>
 
@@ -2869,7 +2873,10 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- EFA (Elastic Fabric Adapter)</span>
+<span class="s1">✔️ EFA (Elastic Fabric Adapter)</span>
+<span class="s1">    - The EFA exhibits both the highest throughput and the lowest latency of any network interface in AWS</span>
+<span class="s1">    - Elastic Network Adapters (ENAs) provide traditional IP networking features that are required to support VPC networking. EFAs provide all of the same traditional IP networking features as ENAs, and they also support OS-bypass capabilities. OS-bypass enables HPC and machine learning applications to bypass the operating system kernel and to communicate directly with the EFA device.</span>
+<span class="s1">    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html</span>
 
 <span class="s1">- ENI (Elastic Network Interface)</span>
 
@@ -2928,7 +2935,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Increased cost</span>
 
-<span class="s1">- The delay when provisioning new instances</span>
+<span class="s1">✔️ The delay when provisioning new instances</span>
+<span class="s1">    - When scaling reactively, several steps introduce delays before the new resources are made available to handle traffic.</span>
 
 <span class="s1">- Decreased resilience</span>
 <span class="s1">'''</span>
@@ -2985,7 +2993,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- An SQS queue</span>
 
-<span class="s1">- EBS volume size</span>
+<span class="s1">✔️ EBS volume size</span>
+<span class="s1">    - EBS volume size can be increased but not decreased, fitting the definition of a scalable resource.</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -3034,7 +3043,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- A launch template</span>
+<span class="s1"> ✔️ A launch template</span>
+<span class="s1">    - In the Auto Scaling service, only launch templates support a mixture of on-demand and spot instances at the same time.</span>
+<span class="s1">    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-templates.html</span>
 
 <span class="s1">- A launch configuration</span>
 
@@ -3091,7 +3102,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Only 1Gb throughput</span>
 
-<span class="s1">- 1Gb and 10Gb throughput</span>
+<span class="s1">✔️ 1Gb and 10Gb throughput</span>
+<span class="s1">    - https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html</span>
 
 <span class="s1">- 10Gb and 100Gb throughput</span>
 
@@ -3150,7 +3162,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- The ability of a system to decrease resources to accommodate decreased demand</span>
 
-<span class="s1">- The ability of a system to increase resources to accommodate increased demand</span>
+<span class="s1">✔️ The ability of a system to increase resources to accommodate increased demand</span>
+<span class="s1">    - Scalable systems are able to increase but not decrease resources. An example of this is RDS storage.</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -3199,7 +3212,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- 10Gbps</span>
+<span class="s1">✔️ 10Gbps</span>
+<span class="s1">    - https://docs.aws.amazon.com/efs/latest/ug/performance.html</span>
 
 <span class="s1">- 5Gbps</span>
 
@@ -3258,7 +3272,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Highest resilience</span>
 
-<span class="s1">- Lowest latency</span>
+<span class="s1">✔️ Lowest latency</span>
+<span class="s1">    - Instance store volumes do not traverse the network to reach storage and therefore do not incur any network latency.</span>
 
 <span class="s1">- Elasticity</span>
 <span class="s1">'''</span>
@@ -3309,7 +3324,7 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- 25Gbps</span>
+<span class="s1">✔ 25Gbps</span>
 
 <span class="s1">- 10Gbps</span>
 
@@ -3370,7 +3385,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Configurable latency</span>
 
-<span class="s1">- None of these</span>
+<span class="s1">✔️ None of these</span>
+<span class="s1">    - An EC2-based VPN solution comes with no performance assurance, regardless of the EC2 instance type chosen.</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -3425,7 +3441,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- 300 to 400ms</span>
 
-<span class="s1">- 100 to 200ms</span>
+<span class="s1">✔️ 100 to 200ms</span>
+<span class="s1">    - For latency-sensitive operations, you can achieve 100 to 200ms latency for S3 transfers, as per https://docs.aws.amazon.com/AmazonS3/latest/dev/optimizing-performance.html</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -3480,7 +3497,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Neither General Purpose nor MaxIO</span>
 
-<span class="s1">- General Purpose</span>
+<span class="s1">✔️ General Purpose</span>
+<span class="s1">    - https://docs.aws.amazon.com/efs/latest/ug/performance.html</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -3535,7 +3553,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- 2500</span>
 
-<span class="s1">- 3500</span>
+<span class="s1">✔️ 3500</span>
+<span class="s1">    - https://docs.aws.amazon.com/AmazonS3/latest/dev/optimizing-performance.html</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -3588,7 +3607,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- 20</span>
 
-<span class="s1">- 40</span>
+<span class="s1">✔️ 40</span>
+<span class="s1">    - AWS recommends up to 40 concurrent transfers per client, with a hard limit of 250Mbps per client overall.</span>
 
 <span class="s1">- 100</span>
 <span class="s1">'''</span>
@@ -3641,7 +3661,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- TotalIOBytes</span>
 
-<span class="s1">- BurstCreditBalance</span>
+<span class="s1">✔️ BurstCreditBalance</span>
+<span class="s1">    - If you have a large number of clients, the BurstCreditBalance metric can be used to determine if you are saturating the available bandwidth for the file system.</span>
 
 <span class="s1">- PermittedThroughput</span>
 
@@ -3696,7 +3717,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- 24 hours</span>
 
-<span class="s1">- 48 hours</span>
+<span class="s1">✔️ 48 hours</span>
+<span class="s1">    - https://aws.amazon.com/blogs/aws/new-predictive-scaling-for-ec2-powered-by-machine-learning/</span>
 
 <span class="s1">- 12 hours</span>
 
@@ -3749,7 +3771,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- DynamoDB</span>
+<span class="s1">✔️ DynamoDB</span>
+<span class="s1">    - DynamoDB allows for static provisioning of read and write ops to force an upper boundary on performance.</span>
 
 <span class="s1">- Cognito</span>
 
@@ -3806,7 +3829,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- It isn’t possible.</span>
 
-<span class="s1">- It is possible but only with certain instance types and multiple EBS volumes.</span>
+<span class="s1">✔️ It is possible but only with certain instance types and multiple EBS volumes.</span>
+<span class="s1">    - Some bare-metal instance types at the higher levels of CPU/memory are able to accommodate a total of 160,000 IOPS across multiple EBS volumes.</span>
 
 <span class="s1">- It is possible with any instance type.</span>
 
@@ -3862,11 +3886,15 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+
 <span class="s1">- st1</span>
 
 <span class="s1">- Standard</span>
 
-<span class="s1">- gp2</span>
+<span class="s1">✔️ gp2</span>
+<span class="s1">    - EBS Standard volumes are designed as inexpensive, low-performance storage, with a maximum of several hundred IOPS.</span>
+<span class="s1">    - Pearson test answers list 'Standard' as the correct answer, but AWS docs say gp2 below.</span>
+<span class="s1">    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-io-characteristics.html</span>
 
 <span class="s1">- sc1</span>
 
@@ -3920,12 +3948,15 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Region</span>
+<span class="s1">    - Placement groups can be configured to use multiple AZs within a region.</span>
 
 <span class="s1">- Multi-region</span>
 
 <span class="s1">- Availability zone</span>
 
-<span class="s1">- Global</span>
+<span class="s1">✔️ Global</span>
+<span class="s1">    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html</span>
+<span class="s1">    - Placement groups can be configured to use multiple AZs within a region.</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -3940,7 +3971,7 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>SAA-C02-AB-03-30</p>
+<p>SAA-C02-AB-02-22</p>
 <blockquote>
 <p>Which of these is not a benefit of using a launch template instead of a launch configuration for Auto Scaling?</p>
 </blockquote>
@@ -3976,7 +4007,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Use T2 Unlimited.</span>
 
-<span class="s1">- Use immutable objects with no versioning.</span>
+<span class="s1">✔️ Use immutable objects with no versioning.</span>
+<span class="s1">    - Launch templates allow for versioning so that it is simple to utilize a previous version if a rollback is required.</span>
 
 <span class="s1">- Use on-demand and spot instances at the same time.</span>
 
@@ -4033,7 +4065,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Routing traffic through the Internet gateway</span>
 
-<span class="s1">- Routing traffic through a VPC endpoint</span>
+<span class="s1">✔️ Routing traffic through a VPC endpoint</span>
+<span class="s1">    - Traffic that uses a VPC endpoint is proxied directly to the AWS service API endpoint and does not have to traverse the public AWS network or the Internet.</span>
 
 <span class="s1">- None of these</span>
 <span class="s1">'''</span>
@@ -4050,7 +4083,7 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>SAA-C02-AB-02-30</p>
+<p>SAA-C02-AB-03-37</p>
 <blockquote>
 <p>Which of the following is a benefit of deploying a relational database on EC2 using the instance store volume instead of EBS?</p>
 </blockquote>
@@ -4086,7 +4119,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Automatic data replication</span>
 
-<span class="s1">- Free storage</span>
+<span class="s1">✔️ Free storage</span>
+<span class="s1">    - Instance store volumes do not have an associated charge but are provided as part of the instance type chosen.</span>
 
 <span class="s1">- Highest resilience</span>
 
@@ -4143,7 +4177,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- All placement groups</span>
 
-<span class="s1">- Spread placement group</span>
+<span class="s1">✔️ Spread placement group</span>
+<span class="s1">    - A spread placement group is not designed for node-to-node performance but rather for the highest resilience by guaranteeing separated resources for each EC2 instance.</span>
+<span class="s1">    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html</span>
 
 <span class="s1">- Cluster placement group</span>
 <span class="s1">'''</span>
