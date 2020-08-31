@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      40 min read
+      44 min read
     
 </span></p>
 
@@ -4266,7 +4266,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Only allow access from a specific CIDR range</span>
 
-<span class="s1">- Deny access from the root credentials</span>
+<span class="s1">✔️ Deny access from the root credentials</span>
+<span class="s1">    - https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html</span>
+<span class="s1">    - Any user with root credentials has full, unimpeded access to all AWS resources in the account.</span>
 
 <span class="s1">- Only allow access when SSL transport is used</span>
 <span class="s1">'''</span>
@@ -4319,7 +4321,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- A global-scoped service that uses resilient architecture to protect your encryption keys</span>
 
-<span class="s1">- A region-scoped service that uses resilient architecture to protect your encryption keys</span>
+<span class="s1">✔️ A region-scoped service that uses resilient architecture to protect your encryption keys</span>
+<span class="s1">    - KMS is a shared-tenancy, region-scoped service that replicates resources across multiple AZs to achieve data resiliency and durability.</span>
+<span class="s1">    - https://aws.amazon.com/kms/features/#Secure</span>
 
 <span class="s1">- An AZ-scoped service that uses resilient architecture to protect your encryption keys</span>
 
@@ -4374,7 +4378,10 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- inbound</span>
 
-<span class="s1">- outbound</span>
+<span class="s1">✔️ outbound</span>
+<span class="s1">    -  https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html</span>
+<span class="s1">        - A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed.</span>
+<span class="s1">    - Route tables are applied at the subnet boundary but only for outbound connections.</span>
 
 <span class="s1">- Inbound and outbound</span>
 
@@ -4433,7 +4440,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Configure a secure listener using TLS.</span>
 
-<span class="s1">- You can’t. The ELB does not support encryption of data at rest.</span>
+<span class="s1">✔️ You can’t. The ELB does not support encryption of data at rest.</span>
+<span class="s1">    - The Elastic Load Balancing service does not need encryption at rest, as no data is ever persisted within the service for any length of time.</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -4484,9 +4492,13 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- None of these</span>
 
-<span class="s1">- Accounts created programmatically from the organization master account</span>
+<span class="s1">✔️ Accounts created programmatically from the organization master account</span>
+<span class="s1">    - "AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts intoan organization that you create and centrally manage."</span>
+<span class="s1">    - "AWS Organizations includes account management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of your business. As an administrator of an organization, you can create accounts in your organization and invite existing accounts to join the organization."</span>
+<span class="s1">    - </span>
 
-<span class="s1">- Standalone accounts</span>
+<span class="s1">✔️ Standalone accounts</span>
+<span class="s1">    - "invited accounts that were previously standalone."</span>
 
 <span class="s1">- Primary subscription-based accounts</span>
 <span class="s1">'''</span>
@@ -4544,6 +4556,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="s1">- EFS doesn’t support encryption at rest.</span>
 
 <span class="s1">- Upon file system creation, check the Encrypted File System option.</span>
+<span class="s1">    - "Upon file system creation, check the Encrypted File System option."</span>
+<span class="s1">    - https://docs.aws.amazon.com/efs/latest/ug/encryption-at-rest.html</span>
+<span class="s1">        - "You can choose to enable encryption at rest for a file system when you create it."</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -4592,7 +4607,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- Direct Connect can use encryption across a public VIF to a VPG.</span>
+<span class="s1">✔️ Direct Connect can use encryption across a public VIF to a VPG.</span>
+<span class="s1">    - "Direct Connect can encrypt connections to individual VPCs using a VPN across a public virtual interface (VIF)."</span>
+<span class="s1">    - https://docs.aws.amazon.com/directconnect/latest/UserGuide/WorkingWithVirtualInterfaces.html</span>
 
 <span class="s1">- Direct Connect uses encryption by default.</span>
 
@@ -4651,7 +4668,10 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- None of the above</span>
 
-<span class="s1">- How these policies impact Cognito authorization workflows?</span>
+<span class="s1">✔️ How these policies impact Cognito authorization workflows?</span>
+<span class="s1">    - When implementing API gateway resource policies, it is important to understand that the policy is evaluated before the user is authenticated.</span>
+<span class="s1">    - https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-authorization-flow.html</span>
+<span class="s1">        - "After authenticating the user with the IAM service, the policies attached to the IAM user in addition to the resource policy are evaluated together. The outcome varies based on whether the caller is in the same account, or a separate AWS account, from the API owner."</span>
 
 <span class="s1">- How these policies impact the cost of the service?</span>
 <span class="s1">'''</span>
@@ -4704,9 +4724,11 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- subnet</span>
 
-<span class="s1">- network interface	</span>
+<span class="s1">✔️ network interface</span>
+<span class="s1">    - "Security groups are stateful firewall rules applied at the network interface scope."</span>
 
-<span class="s1">- whitelisting</span>
+<span class="s1">✔️ whitelisting</span>
+<span class="s1">    - "Because they are stateful and block traffic by default, they are useful for whitelisting appropriate traffic."</span>
 
 <span class="s1">- blacklisting</span>
 <span class="s1">'''</span>
@@ -4761,7 +4783,7 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Apply a single hostname TLS certificate to the bucket.</span>
 
-<span class="s1">- Use the default s3.amazonaws.com TLS certificate.</span>
+<span class="s1">✔️ Use the default s3.amazonaws.com TLS certificate.</span>
 
 <span class="s1">- Apply a vanity wildcard certificate to the bucket.</span>
 <span class="s1">'''</span>
@@ -4821,7 +4843,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Function</span>
 
-<span class="s1">- All of these</span>
+<span class="s1">✔️ All of these</span>
+<span class="s1">    - https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html</span>
 
 <span class="s1">- Version</span>
 <span class="s1">'''</span>
@@ -4872,7 +4895,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- blacklisting, subnet</span>
+<span class="s1">✔️ blacklisting, subnet</span>
+<span class="s1">    - https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html</span>
+<span class="s1">    - "A network access control list (ACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. You might set up network ACLs with rules similar to your security groups in order to add an additional layer of security to your VPC."</span>
 
 <span class="s1">- whitelisting, subnet</span>
 
@@ -4932,6 +4957,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="s1">- RDS</span>
 
 <span class="s1">- RedShift</span>
+<span class="s1">    - RedShift, while using hardware to assist with encryption, still experiences a performance impact of 20% to 40%, as documented at </span>
+<span class="s1">    - https://d1.awsstatic.com/whitepapers/redshift/Tableau_Redshift_Whitepaper.pdf.</span>
 
 <span class="s1">- S3</span>
 <span class="s1">'''</span>
@@ -4982,7 +5009,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- IAM User</span>
+<span class="s1">✔️ IAM User</span>
+<span class="s1">    - https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html</span>
 
 <span class="s1">- IAM Group</span>
 
@@ -5039,7 +5067,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- S3 bucket policy</span>
 
-<span class="s1">- KMS CMK key policy</span>
+<span class="s1">✔️ KMS CMK key policy</span>
+<span class="s1">    - "The Customer master keys (CMK) cannot be used without a key policy in place, with statements for both key administrators and key users."</span>
+<span class="s1">    - https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html</span>
 
 <span class="s1">- Lambda function policy</span>
 
@@ -5096,8 +5126,10 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- EBS</span>
+<span class="s1">    - Of the choices listed, EBS volume encryption can be enabled by default on a per-region basis, but it does not require the root credentials to do so.</span>
 
-<span class="s1">- None of these</span>
+<span class="s1">✔️ None of these</span>
+<span class="s1">    - Of the choices listed, EBS volume encryption can be enabled by default on a per-region basis, but it does not require the root credentials to do so.</span>
 
 <span class="s1">- S3</span>
 
@@ -5156,7 +5188,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Internal and external traffic</span>
 
-<span class="s1">- All traffic</span>
+<span class="s1">✔️ All traffic</span>
+<span class="s1">    - https://docs.aws.amazon.com/vpn/latest/s2svpn/internetwork-traffic-privacy.html</span>
+<span class="s1">    - "Each Site-to-Site VPN connection consists of two encrypted IPsec VPN tunnels that link AWS and your network. Traffic in each tunnel can be encrypted with AES128 or AES256 and use Diffie-Hellman groups for key exchange, providing Perfect Forward Secrecy. AWS authenticates with SHA1 or SHA2 hashing functions."</span>
 
 <span class="s1">- No traffic</span>
 <span class="s1">'''</span>
@@ -5213,7 +5247,10 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- VPC</span>
 
-<span class="s1">- Network interface</span>
+<span class="s1">✔️ Network interface</span>
+<span class="s1">    - "VPC traffic mirroring can only be applied to a single ENI, and the traffic can be directed to either an ENI or a network load balancer."</span>
+<span class="s1">    - https://docs.aws.amazon.com/vpc/latest/mirroring/what-is-traffic-mirroring.html</span>
+<span class="s1">    - "Traffic Mirroring is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of Amazon EC2 instances."</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -5262,13 +5299,15 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- Oracle DB	</span>
+<span class="s1">✔️ Oracle DB	</span>
+<span class="s1">    - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html</span>
 
 <span class="s1">- MySQL</span>
 
 <span class="s1">- Postgres</span>
 
-<span class="s1">- SQL Server</span>
+<span class="s1">✔️ SQL Server</span>
+<span class="s1">    - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -5319,7 +5358,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- The traffic can only traverse a private fiber connection.</span>
 
-<span class="s1">- The traffic traverses the public Internet.</span>
+<span class="s1">✔️ The traffic traverses the public Internet.</span>
+<span class="s1">    - "The VPG is assigned two publicly addressable IPv4 addresses for terminating a VPN connection and must be reached across public networks."</span>
 
 <span class="s1">- None of these is correct.</span>
 
@@ -5344,7 +5384,7 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 </blockquote>
 <ul>
 <li>
-<p>ublic Internet</p>
+<p>Public Internet</p>
 </li>
 <li>
 <p>AWS private network</p>
@@ -5372,13 +5412,14 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- ublic Internet</span>
+<span class="s1">- Public Internet</span>
 
 <span class="s1">- AWS private network</span>
 
 <span class="s1">- AWS public network</span>
 
-<span class="s1">- Proxy</span>
+<span class="s1">✔️ Proxy</span>
+<span class="s1">    - "VPC gateway and interface endpoints use a proxy to pass traffic to the service API endpoint, bypassing the AWS network entirely."</span>
 <span class="s1">'''</span>
 </pre></div>
 
