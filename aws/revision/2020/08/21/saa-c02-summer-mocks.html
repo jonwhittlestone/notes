@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      51 min read
+      53 min read
     
 </span></p>
 
@@ -5505,14 +5505,20 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- gp2</span>
+<span class="s1">    - "Recommended for most workloads"</span>
+
 
 <span class="s1">- piops</span>
 
 <span class="s1">- st1</span>
 
-<span class="s1">- sc1</span>
+<span class="s1">✔️ sc1</span>
+<span class="s1">    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html</span>
+<span class="s1">    - "sc1, or cold-storage HDD, is designed for infrequent access at a low price and supports up to 16TB per volume."</span>
 
 <span class="s1">- Standard</span>
+<span class="s1">    - Standard is "previous generation" according to AWS docs</span>
+
 <span class="s1">'''</span>
 </pre></div>
 
@@ -5570,9 +5576,10 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Spot</span>
 
-<span class="s1">- Reservation</span>
+<span class="s1">✔️ Reservation</span>
 
-<span class="s1">- On-demand</span>
+<span class="s1">✔️ On-demand</span>
+<span class="s1">    - "Dedicated host pricing is based on the overall capacity of each bare-metal server. Because the entire server is dedicated, it isn’t possible to use it for spot instances, but on-demand and reserved instance pricing are still available."</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -5625,7 +5632,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- Standard</span>
 
-<span class="s1">- Z-IA</span>
+<span class="s1">✔️ Z-IA</span>
+<span class="s1">    - https://jonwhittlestone.github.io/notes/aws/revision/2020/07/29/saa-c02-chad-smith-pearson-live-lesson.html#Object-storage-costs</span>
+<span class="s1">    - "S3 One Zone-Infrequent Access is designed for the lowest-cost storage while still meeting low-latency requirements. The data is replicated within a single AZ in a region instead of across the region, which does reduce availability to 3 9s"</span>
 
 <span class="s1">- S3-IA</span>
 <span class="s1">'''</span>
@@ -5678,7 +5687,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Aurora Serverless is always more expensive than RDS.</span>
 
-<span class="s1">- Aurora Serverless compute and storage resources are dynamic and auto-scaled.</span>
+<span class="s1">✔️ Aurora Serverless compute and storage resources are dynamic and auto-scaled.</span>
+<span class="s1">    - "Aurora Serverless can be a low-cost relational database solution when it is managed properly, but if the auto-scaling limits are set very high, it is possible to generate a lot of cost with a few long-running queries."</span>
 
 <span class="s1">- Aurora Serverless compute and storage resources are static and predictable.</span>
 
@@ -5737,7 +5747,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- No charges</span>
 
-<span class="s1">- Charges for the amount of data processed and data stored</span>
+<span class="s1">✔️ Charges for the amount of data processed and data stored</span>
+<span class="s1">    - https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html#flow-logs-pricing</span>
+<span class="s1">    - "VPC flow logs, regardless of scope (VPC, subnet, or ENI), are charged based on the data processed and data stored in either S3 or CloudWatch logs."</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -5786,7 +5798,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- There will be no throughput charges, but there will be S3 access charges.</span>
+<span class="s1">✔️ There will be no throughput charges, but there will be S3 access charges.</span>
+<span class="s1">    - "There are no network throughput charges for accessing an S3 bucket in the same region, but there are S3 service charges for every operation performed against objects in a bucket."</span>
 
 <span class="s1">- The cost will depend on throughput.</span>
 
@@ -5841,13 +5854,15 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- RedShift does not charge for data storage resources.</span>
+<span class="s1">✔️ RedShift does not charge for data storage resources.</span>
+<span class="s1">    - "A RedShift cluster is deployed according to the number of compute nodes chosen. Storage is statically allocated to each compute node and is not part of the cost structure for the service."</span>
 
 <span class="s1">- RedShift is priced similarly to RDS for compute and storage resources.</span>
 
 <span class="s1">- RedShift is priced similarly to Aurora for compute and storage resources.</span>
 
 <span class="s1">- RedShift does not charge for compute resources.</span>
+<span class="s1">    - "A RedShift cluster is deployed according to the number of compute nodes chosen. Storage is statically allocated to each compute node and is not part of the cost structure for the service."</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -5907,7 +5922,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- piops</span>
 
-<span class="s1">- st1</span>
+<span class="s1">✔️ st1</span>
+<span class="s1">    - "Throughput-optimized HDD volumes are a good choice for applications that frequently perform large data copies to disk. ST1 volumes are also less expensive than any SSD solution."</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -5961,13 +5977,15 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Spot	</span>
 
-<span class="s1">- Dedicated instance</span>
+<span class="s1">✔️ Dedicated instance</span>
+<span class="s1">    - "Dedicated instances and dedicated hosts both meet the requirement for single-tenancy virtual machines, where only one customer is on the hardware."</span>
 
 <span class="s1">- Reservation	</span>
 
 <span class="s1">- On-demand</span>
 
-<span class="s1">- Dedicated host</span>
+<span class="s1">✔️ Dedicated host</span>
+<span class="s1">    - "Dedicated instances and dedicated hosts both meet the requirement for single-tenancy virtual machines, where only one customer is on the hardware."</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -6020,7 +6038,9 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- VPC interface endpoint</span>
 
-<span class="s1">- VPC transit gateway</span>
+<span class="s1">✔️ VPC transit gateway</span>
+<span class="s1">    - "VPC transit gateways are charged for every attachment, so they do not involve just a static hourly charge as the other egress points do."</span>
+<span class="s1">    - https://aws.amazon.com/transit-gateway/features/</span>
 
 <span class="s1">- Virtual private gateway</span>
 <span class="s1">'''</span>
@@ -6037,7 +6057,7 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>SAA-C02-AB-03-55</p>
+<p>SAA-C02-AB-02-54</p>
 <blockquote>
 <p>Which S3 storage class would be appropriate for data that will be accessed infrequently but that still requires low-latency access and a high-availability SLA?</p>
 </blockquote>
@@ -6073,66 +6093,12 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Glacier Deep Archive</span>
 
-<span class="s1">- S3-IA</span>
+<span class="s1">✔️ S3-IA</span>
+<span class="s1">    - "S3 One Zone-Infrequent Access is designed for the lowest-cost storage while still meeting low-latency requirements. The data is replicated within a single AZ in a region instead of across the region, which does reduce availability to 3 9s."</span>
 
 <span class="s1">- Standard</span>
 
 <span class="s1">- Glacier</span>
-<span class="s1">'''</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-    </details>
-</div>
-    
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>SAA-C02-AB-03-64</p>
-<blockquote>
-<p>What cost would you expect on your monthly bill for data throughput from traffic generated between EC2 and an S3 bucket in the same region, assuming that the EC2 instances are in public subnets?</p>
-</blockquote>
-<ul>
-<li>
-<p>There will be no throughput charges, but there will be S3 access charges.</p>
-</li>
-<li>
-<p>The cost will depend on throughput.</p>
-</li>
-<li>
-<p>There will be throughput charges and S3 access charges.</p>
-</li>
-<li>
-<p>There will be no cost whatsoever.</p>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<details class="description">
-      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
-        <p></p>
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
-<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- There will be no throughput charges, but there will be S3 access charges.</span>
-
-<span class="s1">- The cost will depend on throughput.</span>
-
-<span class="s1">- There will be throughput charges and S3 access charges.</span>
-
-<span class="s1">- There will be no cost whatsoever.</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -6181,7 +6147,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- For long-running container jobs, it can be more expensive than ECS on EC2.</span>
+<span class="s1">✔️ For long-running container jobs, it can be more expensive than ECS on EC2.</span>
+<span class="s1">    - "For long-running container jobs, it can be more expensive than ECS on EC2."</span>
 
 <span class="s1">- It is always more expensive than ECS on EC2.</span>
 
@@ -6238,7 +6205,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
 <span class="s1">- Hourly charge but no throughput charge</span>
 
-<span class="s1">- Hourly charge and throughput charge</span>
+<span class="s1">✔️ Hourly charge and throughput charge</span>
+<span class="s1">    - "VPC peering connections are charged by the hour and for throughput, regardless of the destination (even within the same AZ)."</span>
 
 <span class="s1">- No hourly charge but throughput charge</span>
 
@@ -6300,7 +6268,8 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 
 <span class="s1">- sc1</span>
 
-<span class="s1">- Standard</span>
+<span class="s1">️✔️ S️tandard</span>
+<span class="s1">    - "Assuming that the volume is not exceeding 100 IOPS regularly, an EBS standard type volume would be the most cost-effective solution."</span>
 
 <span class="s1">- st1</span>
 <span class="s1">'''</span>
@@ -6351,13 +6320,14 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
 <span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
-<span class="s1">- Glacier</span>
+<span class="s1">️️️- Glacier</span>
 
 <span class="s1">- S3-IA</span>
 
 <span class="s1">- Z-IA</span>
 
-<span class="s1">- Glacier Deep Archive</span>
+<span class="s1">️️ ️️✔️️ ️️Glacier Deep Archive</span>
+<span class="s1">    - Glacier Deep Archive is the least expensive choice for data storage in AWS. The trade-off for cheap per-gigabyte storage cost is a long latency to access (up to 12 hours).</span>
 <span class="s1">'''</span>
 </pre></div>
 
@@ -6394,6 +6364,37 @@ You answered this question incorrectly. The correct answers are highlighted.</p>
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">- Z-IA</span>
+
+<span class="s1">- Glacier</span>
+
+<span class="s1">- S3-IA</span>
+
+<span class="s1">✔️ Standard</span>
+<span class="s1">    - "The S3 Standard storage class is the most expensive for monthly per-gigabyte cost"</span>
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
 </div>
 
 
