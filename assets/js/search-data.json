@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "AWS well-architected framework whitepapers",
-            "content": "In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architech exam. . The notes below are WIP while I revise during a family break in Wales . Well Architected framework . Whitepaper PDF .",
+            "content": "In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam. . The notes below are WIP while I revise during a family break in Wales . Well Architected framework . Whitepaper PDF . General Principles . Stop guessing your capacity needs: Poor capacity decisions can lead to under or over provisioning resources. .",
             "url": "https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html",
             "relUrl": "/aws/revision/2020/09/06/aws-well-architected-framework.html",
             "date": " • Sep 6, 2020"
