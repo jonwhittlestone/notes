@@ -11,6 +11,8 @@ In Chad Smith's seminar he suggested being very familar with the Well Architecte
 
 The notes below are WIP while I revise during a family break in Wales
 
+[Edit this Page](https://github.com/jonwhittlestone/notes/edit/master/_posts/2020-09-06-aws-well-architected-framework.md)
+
 ## Well Architected framework
 
 [Whitepaper PDF](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
