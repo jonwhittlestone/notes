@@ -19,4 +19,29 @@ The notes below are WIP while I revise during a family break in Wales
 
 > Stop guessing your capacity needs: Poor capacity decisions can lead to under or over provisioning resources. 
 
+> Test systems at production scale: Simulate your live environment and then tear it down simce you need only pay for what you use.
 
+> Automate to make architectural experimentation easier: Create and replicate workloads with automation. use automation to monitor results and easily and quickly revert if necessary.
+
+> Allow for evolutionary architectures: Develop architecture as a continual process as requirements change rather than a static development with ocadsional major version changes. This is because the ability to automate and test reduces impact of changes.
+
+> Drive architectures using data: Collect data on architectural changes to make fact-based decisions
+
+> Improve through game days: Regularly schedule events where you can simulate production events to better understand workloads and plan around improvements and develop processes for emergencies.
+
+## Tested Pillar: Reliability
+
+[Whitepaper PDF](https://d0.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf?ref=wellarchitected-wp)
+
+## Tested Pillar: Performance Efficiency
+
+[Whitepaper PDF](https://d0.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf?ref=wellarchitected-wp)
+
+## Tested Pillar: Security
+
+[Whitepaper PDF](https://d0.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf?ref=wellarchitected-wp)
+
+
+## Tested Pillar: Cost Optimisation
+
+[Whitepaper PDF](https://d0.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf?ref=wellarchitected-wp)
