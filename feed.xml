@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-15T01:27:06-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-15T03:02:49-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
 
 &lt;p&gt;The notes below are WIP while I revise during a family break in Wales&lt;/p&gt;
 
@@ -2904,7 +2904,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
     &lt;div class=&quot;input_area&quot;&gt;
 &lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;✔ 25Gbps&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ 25Gbps&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- 10Gbps&lt;/span&gt;
 
@@ -3981,7 +3981,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- EFS doesn’t support encryption at rest.&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Upon file system creation, check the Encrypted File System option.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Upon file system creation, check the Encrypted File System option.&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Upon file system creation, check the Encrypted File System option.&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/efs/latest/ug/encryption-at-rest.html&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;        - &amp;quot;You can choose to enable encryption at rest for a file system when you create it.&amp;quot;&lt;/span&gt;
@@ -4332,7 +4332,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- RDS&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- RedShift&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ RedShift&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;    - RedShift, while using hardware to assist with encryption, still experiences a performance impact of 20% to 40%, as documented at &lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;    - https://d1.awsstatic.com/whitepapers/redshift/Tableau_Redshift_Whitepaper.pdf.&lt;/span&gt;
 
@@ -5644,9 +5644,11 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
     &lt;div class=&quot;input_area&quot;&gt;
 &lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer in two regions with Route 53 DNS failover&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;❌ Elastic Load Balancer in two regions with Route 53 DNS failover&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - an active/passive infrastructure, requiring a short outage to fail over&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer in two regions with Route 53 latency-based routing&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Elastic Load Balancer in two regions with Route 53 latency-based routing&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - is fully active/active, which makes this infrastructure fault tolerant and the most resilient of the choices&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer associated with an Auto Scaling group in three AZs&lt;/span&gt;
 
@@ -5698,7 +5700,9 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- Charges for the amount of data processed&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Charges for the amount of data processed and data stored&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Charges for the amount of data processed and data stored&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - VPC flow logs, regardless of scope (VPC, subnet, or ENI), are charged based on the data processed and data stored in either S3 or CloudWatch logs.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html#flow-logs-pricing&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -5742,11 +5746,20 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- Higher availability and higher durability&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Lower availability and higher durability&lt;/span&gt;
-
 &lt;span class=&quot;s1&quot;&gt;- Lower availability and lower durability&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- Higher availability and lower durability&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Lower availability and higher durability&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - EFS stores the data at a region scope, replicating that data into at least three AZs within the region, which improves the durability over EBS. The SLA documentation states that the service is designed for 3 9s availability.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/efs/sla/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/compute/sla/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://cloud.netapp.com/blog/comparing-aws-storage-slas-which-protects-you-best&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Availability is more geared towards hardware redundancy while durability is more about data redundancy. Data availability is mainly achieved through RAID or erasure coding (where the data is broken into fragments, sharded and distributed across a storage pool); you would notice the SLAs align with the SLAs possible through those technologies. To view this in terms of number of hours: 99.99% SLA translates to 8h 45m 57s and 43m 49.7s of potential downtime in an annual and monthly time period, respectively.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Durability is about the ability for data to be protected from corruption and bit rot over the long term. RAID is not impervious to data degradation like bit rot. In these scenarios, a combination of erasure coding and data scrubbing (where the data is continuously validated) can help provide durability of up to Eleven 9s in some AWS storage services.&amp;quot;&lt;/span&gt;
+
+
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -5792,9 +5805,13 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Fault tolerant&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Fault tolerant&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.&amp;quot;&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Highly available&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Highly available&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -5838,7 +5855,9 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- DynamoDB&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- RedShift&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ RedShift&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The services covered by Unified Auto Scaling are EC2, Spot Fleets, DynamoDB, Aurora Read Replicas, and ECS on Fargate.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/autoscaling/&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- Aurora&lt;/span&gt;
 
@@ -5890,7 +5909,9 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- S3&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Elastic Load Balancer&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Elastic Load Balancer, even if it is taking no traffic, is still charged by the hour.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/elasticloadbalancing/pricing/&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -5932,13 +5953,15 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
     &lt;div class=&quot;input_area&quot;&gt;
 &lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;- API Gateway&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;️️✔️ SNS access policy&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;SNS assigns a default policy to the topic when created. This policy can be modified to grant additional permissions.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/sns/latest/dg/sns-access-policy-use-cases.html#sns-grant-aws-account-access-to-topic&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- DynamoDB&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- SQS queue policy&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- S3&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- S3 bucket policy&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Lambda function access policy&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -5982,7 +6005,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- Routing traffic through a VPG and using the corporate network Internet connection&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Routing traffic through a VPC endpoint&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;️️✔️ Routing traffic through a VPC endpoint&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Traffic that uses a VPC endpoint is proxied directly to the AWS service API endpoint and does not have to traverse the public AWS network or the Internet.&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
 
@@ -6058,7 +6082,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- Private IP&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Public IP&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Public IP&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;All private IP address destinations within the same VPC are free in the same AZ. The public DNS will resolve to the private IP address, so it is also free. The public IP destination will traverse the Internet gateway and will be charged as outbound Internet traffic.&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -6104,7 +6129,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- Elastic Network Adapter&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Elastic IP&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Elastic IP&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The Elastic IP is a free resource as long as it is attached to a running EC2 instance. If the instance is stopped or the Elastic IP is detached, there is an hourly charge.&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- Elastic Fabric Adapter&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
@@ -6150,7 +6176,9 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Highly available&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Highly available&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The VPG (virtual private gateway) resource is hardware backed in two data centers within the region to which the VPC is deployed. It uses active/passive tunnels in a highly available mode but is not fault tolerant.&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- Fault tolerant&lt;/span&gt;
 
@@ -6200,7 +6228,9 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- Aurora&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- RedShift&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ RedShift&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The services covered by Unified Auto Scaling are EC2, Spot Fleets, DynamoDB, Aurora Read Replicas, and ECS on Fargate.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/autoscaling/&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- EC2&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
@@ -6250,7 +6280,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- Only 10Gb throughput&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- 1Gb and 10Gb throughput&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ 1Gb and 10Gb throughput&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -6296,8 +6327,10 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- No extra steps are required.&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Manually copy existing objects.&lt;/span&gt;
-
+&lt;span class=&quot;s1&quot;&gt;✔️ Manually copy existing objects.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - _Enabling cross-region replication does not copy existing objects by default, and so it is up to the customer to perform this task._&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    &lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- Enable server-side encryption on both buckets.&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -6350,7 +6383,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- sc1&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Standard&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Standard&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;EBS Standard volumes are designed as inexpensive, low-performance storage, with a maximum of several hundred IOPS.&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -6395,7 +6429,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- RDS cross-region read replica&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- EBS volume snapshot&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ EBS volume snapshot&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;EBS volume snapshots are stored at the region scope. There are options for copying a snapshot to a different region, but they are not integrated into the snapshot feature&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- S3 cross-region replication&lt;/span&gt;
 
@@ -6446,7 +6481,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- Provisioned throughput depending on requirements&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Throughput dependent on source/destination region&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Throughput dependent on source/destination region&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;VPC peering connections come with no performance guarantees, so it is up to the customer to benchmark the network throughput for a specific peering connection&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- 10Gbps&lt;/span&gt;
 
@@ -6491,7 +6527,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
     &lt;div class=&quot;input_area&quot;&gt;
 &lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless compute and storage resources are static and predictable.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;️✔️ Aurora Serverless compute and storage resources are static and predictable.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Aurora Serverless can be a low-cost relational database solution when it is managed properly, but if the auto-scaling limits are set very high, it is possible to generate a lot of cost with a few long-running queries.&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- Aurora Serverless is always more expensive than RDS.&lt;/span&gt;
 
@@ -6955,7 +6992,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- 3Gbps&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- 10Gbps&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ 10Gbps&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/efs/latest/ug/performance.html&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- 1Gbps&lt;/span&gt;
 
@@ -7004,7 +7042,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- Highest IOPS&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Data replicated within the AZ&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Data replicated within the AZ&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;EBS volumes are written synchronously to two different storage units in different data centers in the same AZ.&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- Lowest latency&lt;/span&gt;
 
@@ -7057,7 +7096,8 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- Ability to transform the IT organization&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Synchronous replication for disaster recovery&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Synchronous replication for disaster recovery&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;In AWS, multi-AZ setups use synchronous replication to back up data to the secondary instance for the intent of disaster recovery.&amp;quot;&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -7102,7 +7142,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- Higher availability and lower durability&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Lower availability and higher durability&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Lower availability and higher durability&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;- Higher availability and higher durability&lt;/span&gt;
 
@@ -7153,8 +7193,9 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;- Highly available&lt;/span&gt;
 
-&lt;span class=&quot;s1&quot;&gt;- Fault tolerant&lt;/span&gt;
-
+&lt;span class=&quot;s1&quot;&gt;✔️ Fault tolerant&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;An Internet gateway is a fault-tolerant virtualized resource with no visibility from the customer perspective.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    &lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
 
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
