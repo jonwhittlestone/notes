@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-14T05:09:55-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-15T01:27:06-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
 
 &lt;p&gt;The notes below are WIP while I revise during a family break in Wales&lt;/p&gt;
 
@@ -5580,6 +5580,1583 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;span class=&quot;s1&quot;&gt;✔️ Standard&lt;/span&gt;
 &lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The S3 Standard storage class is the most expensive for monthly per-gigabyte cost&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;Mock-6---07/09/20---All-Modules---86%&quot;&gt;Mock 6 - 07/09/20 - All Modules - 86%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-6---07/09/20---All-Modules---86%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;th&gt;PASS     &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; Mark&lt;/td&gt;
+&lt;td&gt;86.54 % &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Correct&lt;/td&gt;
+&lt;td&gt;46       &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-03-11&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following is the most resilient architecture choice?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Elastic Load Balancer in two regions with Route 53 DNS failover&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elastic Load Balancer in two regions with Route 53 latency-based routing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elastic Load Balancer associated with an Auto Scaling group in three AZs&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elastic Load Balancer associated with an Auto Scaling group in a single AZ&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer in two regions with Route 53 DNS failover&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer in two regions with Route 53 latency-based routing&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer associated with an Auto Scaling group in three AZs&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer associated with an Auto Scaling group in a single AZ&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-03-62&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;When enabling VPC flow logs, what is the effect on your monthly AWS bill?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Charges for data stored&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No charges&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Charges for the amount of data processed&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Charges for the amount of data processed and data stored&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Charges for data stored&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- No charges&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Charges for the amount of data processed&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Charges for the amount of data processed and data stored&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-16&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;How does EFS resilience compare to EBS?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Higher availability and higher durability&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lower availability and higher durability&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lower availability and lower durability&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Higher availability and lower durability&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Higher availability and higher durability&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Lower availability and higher durability&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Lower availability and lower durability&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Higher availability and lower durability&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-01&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;The Internet gateway resource is best described as which of the following?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Not highly available&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;None of these&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fault tolerant&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Highly available&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Not highly available&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Fault tolerant&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Highly available&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-24&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following services is not managed by the Unified Auto Scaling service?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;DynamoDB&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;RedShift&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aurora&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;EC2&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- DynamoDB&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- RedShift&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Aurora&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- EC2&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-03-21&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following services is unable to scale to zero, cost-wise?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;API Gateway&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;DynamoDB&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;S3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elastic Load Balancer&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- API Gateway&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- DynamoDB&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- S3&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-03-43&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which resource-based policy is required to exist in order to use a resource?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;SNS access policy&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SQS queue policy&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;S3 bucket policy&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lambda function access policy&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- API Gateway&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- DynamoDB&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- S3&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Elastic Load Balancer&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-30&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following strategies for accessing non-VPC resources optimizes for network performance?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Routing traffic through a VPG and using the corporate network Internet connection&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Routing traffic through a VPC endpoint&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;None of these&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Routing traffic through the Internet gateway&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Routing traffic through a VPG and using the corporate network Internet connection&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Routing traffic through a VPC endpoint&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Routing traffic through the Internet gateway&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;Mock 7 - 08/09/20 - All Modules - 76%&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;th&gt;PASS     &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; Mark&lt;/td&gt;
+&lt;td&gt;76.92 % &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Correct&lt;/td&gt;
+&lt;td&gt;50     &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-03-63&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following destinations will incur a network throughput charge in a VPC, even within the same AZ?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Public DNS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Private DNS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Private IP&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Public IP&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Public DNS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Private DNS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Private IP&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Public IP&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-63&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following is a charged resource in a VPC?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Elastic Network Interface&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elastic Network Adapter&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elastic IP&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Elastic Fabric Adapter&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Elastic Network Interface&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Elastic Network Adapter&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Elastic IP&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Elastic Fabric Adapter&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-06&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;The virtual private gateway resource is best described as which of the following?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;None of these&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Highly available&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fault tolerant&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Not highly available&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Highly available&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Fault tolerant&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Not highly available&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-24&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following services is not managed by the Unified Auto Scaling service?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;DynamoDB&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aurora&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;RedShift&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;EC2&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- DynamoDB&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Aurora&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- RedShift&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- EC2&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-03-33&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;When choosing Direct Connect for hybrid network connectivity, what performance options are available?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;10Gb and 100Gb throughput&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Only 1Gb throughput&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Only 10Gb throughput&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1Gb and 10Gb throughput&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- 10Gb and 100Gb throughput&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Only 1Gb throughput&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Only 10Gb throughput&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 1Gb and 10Gb throughput&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-18&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;When configuring S3 cross-region replication, which of the following must be executed for a complete solution?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Ensure that all objects are using the same storage class.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No extra steps are required.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Manually copy existing objects.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enable server-side encryption on both buckets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Ensure that all objects are using the same storage class.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- No extra steps are required.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Manually copy existing objects.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Enable server-side encryption on both buckets.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-27&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;The EBS &lt;strong&gt;___&lt;/strong&gt; volume type has the lowest IOPS performance.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;gp2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;piops&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;st1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;sc1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Standard&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- gp2&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- piops&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- st1&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- sc1&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Standard&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-11&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following is not an AWS feature with multi-region capability?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;RDS cross-region read replica&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;EBS volume snapshot&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;S3 cross-region replication&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;DynamoDB global table&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- RDS cross-region read replica&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- EBS volume snapshot&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- S3 cross-region replication&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- DynamoDB global table&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-33&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;When deploying a cross-region VPC peering connection, what performance can you expect?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;lt;5ms latency&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Provisioned throughput depending on requirements&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Throughput dependent on source/destination region&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;10Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- &amp;lt;5ms latency&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Provisioned throughput depending on requirements&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Throughput dependent on source/destination region&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 10Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-03-58&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;When deploying Aurora Serverless versus RDS, what is one cost consideration that should be reviewed strategically before implementation?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Aurora Serverless compute and storage resources are static and predictable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aurora Serverless is always more expensive than RDS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aurora Serverless is always less expensive than RDS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aurora Serverless compute and storage resources are dynamic and auto-scaled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless compute and storage resources are static and predictable.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless is always more expensive than RDS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless is always less expensive than RDS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless compute and storage resources are dynamic and auto-scaled.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-28&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;What is the maximum throughput possible for an EFS file system?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;10Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;5Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- 10Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 1Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 5Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 3Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-15&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;EBS volumes are replicated &lt;strong&gt;&lt;strong&gt;&lt;em&gt;__&lt;/em&gt;&lt;/strong&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;within the region&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;None of these&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;globally&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;within the AZ&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- within the region&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- globally&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- within the AZ&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-25&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;What is a potential downside of reactive scaling for EC2?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The delay when provisioning new instances&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Increased operational overhead of managing the Auto Scaling group&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Decreased resilience&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Increased cost&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- The delay when provisioning new instances&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Increased operational overhead of managing the Auto Scaling group&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Decreased resilience&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Increased cost&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-13&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;When using SNS for decoupling purposes, which of the subscriber types would be most appropriate? (Select two.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;SQS   &lt;/li&gt;
+&lt;li&gt;Email &lt;/li&gt;
+&lt;li&gt;HTTP/HTTPS    &lt;/li&gt;
+&lt;li&gt;SMS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- SQS	&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Email	&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- HTTP/HTTPS	&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- SMS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;Mock 8 - 11/09/20 - All Modules - 81%&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;th&gt;PASS     &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; Mark&lt;/td&gt;
+&lt;td&gt;81.53 % &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Correct&lt;/td&gt;
+&lt;td&gt;74     &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-26&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which EBS volume type has the highest maximum throughput performance?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Standard&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;gp2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;sc1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;st1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;piops&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Standard&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- gp2&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- sc1&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- st1&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- piops&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-31&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;What is the maximum network throughput that can be achieved with an ENI?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;50Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;25Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;20Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;10Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- 50Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 25Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 20Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 10Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-13&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;When using SNS for decoupling purposes, which of the subscriber types would be most appropriate? (Select two.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;HTTP/HTTPS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Email&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SQS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SMS&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- HTTP/HTTPS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Email	&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- SQS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- SMS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-03-58&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;When deploying Aurora Serverless versus RDS, what is one cost consideration that should be reviewed strategically before implementation?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Aurora Serverless compute and storage resources are static and predictable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aurora Serverless is always less expensive than RDS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aurora Serverless compute and storage resources are dynamic and auto-scaled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aurora Serverless is always more expensive than RDS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless compute and storage resources are static and predictable.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless is always less expensive than RDS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless compute and storage resources are dynamic and auto-scaled.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Aurora Serverless is always more expensive than RDS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-28&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;What is the maximum throughput possible for an EFS file system?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;3Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;10Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;5Gbps&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- 3Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 10Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 1Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- 5Gbps&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-34&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Which of the following is a benefit of deploying a relational database on EC2 using EBS instead of an instance store volume?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Highest IOPS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data replicated within the AZ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lowest latency&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lowest cost per gigabyte&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Highest IOPS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Data replicated within the AZ&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Lowest latency&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Lowest cost per gigabyte&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-05&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;In AWS, a multi-AZ setup offers which of the following benefits?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Reduced network latency for faster application access&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Read-only copies of databases&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ability to transform the IT organization&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Synchronous replication for disaster recovery&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Reduced network latency for faster application access&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Read-only copies of databases&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Ability to transform the IT organization&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Synchronous replication for disaster recovery&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-01-16&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;How does EFS resilience compare to EBS?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Higher availability and lower durability&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lower availability and higher durability&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Higher availability and higher durability&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lower availability and lower durability&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Higher availability and lower durability&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Lower availability and higher durability&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Higher availability and higher durability&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Lower availability and lower durability&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;SAA-C02-AB-02-01&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;The Internet gateway resource is best described as which of the following?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Not highly available&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Highly available&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fault tolerant&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;None of these&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Not highly available&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Highly available&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Fault tolerant&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- None of these&lt;/span&gt;
+
 &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
