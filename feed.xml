@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-15T09:38:51-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-16T01:37:35-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
 
 &lt;p&gt;The notes below are WIP while I revise during a family break in Wales&lt;/p&gt;
 
@@ -70,8 +70,9 @@
 table {font-size:100%; white-space:inherit}
 table td {max-width:inherit}
 &lt;/style&gt;&lt;p&gt;With the O'Reilly subscription, there are some &lt;a href=&quot;https://pearsontestprep.com/#/examsettings&quot;&gt;practice AWS tests from Pearson&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The idea is that I can take &lt;a href=&quot;https://learning.oreilly.com/certifications/9780136791997/&quot;&gt;a mock exam&lt;/a&gt; covering all modules, and mock exams focusing on individual modules.&lt;/p&gt;
+&lt;p&gt;The idea is that I can take &lt;a href=&quot;https://learning.oreilly.com/certifications/9780136791997/&quot;&gt;an O'Reilly mock exam&lt;/a&gt; covering all modules, and mock exams focusing on individual modules.&lt;/p&gt;
 &lt;p&gt;To reference my past exams in the Pearson Interface visit &lt;strong&gt;View Exam History&lt;/strong&gt; &amp;gt; &lt;strong&gt;Question Review&lt;/strong&gt; and filter on &lt;strong&gt;Incorrect Questions!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As the exam date nears, I also took &lt;a href=&quot;https://portal.tutorialsdojo.com/courses/aws-certified-solutions-architect-professional-practice-exams/&quot;&gt;mock exams with Tutorials DOJO&lt;/a&gt; which follow the same pattern of recording my incorrect answers.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -7209,6 +7210,62 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;/div&gt;
     
 
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;Mock-9---Tutorials-DOJO---15/09/20---58%&quot;&gt;Mock 9 - Tutorials DOJO - 15/09/20 - 58%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-9---Tutorials-DOJO---15/09/20---58%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;th&gt;FAIL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mark&lt;/td&gt;
+&lt;td&gt;58.46%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Attempted&lt;/td&gt;
+&lt;td&gt;65&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Correct&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Module Breakdown&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Resillient Architectures&lt;/td&gt;
+&lt;td&gt;74.01%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- High Performing Architectures&lt;/td&gt;
+&lt;td&gt;37.5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Secure Applications &amp;amp; Architectures&lt;/td&gt;
+&lt;td&gt;63.16%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Cost Optimised Architectures&lt;/td&gt;
+&lt;td&gt;0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are using a combination of API Gateway and Lambda for the web services of your online web portal that is being accessed by hundreds of thousands of clients each day. Your company will be announcing a new revolutionary product and it is expected that your web portal will receive a massive number of visitors all around the globe.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;How can you protect your backend systems and applications from traffic spikes?&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/s9blYpT.png" /><media:content medium="image" url="https://i.imgur.com/s9blYpT.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is it better?</title><link href="https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy.html" rel="alternate" type="text/html" title="Is it better?" /><published>2020-08-15T00:00:00-05:00</published><updated>2020-08-15T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy.html">&lt;p&gt;Post-heatwave rainy. 19 degrees c.
 Eating a boiled egg before going to Kew Gardens.&lt;/p&gt;
 
