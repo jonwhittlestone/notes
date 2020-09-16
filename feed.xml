@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-16T01:37:35-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-16T10:54:41-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
 
 &lt;p&gt;The notes below are WIP while I revise during a family break in Wales&lt;/p&gt;
 
@@ -73,13 +73,14 @@ table td {max-width:inherit}
 &lt;p&gt;The idea is that I can take &lt;a href=&quot;https://learning.oreilly.com/certifications/9780136791997/&quot;&gt;an O'Reilly mock exam&lt;/a&gt; covering all modules, and mock exams focusing on individual modules.&lt;/p&gt;
 &lt;p&gt;To reference my past exams in the Pearson Interface visit &lt;strong&gt;View Exam History&lt;/strong&gt; &amp;gt; &lt;strong&gt;Question Review&lt;/strong&gt; and filter on &lt;strong&gt;Incorrect Questions!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;As the exam date nears, I also took &lt;a href=&quot;https://portal.tutorialsdojo.com/courses/aws-certified-solutions-architect-professional-practice-exams/&quot;&gt;mock exams with Tutorials DOJO&lt;/a&gt; which follow the same pattern of recording my incorrect answers.&lt;/p&gt;
+&lt;p&gt;Tutorials DOJO example tests seem a worthy buy since the questions are far more detailed (harder!) and the answers are comprehensive.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-1---20/08/20---All-Modules---58%&quot;&gt;Mock 1 - 20/08/20 - All Modules - 58%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-1---20/08/20---All-Modules---58%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;1.-O'Reilly---20/08/20---All-Modules---58%&quot;&gt;1. O'Reilly - 20/08/20 - All Modules - 58%&lt;a class=&quot;anchor-link&quot; href=&quot;#1.-O'Reilly---20/08/20---All-Modules---58%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;FAIL     &lt;/th&gt;
@@ -1201,7 +1202,7 @@ table td {max-width:inherit}
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-2---23/08/20---Module-1:-Resiliency---62%&quot;&gt;Mock 2 - 23/08/20 - Module 1: Resiliency - 62%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-2---23/08/20---Module-1:-Resiliency---62%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;2.-O'Reilly---23/08/20---Module-1:-Resiliency---62%&quot;&gt;2. O'Reilly - 23/08/20 - Module 1: Resiliency - 62%&lt;a class=&quot;anchor-link&quot; href=&quot;#2.-O'Reilly---23/08/20---Module-1:-Resiliency---62%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;FAIL     &lt;/th&gt;
@@ -2324,7 +2325,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-3---25/08/20---Module-2:-Performance---50%&quot;&gt;Mock 3 - 25/08/20 - Module 2: Performance - 50%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-3---25/08/20---Module-2:-Performance---50%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;3.-O'Reilly---25/08/20---Module-2:-Performance---50%&quot;&gt;3. O'Reilly - 25/08/20 - Module 2: Performance - 50%&lt;a class=&quot;anchor-link&quot; href=&quot;#3.-O'Reilly---25/08/20---Module-2:-Performance---50%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -3669,7 +3670,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-4---27/08/20---Module-3:-Security---47%&quot;&gt;Mock 4 - 27/08/20 - Module 3: Security - 47%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-4---27/08/20---Module-3:-Security---47%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;4.-O'Reilly---27/08/20---Module-3:-Security---47%&quot;&gt;4. O'Reilly - 27/08/20 - Module 3: Security - 47%&lt;a class=&quot;anchor-link&quot; href=&quot;#4.-O'Reilly---27/08/20---Module-3:-Security---47%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;FAIL&lt;/th&gt;
@@ -4753,7 +4754,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-5---01/09/20---Module-4:-Cost-Optimisation---57.50%&quot;&gt;Mock 5 - 01/09/20 - Module 4: Cost Optimisation - 57.50%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-5---01/09/20---Module-4:-Cost-Optimisation---57.50%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;5.-O'Reilly---01/09/20---Module-4:-Cost-Optimisation---57.50%&quot;&gt;5. O'Reilly - 01/09/20 - Module 4: Cost Optimisation - 57.50%&lt;a class=&quot;anchor-link&quot; href=&quot;#5.-O'Reilly---01/09/20---Module-4:-Cost-Optimisation---57.50%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;FAIL&lt;/th&gt;
@@ -5594,7 +5595,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-6---07/09/20---All-Modules---86%&quot;&gt;Mock 6 - 07/09/20 - All Modules - 86%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-6---07/09/20---All-Modules---86%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;6.-O'Reilly---07/09/20---All-Modules---86%&quot;&gt;6. O'Reilly - 07/09/20 - All Modules - 86%&lt;a class=&quot;anchor-link&quot; href=&quot;#6.-O'Reilly---07/09/20---All-Modules---86%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;PASS     &lt;/th&gt;
@@ -6025,7 +6026,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-7---08/09/20---All-Modules---76%&quot;&gt;Mock 7 - 08/09/20 - All Modules - 76%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-7---08/09/20---All-Modules---76%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;7.-O'Reilly---08/09/20---All-Modules---76%&quot;&gt;7. O'Reilly - 08/09/20 - All Modules - 76%&lt;a class=&quot;anchor-link&quot; href=&quot;#7.-O'Reilly---08/09/20---All-Modules---76%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;PASS     &lt;/th&gt;
@@ -6740,7 +6741,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-8---11/09/20---All-Modules---81%&quot;&gt;Mock 8 - 11/09/20 - All Modules - 81%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-8---11/09/20---All-Modules---81%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;8.-O'Reilly---11/09/20---All-Modules---81%&quot;&gt;8. O'Reilly - 11/09/20 - All Modules - 81%&lt;a class=&quot;anchor-link&quot; href=&quot;#8.-O'Reilly---11/09/20---All-Modules---81%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;PASS     &lt;/th&gt;
@@ -7212,7 +7213,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Mock-9---Tutorials-DOJO---15/09/20---58%&quot;&gt;Mock 9 - Tutorials DOJO - 15/09/20 - 58%&lt;a class=&quot;anchor-link&quot; href=&quot;#Mock-9---Tutorials-DOJO---15/09/20---58%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;9.-Tutorials-DOJO---15/09/20---All-Modules---58%&quot;&gt;9. Tutorials DOJO - 15/09/20 - All Modules - 58%&lt;a class=&quot;anchor-link&quot; href=&quot;#9.-Tutorials-DOJO---15/09/20---All-Modules---58%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;FAIL&lt;/th&gt;
@@ -7259,13 +7260,1331 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;blockquote&gt;&lt;p&gt;You are using a combination of API Gateway and Lambda for the web services of your online web portal that is being accessed by hundreds of thousands of clients each day. Your company will be announcing a new revolutionary product and it is expected that your web portal will receive a massive number of visitors all around the globe.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;You are using a combination of &lt;a href=&quot;https://tutorialsdojo.com/amazon-api-gateway/&quot;&gt;API Gateway&lt;/a&gt; and Lambda for the web services of your online web portal that is being accessed by hundreds of thousands of clients each day. Your company will be announcing a new revolutionary product and it is expected that your web portal will receive a massive number of visitors all around the globe.
+How can you protect your backend systems and applications from traffic spikes?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;How can you protect your backend systems and applications from traffic spikes?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use throttling limits in API Gateway&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;API Gateway will automatically scale and handle massive traffic spikes so you do not have to do anything.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Manually upgrade the EC2 instances being used by API Gateway&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Deploy Multi-AZ in API Gateway with Read Replica&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;   &lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Use throttling limits in API Gateway&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Throttling limits can be set for standard rates and bursts&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/api-gateway/faqs/#Throttling_and_Caching&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- API Gateway will automatically scale and handle massive traffic spikes so you do not have to do anything.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - although it can scale using AWS Edge locations&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Manually upgrade the EC2 instances being used by API Gateway&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Deploy Multi-AZ in API Gateway with Read Replica&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are working as a Solutions Architect for a major telecommunications company where you are assigned to improve the security of your database tier by tightly managing the data flow of your &lt;a href=&quot;https://tutorialsdojo.com/amazon-redshift/&quot;&gt;Amazon Redshift&lt;/a&gt; cluster. One of the requirements is to use VPC flow logs to monitor all the COPY and UNLOAD traffic of your Redshift cluster that moves in and out of your VPC.
+Which of the following is the most suitable solution to implement in this scenario?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Create a new flow log that tracks the traffic of your Amazon Redshift cluster.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enable Audit Logging in your Amazon Redshift cluster.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enable Enhanced VPC routing on your Amazon Redshift cluster.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use the Amazon Redshift Spectrum feature.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;   &lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Create a new flow log that tracks the traffic of your Amazon Redshift cluster.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Enable Audit Logging in your Amazon Redshift cluster.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Enable Enhanced VPC routing on your Amazon Redshift cluster.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Amazon Redshift Enhanced VPC Routing, Amazon Redshift forces all COPY and UNLOAD traffic between your cluster and your data repositories through your Amazon VPC.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/redshift/latest/mgmt/enhanced-vpc-routing.html&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use the Amazon Redshift Spectrum feature.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;The company that you are working for has a highly available architecture consisting of an elastic load balancer and several &lt;a href=&quot;https://tutorialsdojo.com/amazon-elastic-compute-cloud-amazon-ec2/&quot;&gt;EC2 instances&lt;/a&gt; configured with auto-scaling in three Availability Zones. You want to monitor your EC2 instances based on a particular metric, which is not readily available in CloudWatch.
+Which of the following is a custom metric in CloudWatch which you have to manually set up?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;CPU Utilization of an EC2 instance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Memory Utilization of an EC2 instance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Network packets out of an EC2 instance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Disk Reads activity of an EC2 instance&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ CPU Utilization of an EC2 instance&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;This is the only one lsted which is not readily available in Cloudwatch by default&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/mon-scripts.html#using_put_script&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Memory Utilization of an EC2 instance&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Network packets out of an EC2 instance&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Disk Reads activity of an EC2 instance &lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are managing a suite of applications in your on-premises network which are using trusted IP addresses that your partners and customers have whitelisted in their firewalls. There is a requirement to migrate these applications to AWS without requiring your partners and customers to change their IP address whitelists.&lt;/p&gt;
+&lt;p&gt;Which of the following is the most suitable solution to properly migrate your applications?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Set up an IP match condition using a CloudFront web distribution and AWS WAF to whitelist a specific IP address range in your VPC.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a Route Origin Authorization (ROA) document then once done, provision and advertise your whitelisted IP address range to your AWS account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up a list of Elastic IP addresses to map the whitelisted IP address range in your on-premises network.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Submit an AWS Request Form to migrate the IP address range that you own to your AWS Account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Set up an IP match condition using a CloudFront web distribution and AWS WAF to whitelist a specific IP address range in your VPC.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Create a Route Origin Authorization (ROA) document then once done, provision and advertise your whitelisted IP address range to your AWS account.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    -  “Bring Your Own IP Addresses (BYOIP)”&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-byoip.html&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Set up a list of Elastic IP addresses to map the whitelisted IP address range in your on-premises network.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;you cannot map the IP address of your on-premises network, which you are migrating to AWS, to an EIP address of your VPC. To satisfy the requirement, you must authorize Amazon to advertise the address range that you own&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Submit an AWS Request Form to migrate the IP address range that you own to your AWS Account.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A multi-tiered application hosted in your on-premises data center is scheduled to be migrated to AWS. The application has a message broker service which uses industry standard messaging APIs and protocols that must be migrated as well, without rewriting the messaging code in your application.&lt;/p&gt;
+&lt;p&gt;Which of the following is the most suitable service that you should use to move your messaging service to AWS?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Amazon SNS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon SWF&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon MQ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon SQS&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Amazon SNS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Amazon SWF&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Amazon MQ&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;supports industry-standard APIs and protocols so you can switch from any standards-based message broker to Amazon MQ without rewriting the messaging code&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html#sqs-difference-from-amazon-mq-sns&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-mq/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Amazon SQS&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A popular mobile game uses CloudFront, Lambda, and DynamoDB for its backend services. The player data is persisted on a DynamoDB table and the static assets are distributed by CloudFront. However, there are a lot of complaints that saving and retrieving player information is taking a lot of time.&lt;/p&gt;
+&lt;p&gt;To improve the game’s performance, which AWS service can you use to reduce DynamoDB response times from milliseconds to microseconds?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Amazon ElastiCache&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;AWS Device Farm&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon DynamoDB Accelerator (DAX)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;DynamoDB Auto Scaling&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Amazon ElastiCache&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- AWS Device Farm&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Amazon DynamoDB Accelerator (DAX)&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache that can reduce Amazon DynamoDB response times from milliseconds to microseconds, even at millions of requests per second.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/dynamodb/dax&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-dynamodb/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- DynamoDB Auto Scaling&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;An online medical system hosted in AWS stores sensitive Personally Identifiable Information (PII) of the users in an Amazon S3 bucket. Both the master keys and the unencrypted data should never be sent to AWS to comply with the strict compliance and regulatory requirements of the company.&lt;/p&gt;
+&lt;p&gt;Which S3 encryption technique should the Architect use?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use S3 server-side encryption with customer provided key.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use S3 client-side encryption with a KMS-managed customer master key.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use S3 client-side encryption with a client-side master key.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use S3 server-side encryption with a KMS managed key.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39; &lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Use S3 server-side encryption with customer provided key.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use S3 client-side encryption with a KMS-managed customer master key.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Use S3 client-side encryption with a client-side master key.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;your client-side master keys and your unencrypted data are never sent to AWS&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingEncryption.html&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use S3 server-side encryption with a KMS managed key.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are designing a banking portal which uses Amazon ElastiCache for Redis as its distributed session management component. Since the other Cloud Engineers in your department have access to your ElastiCache cluster, you have to secure the session data in the portal by requiring them to enter a password before they are granted permission to execute Redis commands.&lt;/p&gt;
+&lt;p&gt;As the Solutions Architect, which of the following should you do to meet the above requirement?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Set up an IAM Policy and MFA which requires the Cloud Engineers to enter their IAM credentials and token before they can access the ElastiCache cluster.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up a Redis replication group and enable the &lt;code&gt;AtRestEncryptionEnabled&lt;/code&gt; parameter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Authenticate the users using Redis AUTH by creating a new Redis Cluster with both the &lt;code&gt;--transit-encryption-enabled&lt;/code&gt; and &lt;code&gt;--auth-token&lt;/code&gt; parameters enabled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enable the in-transit encryption for Redis replication groups.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39; &lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Set up an IAM Policy and MFA which requires the Cloud Engineers to enter their IAM credentials and token before they can access the ElastiCache cluster.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Set up a Redis replication group and enable the `AtRestEncryptionEnabled` parameter.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Authenticate the users using Redis AUTH by creating a new Redis Cluster with both the `--transit-encryption-enabled` and `--auth-token` parameters enabled.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;To require that users enter a password on a password-protected Redis server, include the parameter --auth-token with the correct password when you create your replication group or cluster&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/auth.html&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-elasticache/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Enable the in-transit encryption for Redis replication groups.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A Docker application, which is running on an Amazon ECS cluster behind a load balancer, is heavily using DynamoDB. You are instructed to improve the database performance by distributing the workload evenly and using the provisioned throughput efficiently.&lt;/p&gt;
+&lt;p&gt;Which of the following would you consider to implement for your DynamoDB table?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Reduce the number of partition keys in the DynamoDB table.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use partition keys with high-cardinality attributes, which have a large number of distinct values for each item.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Avoid using a composite primary key, which is composed of a partition key and a sort key.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use partition keys with low-cardinality attributes, which have a few number of distinct values for each item.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39; &lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Reduce the number of partition keys in the DynamoDB table.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Use partition keys with high-cardinality attributes, which have a large number of distinct values for each item.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; Provisioned I/O capacity for the table is divided evenly among these physical partitions. Therefore a partition key design that doesn’t distribute I/O requests evenly can create “hot” partitions that result in throttling and use your provisioned I/O capacity inefficiently&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-dynamodb/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Avoid using a composite primary key, which is composed of a partition key and a sort key.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use partition keys with low-cardinality attributes, which have a few number of distinct values for each item.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A popular social network is hosted in AWS and is using a DynamoDB table as its database. There is a requirement to implement a ‘follow’ feature where users can subscribe to certain updates made by a particular user and be notified via email.&lt;/p&gt;
+&lt;p&gt;Which of the following is the most suitable solution that you should implement to meet the requirement?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Enable DynamoDB Stream and create an AWS Lambda trigger, as well as the IAM role which contains all of the permissions that the Lambda function will need at runtime. The data from the stream record will be processed by the Lambda function which will then publish a message to SNS Topic that will notify the subscribers via email.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Using the Kinesis Client Library (KCL), write an application that leverages on DynamoDB Streams Kinesis Adapter that will fetch data from the DynamoDB Streams endpoint. When there are updates made by a particular user, notify the subscribers via email using SNS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up a DAX cluster to access the source DynamoDB table. Create a new DynamoDB trigger and a Lambda function. For every update made in the user data, the trigger will send data to the Lambda function which will then notify the subscribers via email using SNS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a Lambda function that uses DynamoDB Streams Kinesis Adapter which will fetch data from the DynamoDB Streams endpoint. Set up an SNS Topic that will notify the subscribers via email when there is an update made by a particular user.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39; &lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Enable DynamoDB Stream and create an AWS Lambda trigger, as well as the IAM role which contains all of the permissions that the Lambda function will need at runtime. The data from the stream record will be processed by the Lambda function which will then publish a message to SNS Topic that will notify the subscribers via email.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;When you enable a stream on a table, DynamoDB captures information about every modification to data items in the table.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;triggers—pieces of code that automatically respond to events in DynamoDB Streams&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;AWS Lambda polls the stream and invokes your Lambda function synchronously when it detects new stream records&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html&lt;/span&gt;
+
+
+&lt;span class=&quot;s1&quot;&gt;- Using the Kinesis Client Library (KCL), write an application that leverages on DynamoDB Streams Kinesis Adapter that will fetch data from the DynamoDB Streams endpoint. When there are updates made by a particular user, notify the subscribers via email using SNS.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - the solution should mention &amp;quot;DynamoDB Streams Kinesis Adapter&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Set up a DAX cluster to access the source DynamoDB table. Create a new DynamoDB trigger and a Lambda function. For every update made in the user data, the trigger will send data to the Lambda function which will then notify the subscribers via email using SNS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Create a Lambda function that uses DynamoDB Streams Kinesis Adapter which will fetch data from the DynamoDB Streams endpoint. Set up an SNS Topic that will notify the subscribers via email when there is an update made by a particular user.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A suite of web applications is hosted in an Auto Scaling group of EC2 instances across three Availability Zones and is configured with default settings. There is an Application Load Balancer that forwards the request to the respective target group on the URL path. The scale-in policy has been triggered due to the low number of incoming traffic to the application.&lt;/p&gt;
+&lt;p&gt;Which EC2 instance will be the first one to be terminated by your Auto Scaling group?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance which has the least number of user sessions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance which has been running for the longest time&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The instance will be randomly selected by the Auto Scaling group&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance launched from the oldest launch configuration&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- The EC2 instance which has the least number of user sessions&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- The EC2 instance which has been running for the longest time&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- The instance will be randomly selected by the Auto Scaling group&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ The EC2 instance launched from the oldest launch configuration&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - The default termination policy states that if there is an equal number of instanes in multiple AZs, use the unprotected instance in the oldest launch configuration&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html#default-termination-policy&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A leading utilities provider is in the process of migrating their applications to AWS. Their Solutions Architect created an EBS-Backed EC2 instance with ephemeral0 and ephemeral1 instance store volumes attached to host a web application that fetches and stores data from a web API service.&lt;/p&gt;
+&lt;p&gt;If this instance is stopped, what will happen to the data on the ephemeral store volumes?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Data is automatically saved in an EBS volume.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data is unavailable until the instance is restarted.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data will be deleted.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data is automatically saved as an EBS snapshot.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Data is automatically saved in an EBS volume.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Data is unavailable until the instance is restarted.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;️✔️ Data will be deleted.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;If an instance reboots, data in the instance store persists but the data is lost if the instance is stopped or terminated&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-elastic-compute-cloud-amazon-ec2/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Data is automatically saved as an EBS snapshot.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A content management system (CMS) is hosted on a fleet of auto-scaled, On-Demand EC2 instances which use Amazon Aurora as its database. Currently, the system stores the file documents that the users uploaded in one of the attached EBS Volumes. Your manager noticed that the system performance is quite slow and he has instructed you to improve the architecture of the system.&lt;/p&gt;
+&lt;p&gt;In this scenario, what will you do to implement a scalable, high throughput POSIX-compliant file system?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Upgrade your existing EBS volumes to Provisioned IOPS SSD Volumes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create an S3 bucket and use this as the storage for the CMS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use EFS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use ElastiCache&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Upgrade your existing EBS volumes to Provisioned IOPS SSD Volumes&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Create an S3 bucket and use this as the storage for the CMS&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;S3 is not the best service to use because it is mainly used for “object storage”, and S3 does not provide the notion of “folders”&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;️✔️ Use EFS&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Amazon EFS to provide a common data source for workloads and applications running on more than one Amazon EC2 instance&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-s3-vs-ebs-vs-efs/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use ElastiCache&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A company has an On-Demand EC2 instance that is transferring large amounts of data to an Amazon S3 bucket in the same region. Your manager is worried about infrastructure cost considering the vast amounts of data being transferred to the bucket.&lt;/p&gt;
+&lt;p&gt;What will you say to justify this architecture?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You are only using an On-Demand EC2 instance so the cost will be lower than a Spot instance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Transferring data from an EC2 instance to an S3 bucket in the same region has no cost at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You are only using an On-Demand EC2 instance which is exactly the same price as Spot EC2 instance, launched by a persistent Spot request.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Transferring data from an EC2 instance to an S3 bucket in the same region has a 50% discount based on the AWS Pricing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- You are only using an On-Demand EC2 instance so the cost will be lower than a Spot instance.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Transferring data from an EC2 instance to an S3 bucket in the same region has no cost at all.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Transferring data from an EC2 instance to Amazon S3, Amazon Glacier, Amazon DynamoDB, Amazon SES, Amazon SQS, or Amazon SimpleDB in the same AWS Region has no cost at all.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- You are only using an On-Demand EC2 instance which is exactly the same price as Spot EC2 instance, launched by a persistent Spot request.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Transferring data from an EC2 instance to an S3 bucket in the same region has a 50&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;% d&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;iscount based on the AWS Pricing.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are an AWS Solutions Architect designing an online analytics application that uses Redshift Cluster for its data warehouse. Which service will allow you to monitor all API calls to your Redshift instance and can also provide secured data for auditing and compliance purposes?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;CloudTrail for security logs&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Redshift Spectrum&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CloudWatch&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;AWS X-Ray&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ CloudTrail for security logs&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, API calls, and other AWS services. This event history simplifies security analysis&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/aws-cloudtrail/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Redshift Spectrum&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- CloudWatch&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- AWS X-Ray&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A financial application is composed of an Auto Scaling group of EC2 instances, an Application Load Balancer, and a MySQL RDS instance in a Multi-AZ Deployments configuration. To protect the confidential data of your customers, you have to ensure that your RDS database can only be accessed using the profile credentials specific to your EC2 instances via an authentication token.&lt;/p&gt;
+&lt;p&gt;As the Solutions Architect of the company, which of the following should you do to meet the above requirement?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use a combination of IAM and STS to restrict access to your RDS instance via a temporary token.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create an IAM Role and assign it to your EC2 instances which will grant exclusive access to your RDS instance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure SSL in your application to encrypt the database connection to RDS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enable the IAM DB Authentication.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Use a combination of IAM and STS to restrict access to your RDS instance via a temporary token.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;you have to use IAM DB Authentication for this scenario, and not a combination of an IAM and STS&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Create an IAM Role and assign it to your EC2 instances which will grant exclusive access to your RDS instance.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Configure SSL in your application to encrypt the database connection to RDS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Enable the IAM DB Authentication.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;You can use IAM to centrally manage access to your database resources, instead of managing access individually on each DB instance.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-relational-database-service-amazon-rds/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;An AI-powered Forex trading application consumes thousands of data sets to train its machine learning model. The application’s workload requires a high-performance, parallel hot storage to process the training datasets concurrently. It also needs cost-effective cold storage to archive those datasets that yield low profit.&lt;/p&gt;
+&lt;p&gt;Which of the following Amazon storage services should the developer use?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use Amazon FSx For Lustre and Amazon EBS Provisioned IOPS SSD (io1) volumes for hot and cold storage respectively.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use Amazon Elastic File System and Amazon S3 for hot and cold storage respectively.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use Amazon FSx For Windows File Server and Amazon S3 for hot and cold storage respectively.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use Amazon FSx For Lustre and Amazon S3 for hot and cold storage respectively.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Use Amazon FSx For Lustre and Amazon EBS Provisioned IOPS SSD (io1) volumes for hot and cold storage respectively.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use Amazon Elastic File System and Amazon S3 for hot and cold storage respectively.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;EFS supports concurrent access to data, it does not have the high-performance ability that is required for machine learning workloads&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use Amazon FSx For Windows File Server and Amazon S3 for hot and cold storage respectively.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Use Amazon FSx For Lustre and Amazon S3 for hot and cold storage respectively.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;provides a high-performance, parallel file system for hot data. On the second requirement, we can use Amazon S3 Glacier for storing the cold data.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-fsx/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A web application is using CloudFront to distribute their images, videos, and other static contents stored in their S3 bucket to its users around the world. The company has recently introduced a new member-only access to some of its high quality media files. There is a requirement to provide access to multiple private media files only to their paying subscribers without having to change their current URLs.&lt;/p&gt;
+&lt;p&gt;Which of the following is the most suitable solution that you should implement to satisfy this requirement?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use Signed Cookies to control who can access the private files in your CloudFront distribution by modifying your application to determine whether a user should have access to your content. For members, send the required Set-Cookie headers to the viewer which will unlock the content only to them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure your CloudFront distribution to use Field-Level Encryption to protect your private data and only allow access to members.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a Signed URL with a custom policy which only allows the members to see the private files.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure your CloudFront distribution to use Match Viewer as its Origin Protocol Policy which will automatically match the user request. This will allow access to the private content if the request is a paying member and deny it if it is not a member.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Use Signed Cookies to control who can access the private files in your CloudFront distribution by modifying your application to determine whether a user should have access to your content. For members, send the required Set-Cookie headers to the viewer which will unlock the content only to them.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - Signed cookies control who can access your content but more suitable when you wish to retain your URLs&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-cloudfront/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Configure your CloudFront distribution to use Field-Level Encryption to protect your private data and only allow access to members.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Create a Signed URL with a custom policy which only allows the members to see the private files.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; the scenario explicitly says that they don’t want to change their current URLs&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Configure your CloudFront distribution to use Match Viewer as its Origin Protocol Policy which will automatically match the user request. This will allow access to the private content if the request is a paying member and deny it if it is not a member.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A travel photo sharing website is using Amazon S3 to serve high-quality photos to visitors of your website. After a few days, you found out that there are other travel websites linking and using your photos. This resulted in financial losses for your business.&lt;/p&gt;
+&lt;p&gt;What is the MOST effective method to mitigate this issue?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Block the IP addresses of the offending websites using NACL.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use CloudFront distributions for your photos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure your S3 bucket to remove public read access and use pre-signed URLs with expiry dates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Store and privately serve the high-quality photos on Amazon WorkDocs instead.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Block the IP addresses of the offending websites using NACL.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use CloudFront distributions for your photos.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Configure your S3 bucket to remove public read access and use pre-signed URLs with expiry dates.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The object owner can choose to share objects by creating a pre-signed URL using IAM credentials that are only valid for a specified duration&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/s3-pre-signed-urls-vs-cloudfront-signed-urls-vs-origin-access-identity-oai/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Store and privately serve the high-quality photos on Amazon WorkDocs instead.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You founded a tech startup that provides online training and software development courses to various students across the globe. Your team has developed an online portal in AWS where the students can log into and access the courses they are subscribed to.&lt;/p&gt;
+&lt;p&gt;Since you are in the early phases of the startup and the funding is still hard to come by, which service can help you manage the budgets for all your AWS resources?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cost Explorer&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cost Allocation Tags&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;AWS Budgets&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Payment History&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Cost Explorer&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; it only helps you visualize and manage your AWS costs and usages over time. It offers a set of reports you can view data with for up to the last 13 months, forecast how much you’re likely to spend for the next three months&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Cost Allocation Tags&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ AWS Budgets&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/aws-billing-and-cost-management/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Payment History&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A popular social media website uses a CloudFront web distribution to serve their static contents to their millions of users around the globe. They are receiving a number of complaints recently that their users take a lot of time to log into their website. There are also occasions when their users are getting HTTP 504 errors. You are instructed by your manager to significantly reduce the user’s login time to further optimize the system.&lt;/p&gt;
+&lt;p&gt;Which of the following options should you use together to set up a cost-effective solution that can improve your application’s performance? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Configure your origin to add a Cache-Control max-age directive to your objects, and specify the longest practical value for max-age to increase the cache hit ratio of your CloudFront distribution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use multiple and geographically disperse VPCs to various AWS regions then create a transit VPC to connect all of your resources. In order to handle the requests faster, set up Lambda functions in each region using the AWS Serverless Application Model (SAM) service.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up an origin failover by creating an origin group with two origins. Specify one as the primary origin and the other as the second origin which CloudFront automatically switches to when the primary origin returns specific HTTP status code failure responses.
+Deploy your application to multiple AWS regions to accommodate your users around the world. Set up a Route 53 record with latency routing policy to route incoming traffic to the region that provides the best latency to the user.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Customize the content that the CloudFront web distribution delivers to your users using Lambda@Edge, which allows your Lambda functions to execute the authentication process in AWS locations closer to the users.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Configure your origin to add a Cache-Control max-age directive to your objects, and specify the longest practical value for max-age to increase the cache hit ratio of your CloudFront distribution.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;e improving the cache hit ratio for the CloudFront distribution is irrelevant in this scenario&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;the problem in the scenario is the sluggish authentication process of your global users and not just the caching of the static objects.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use multiple and geographically disperse VPCs to various AWS regions then create a transit VPC to connect all of your resources. In order to handle the requests faster, set up Lambda functions in each region using the AWS Serverless Application Model (SAM) service.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Set up an origin failover by creating an origin group with two origins. Specify one as the primary origin and the other as the second origin which CloudFront automatically switches to when the primary origin returns specific HTTP status code failure responses.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;you can set up an origin failover by creating an origin group with two origins with one as the primary origin and the other as the second origin which CloudFront automatically switches to when the primary origin fails&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-cloudfront/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Deploy your application to multiple AWS regions to accommodate your users around the world. Set up a Route 53 record with latency routing policy to route incoming traffic to the region that provides the best latency to the user.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Customize the content that the CloudFront web distribution delivers to your users using Lambda@Edge, which allows your Lambda functions to execute the authentication process in AWS locations closer to the users.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;allow your Lambda functions to customize the content that CloudFront delivers and to execute the authentication process in AWS locations closer to the users&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/aws-lambda/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;In the VPC that you are managing, it has one EC2 instance with its data stored in its root volume. A 2nd level support engineer tried to stop the EC2 instance using the AWS CLI to save costs. However, he received an UnsupportedOperation error as a response.&lt;/p&gt;
+&lt;p&gt;What might be the cause of this?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance was using EBS-backed root volumes hence, the instance cannot be stopped.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance has been hacked.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;AWS does not allow instances to be stopped through API calls.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance was using an instance-store-backed root volume hence, the instance cannot be stopped.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- The EC2 instance was using EBS-backed root volumes hence, the instance cannot be stopped.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- The EC2 instance has been hacked.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- AWS does not allow instances to be stopped through API calls.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ The EC2 instance was using an instance-store-backed root volume hence, the instance cannot be stopped.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A global IT company with offices around the world has multiple AWS accounts. To improve efficiency and drive costs down, the Chief Information Officer (CIO) wants to set up a solution that centrally manages their AWS resources. This will allow them to procure AWS resources centrally and share resources such as AWS Transit Gateways, AWS License Manager configurations, or Amazon Route 53 Resolver rules across their various accounts.&lt;/p&gt;
+&lt;p&gt;As the Solutions Architect, which combination of options should you implement in this scenario? (Choose 2)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Consolidate all of the company's accounts using AWS ParallelCluster.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Consolidate all of the company's accounts using AWS Organizations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use AWS Control Tower to easily and securely share your resources with your AWS accounts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use the AWS Identity and Access Management service to set up cross-account access that will easily and securely share your resources with your AWS accounts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use the AWS Resource Access Manager (RAM) service to easily and securely share your resources with your AWS accounts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Consolidate all of the company&amp;#39;s accounts using AWS ParallelCluster.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Consolidate all of the company&amp;#39;s accounts using AWS Organizations.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;With Organizations, you can create member accounts and invite existing accounts to join your organization. You can organize those accounts into groups and attach policy-based controls.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use AWS Control Tower to easily and securely share your resources with your AWS accounts.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use the AWS Identity and Access Management service to set up cross-account access that will easily and securely share your resources with your AWS accounts.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Use the AWS Resource Access Manager (RAM) service to easily and securely share your resources with your AWS accounts.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;AWS Resource Access Manager (RAM) is a service that enables you to easily and securely share AWS resources with any AWS account or within your AWS Organization&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/ram/latest/userguide/shareable.html&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;An application is hosted in an AWS Fargate cluster that runs a batch job whenever an object is loaded on an Amazon S3 bucket. The minimum number of ECS Tasks is initially set to 1 to save on costs, and it will only increase the task count based on the new objects uploaded on the S3 bucket. Once processing is done, the bucket becomes empty and the ECS Task count should be back to 1.&lt;/p&gt;
+&lt;p&gt;Which is the most suitable option to implement with the LEAST amount of effort?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Set up a CloudWatch Event rule to detect S3 object PUT operations and set the target to the ECS cluster with the increased number of tasks. Create another rule to detect S3 DELETE operations and set the target to the ECS Cluster with 1 as the Task count.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up a CloudWatch Event rule to detect S3 object PUT operations and set the target to a Lambda function that will run Amazon ECS API command to increase the number of tasks on ECS. Create another rule to detect S3 DELETE operations and run the Lambda function to reduce the number of ECS tasks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up an alarm in CloudWatch to monitor CloudTrail since the S3 object-level operations are recorded on CloudTrail. Create two Lambda functions for increasing/decreasing the ECS task count. Set these as respective targets for the CloudWatch Alarm depending on the S3 event.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up an alarm in CloudWatch to monitor CloudTrail since this S3 object-level operations are recorded on CloudTrail. Set two alarm actions to update ECS task count to scale-out/scale-in depending on the S3 event.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Set up a CloudWatch Event rule to detect S3 object PUT operations and set the target to the ECS cluster with the increased number of tasks. Create another rule to detect S3 DELETE operations and set the target to the ECS Cluster with 1 as the Task count.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;You can use CloudWatch Events to run Amazon ECS tasks when certain AWS events occur&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/CloudWatch-Events-tutorial-ECS.html&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Set up a CloudWatch Event rule to detect S3 object PUT operations and set the target to a Lambda function that will run Amazon ECS API command to increase the number of tasks on ECS. Create another rule to detect S3 DELETE operations and run the Lambda function to reduce the number of ECS tasks.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;.. creating your own Lambda function for this scenario is not really necessary. It is much simpler to control ECS task directly as target for the CloudWatch Event rule.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Set up an alarm in CloudWatch to monitor CloudTrail since the S3 object-level operations are recorded on CloudTrail. Create two Lambda functions for increasing/decreasing the ECS task count. Set these as respective targets for the CloudWatch Alarm depending on the S3 event.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Set up an alarm in CloudWatch to monitor CloudTrail since this S3 object-level operations are recorded on CloudTrail. Set two alarm actions to update ECS task count to scale-out/scale-in depending on the S3 event.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A retail website has intermittent, sporadic, and unpredictable transactional workloads throughout the day that are hard to predict. The website is currently hosted on-premises and is slated to be migrated to AWS. A new relational database is needed that autoscales capacity to meet the needs of the application’s peak load and scales back down when the surge of activity is over.&lt;/p&gt;
+&lt;p&gt;Which of the following option is the MOST cost-effective and suitable database setup in this scenario?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Launch an Amazon Redshift data warehouse cluster with Concurrency Scaling.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Launch a DynamoDB Global table with Auto Scaling enabled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Launch an Amazon Aurora Serverless DB cluster then set the minimum and maximum capacity for the cluster.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Launch an Amazon Aurora Provisioned DB cluster with burstable performance DB instance class types.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Launch an Amazon Redshift data warehouse cluster with Concurrency Scaling.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Launch a DynamoDB Global table with Auto Scaling enabled.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;.. the scenario explicitly indicated that you need a relational database to handle your transactional workloads&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️️ ️Launch an Amazon Aurora Serverless DB cluster then set the minimum and maximum capacity for the cluster.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;With Aurora Serverless, the database endpoint connects to a proxy fleet that routes the workload to a fleet of resources that are automatically scaled which is good for environments were workloads are intermittent and unpredictable&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Scaling is rapid as a pool of warm resources is used ready to service requests&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.how-it-works.html&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Launch an Amazon Aurora Provisioned DB cluster with burstable performance DB instance class types.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You have a requirement to make sure that an On-Demand EC2 instance can only be accessed from this IP address (110.238.98.71) via an SSH connection. Which configuration below will satisfy this requirement?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Security Group Inbound Rule:Protocol – TCP, Port Range – 22, Source 110.238.98.71/32&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Security Group Inbound Rule: Protocol – UDP, Port Range – 22, Source 110.238.98.71/0&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Security Group Inbound Rule: Protocol – UDP, Port Range – 22, Source 110.238.98.71/32&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Security Group Inbound Rule: Protocol – TCP, Port Range – 22, Source 110.238.98.71/0&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Security Group Inbound Rule: Protocol – TCP, Port Range – 22, Source 110.238.98.71/32&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The /32 denotes one IP address and the /0 refers to the entire network&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Security Group Inbound Rule: Protocol – UDP, Port Range – 22, Source 110.238.98.71/0&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Security Group Inbound Rule: Protocol – UDP, Port Range – 22, Source 110.238.98.71/32&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Security Group Inbound Rule: Protocol – TCP, Port Range – 22, Source 110.238.98.71/0&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
 &lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/s9blYpT.png" /><media:content medium="image" url="https://i.imgur.com/s9blYpT.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is it better?</title><link href="https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy.html" rel="alternate" type="text/html" title="Is it better?" /><published>2020-08-15T00:00:00-05:00</published><updated>2020-08-15T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy.html">&lt;p&gt;Post-heatwave rainy. 19 degrees c.
 Eating a boiled egg before going to Kew Gardens.&lt;/p&gt;
 
@@ -7402,7 +8721,7 @@ table td {max-width:inherit}
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;4. &lt;a href=&quot;https://jonwhittlestone.github.io/notes/aws/revision/2020/07/29/saa-c02-chad-smith-pearson-live-lesson.html#Chad&amp;#39;s-Question-Breakdown&quot;&gt;Question Breakdown&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;4. &lt;a href=&quot;#Chad&amp;#39;s&quot;&gt;Question Breakdown&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -7417,7 +8736,7 @@ table td {max-width:inherit}
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;3. &lt;a href=&quot;https://jonwhittlestone.github.io/notes/aws/revision/2020/07/29/saa-c02-chad-smith-pearson-live-lesson.html#Chad&amp;#39;s-Question-Breakdown&quot;&gt;Questions Breakdown&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;3. Questions Breakdown&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -7674,7 +8993,7 @@ table td {max-width:inherit}
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;h2 id=&quot;Questions&quot;&gt;Questions&lt;a class=&quot;anchor-link&quot; href=&quot;#Questions&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is a good video course because at the end of each lesson, the instructor takes you through a couple of sample questions and explaining reasoning behind the correct/incorrect answers.&lt;/p&gt;
 &lt;p&gt;Questions that I have devised may be applicable. This technique came to me with the &lt;a href=&quot;http://lsc.cornell.edu/notes.html?utm_source=hackernewsletter&amp;amp;utm_medium=email&amp;amp;utm_term=learn&quot;&gt;Cornell Method&lt;/a&gt; of note-taking.&lt;/p&gt;
-&lt;h3 id=&quot;L2:-Resillient-Architectures-&amp;gt;-Multi-Tier&quot;&gt;L2: Resillient Architectures &amp;gt; Multi-Tier&lt;a class=&quot;anchor-link&quot; href=&quot;#L2:-Resillient-Architectures-&amp;gt;-Multi-Tier&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;L2-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_02_04&quot;&gt;L2 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L2-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is currently hosted on an EC2 Instance and consists of static images, Java code and a MySQL database. What steps could be performed to improve the resillience? (pick two.)&lt;/p&gt;
+&lt;h3 id=&quot;L2:-Resillient-Architectures-&amp;gt;-Multi-Tier&quot;&gt;L2: Resillient Architectures &amp;gt; Multi-Tier&lt;a class=&quot;anchor-link&quot; href=&quot;#L2:-Resillient-Architectures-&amp;gt;-Multi-Tier&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_02_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is currently hosted on an EC2 Instance and consists of static images, Java code and a MySQL database. What steps could be performed to improve the resillience? (pick two.)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Move the database to RDS and enable Multi-AZ.&lt;/li&gt;
@@ -7759,7 +9078,7 @@ table td {max-width:inherit}
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;hr /&gt;
-&lt;h3 id=&quot;L3:-Resillient-Architectures-&amp;gt;-Design-Highly-Available-and/or-Fault-Tolerant-Architectures&quot;&gt;L3: Resillient Architectures &amp;gt; Design Highly Available and/or Fault-Tolerant Architectures&lt;a class=&quot;anchor-link&quot; href=&quot;#L3:-Resillient-Architectures-&amp;gt;-Design-Highly-Available-and/or-Fault-Tolerant-Architectures&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;L3-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_03_03&quot;&gt;L3 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L3-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Assuming your application infrastructure has an availability requirement of 99.99%, which of the following resilience strategies would NOT achieve the required uptime?&lt;/p&gt;
+&lt;h3 id=&quot;L3:-Resillient-Architectures-&amp;gt;-Design-Highly-Available-and/or-Fault-Tolerant-Architectures&quot;&gt;L3: Resillient Architectures &amp;gt; Design Highly Available and/or Fault-Tolerant Architectures&lt;a class=&quot;anchor-link&quot; href=&quot;#L3:-Resillient-Architectures-&amp;gt;-Design-Highly-Available-and/or-Fault-Tolerant-Architectures&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_03_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Assuming your application infrastructure has an availability requirement of 99.99%, which of the following resilience strategies would NOT achieve the required uptime?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Deploying the database back end via RDS with Multi-AZ enabled.&lt;/li&gt;
@@ -7842,7 +9161,7 @@ table td {max-width:inherit}
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;hr /&gt;
-&lt;h3 id=&quot;L4:-Resillient-Architectures-&amp;gt;-Design-Decoupling-Mechanisms&quot;&gt;L4: Resillient Architectures &amp;gt; Design Decoupling Mechanisms&lt;a class=&quot;anchor-link&quot; href=&quot;#L4:-Resillient-Architectures-&amp;gt;-Design-Decoupling-Mechanisms&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;L4-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_04_04&quot;&gt;L4 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L4-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application team supports a service that runs on a single EC2 instance with an EIP attached. The service accepts HTTP requests and performs asynchronous work before placing results in a S3 bucket. There is a new requirement to improve the overall resilience of the application. Which of the following decoupling solutions will best improve the resilience of the infrastructure?&lt;/p&gt;
+&lt;h3 id=&quot;L4:-Resillient-Architectures-&amp;gt;-Design-Decoupling-Mechanisms&quot;&gt;L4: Resillient Architectures &amp;gt; Design Decoupling Mechanisms&lt;a class=&quot;anchor-link&quot; href=&quot;#L4:-Resillient-Architectures-&amp;gt;-Design-Decoupling-Mechanisms&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_04_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application team supports a service that runs on a single EC2 instance with an EIP attached. The service accepts HTTP requests and performs asynchronous work before placing results in a S3 bucket. There is a new requirement to improve the overall resilience of the application. Which of the following decoupling solutions will best improve the resilience of the infrastructure?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Create an AMI of the instance. Launch two instances from the AMI and place them behind an Application Load Balancer. &lt;/li&gt;
@@ -7927,7 +9246,7 @@ table td {max-width:inherit}
 &lt;hr /&gt;
 &lt;h3 id=&quot;L5:-Resillient-Architectures-&amp;gt;-Appropriate-storage&quot;&gt;L5: Resillient Architectures &amp;gt; Appropriate storage&lt;a class=&quot;anchor-link&quot; href=&quot;#L5:-Resillient-Architectures-&amp;gt;-Appropriate-storage&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Chad covers availability (S3 Intelligent tiering is 3 9s 99.9%) and durability metrics for instance storage, EBS and EFS as well as if it's scoped at the Availability zone or Region (S3-Standard)&lt;/p&gt;
 &lt;p&gt;The durability is measured in 'Annual Failure Rate'. The AFR of EBS is 0.1% - 0.2%. EG. The durability of EBS snapshots and S3 is 11 9s.&lt;/p&gt;
-&lt;h4 id=&quot;L5-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_05_04&quot;&gt;L5 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L5-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your team has been asked to implement an AWS storage infrastructure that can support multiple AZs within a region. Multiple EC2 instances will require access to the data. High availability is more important than performance. Which of the following solutions meet the requirements with the least operational overhead?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_05_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your team has been asked to implement an AWS storage infrastructure that can support multiple AZs within a region. Multiple EC2 instances will require access to the data. High availability is more important than performance. Which of the following solutions meet the requirements with the least operational overhead?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;AWS Storage Gateway in volume cache mode. Data stored in S3.&lt;/li&gt;
@@ -8014,7 +9333,7 @@ table td {max-width:inherit}
 &lt;hr /&gt;
 &lt;h3 id=&quot;L6:-Performant-Architectures-&amp;gt;-Elastic-&amp;amp;-Scalable-compute&quot;&gt;L6: Performant Architectures &amp;gt; Elastic &amp;amp; Scalable compute&lt;a class=&quot;anchor-link&quot; href=&quot;#L6:-Performant-Architectures-&amp;gt;-Elastic-&amp;amp;-Scalable-compute&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Scalability: The ability to increase resources to accomodate increase demand (vertically/horizontally)&lt;/p&gt;
 &lt;p&gt;Elasticity: The ability to &lt;strong&gt;increase&lt;/strong&gt; and &lt;strong&gt;decrease&lt;/strong&gt;. Automation is implied.&lt;/p&gt;
-&lt;h4 id=&quot;L6-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_06_03&quot;&gt;L6 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L6-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is currently deployed using AWS Auto Scaling on EC2. The application experiences a steep traffic spike twice per week, but not always at the same time. The spike usually starts within the same 60 minute window. What strategy could be used to optimize for both cost and a good user experience, as the current Auto Scaling configuration is not able to scale fast enough at the start of the traffic spike?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_06_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is currently deployed using AWS Auto Scaling on EC2. The application experiences a steep traffic spike twice per week, but not always at the same time. The spike usually starts within the same 60 minute window. What strategy could be used to optimize for both cost and a good user experience, as the current Auto Scaling configuration is not able to scale fast enough at the start of the traffic spike?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Configure Scheduled scale-out at the beginning of the hour window on the spike days.&lt;/li&gt;
@@ -8135,7 +9454,7 @@ table td {max-width:inherit}
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L7-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_07_06&quot;&gt;L7 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L7-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;When migrating an on-premises legacy database, an AWS architect must recommend an Oracle database hosting option that supports 32Tb of database storage and handles a sustained load higher than 60,000 IOPS. Which of the following choices should the architect recommend? (Choose two.)&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_07_06&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;When migrating an on-premises legacy database, an AWS architect must recommend an Oracle database hosting option that supports 32Tb of database storage and handles a sustained load higher than 60,000 IOPS. Which of the following choices should the architect recommend? (Choose two.)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;r5.12xlarge EC2 instance with multiple IOPS EBS volumes configured as a striped RAID. &lt;/li&gt;
@@ -8233,7 +9552,7 @@ table td {max-width:inherit}
 &lt;li&gt;&lt;p&gt;Enable Jumbo frames @ 9000 MTU to ensure the efficiency of TCP traffic (esp large payloads) and we need to know if data is egressing at a gateway, will the packet fragment.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L8-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_08_04&quot;&gt;L8 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L8-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is deployed with Apache Kafka onto a fleet of EC2 instances. There are multiple Kafka topics and multiple partitions per topic. The application requires high performance and low latency. Which of the following recommendations would achieve this? (Choose two.)&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_08_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is deployed with Apache Kafka onto a fleet of EC2 instances. There are multiple Kafka topics and multiple partitions per topic. The application requires high performance and low latency. Which of the following recommendations would achieve this? (Choose two.)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Use an EC2 Spread Placement Group during instance launch.&lt;/li&gt;
@@ -8332,7 +9651,7 @@ table td {max-width:inherit}
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;hr /&gt;
-&lt;h3 id=&quot;L9:-Performant-Architectures-&amp;gt;-High-performing-databases&quot;&gt;L9: Performant Architectures &amp;gt; High-performing databases&lt;a class=&quot;anchor-link&quot; href=&quot;#L9:-Performant-Architectures-&amp;gt;-High-performing-databases&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;L9-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_09_03&quot;&gt;L9 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L9-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;An HR application back end is running Postgres on an m5.xlarge EC2 instance with a single 100Gb IOPS EBS volume with 2000 provisioned IOPS. During company holidays and other slow times, the database experiences almost zero load. During mid-year and end-of-year reviews, the database gets overloaded during the days. What change would you propose to improve performance during the peaks while optimizing for cost during the slow times?&lt;/p&gt;
+&lt;h3 id=&quot;L9:-Performant-Architectures-&amp;gt;-High-performing-databases&quot;&gt;L9: Performant Architectures &amp;gt; High-performing databases&lt;a class=&quot;anchor-link&quot; href=&quot;#L9:-Performant-Architectures-&amp;gt;-High-performing-databases&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_09_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;An HR application back end is running Postgres on an m5.xlarge EC2 instance with a single 100Gb IOPS EBS volume with 2000 provisioned IOPS. During company holidays and other slow times, the database experiences almost zero load. During mid-year and end-of-year reviews, the database gets overloaded during the days. What change would you propose to improve performance during the peaks while optimizing for cost during the slow times?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Provision the maximum (based on 100Gb) of 5000 IOPS on the EBS volume.&lt;/li&gt;
 &lt;li&gt;Migrate the database to RDS Aurora Serverless and provision appropriate min/max ACUS (Aurora Compute Units) to match the peaks and slow times.&lt;/li&gt;
@@ -8454,7 +9773,7 @@ table td {max-width:inherit}
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L10-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_10_04&quot;&gt;L10 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L10-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Which of the following would be an appropriate least-privilege policy addition for an SCP to be applied to all member accounts in an AWS Organization?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_10_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Which of the following would be an appropriate least-privilege policy addition for an SCP to be applied to all member accounts in an AWS Organization?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Deny EC2 Termination actions to all users.&lt;/li&gt;
@@ -8608,7 +9927,7 @@ table td {max-width:inherit}
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L11-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_11_05&quot;&gt;L11 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L11-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your team supports a Java-based application that uses a JDBC connection to an RDS database running MySQL. The connection string contains hard-coded credentials. You've been asked to improve the security of the database credentials, and must account for a new 30-day password rotation policy on RDS. Which of the following meet the requirements with the least ongoing overhead?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_11_05&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your team supports a Java-based application that uses a JDBC connection to an RDS database running MySQL. The connection string contains hard-coded credentials. You've been asked to improve the security of the database credentials, and must account for a new 30-day password rotation policy on RDS. Which of the following meet the requirements with the least ongoing overhead?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Move the database credentials to a text file on each instance. Read the text file upon application start. Update the text file on each instance when password is rotated. &lt;/li&gt;
@@ -8767,7 +10086,7 @@ application start. Update the Parameter when password is rotated.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L12-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_12_05&quot;&gt;L12 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L12-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;A company is building a data lake containing healthcare data that must be properly secured. The data will be stored in S3 using SSE-KMS and accessed by users who will be separated into two groups&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_12_05&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;A company is building a data lake containing healthcare data that must be properly secured. The data will be stored in S3 using SSE-KMS and accessed by users who will be separated into two groups&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;those that can view PHI (protected health information), and&lt;/li&gt;
 &lt;li&gt;those that cannot.
@@ -8962,7 +10281,7 @@ EBS Standard  +   Charged for IOPS        Lower limit on size      Lower IOPS ca
               |
               |
               v&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&quot;L13-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_13_03&quot;&gt;L13 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L13-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;After an audit of your company's AWS bill, there is an initiative to reduce costs, and you've been asked to focus on S3 usage. There are tens of millions of large objects spread across many buckets. The usage patterns are varied by bucket and prefix, and are not always predictable. Which of the following cost optimization strategies would be the most appropriate?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_13_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;After an audit of your company's AWS bill, there is an initiative to reduce costs, and you've been asked to focus on S3 usage. There are tens of millions of large objects spread across many buckets. The usage patterns are varied by bucket and prefix, and are not always predictable. Which of the following cost optimization strategies would be the most appropriate?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Provision CloudFront distributions using the S3 buckets as origins to reduce the cost of accessing the objects by caching.&lt;/li&gt;
@@ -9120,7 +10439,7 @@ EBS Standard  +   Charged for IOPS        Lower limit on size      Lower IOPS ca
               |  compute resources          Redis: depends on 1 node
               |  (in memory)
              &amp;lt;+&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&quot;L14-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04&quot;&gt;L14 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L14-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;A new application is being deployed onto EC2 instances, with a requirement for horizontal scaling. The EC2 instance type doesn't need to be static, as long as the instances meet minimum CPU and memory requirements. What would be the lowest cost deployment strategy for the application as well as lowest operational overhead?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;A new application is being deployed onto EC2 instances, with a requirement for horizontal scaling. The EC2 instance type doesn't need to be static, as long as the instances meet minimum CPU and memory requirements. What would be the lowest cost deployment strategy for the application as well as lowest operational overhead?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Deploy one Auto Scaling group using single launch template with multiple instance types defined. Specify an appropriate percentage of On Demand instances to maintain resilience.&lt;/li&gt;
@@ -9258,7 +10577,7 @@ EBS Standard  +   Charged for IOPS        Lower limit on size      Lower IOPS ca
 &lt;li&gt;&lt;p&gt;To get data out to users, optimise with cloudfront instead of S3 or ALB&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L15-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_15_03&quot;&gt;L15 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L15-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your production network consists of a VPC with public and private subnets. The private subnets (in three Availability Zones) use a single NAT Gateway in the first AZ for outbound access to S3 and the Internet. Network traffic charges have increased and you've been asked to propose network architecture changes that can reduce cost. Which of the following solutions will meet the requirement without compromising network security? (Choose two.)&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_15_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your production network consists of a VPC with public and private subnets. The private subnets (in three Availability Zones) use a single NAT Gateway in the first AZ for outbound access to S3 and the Internet. Network traffic charges have increased and you've been asked to propose network architecture changes that can reduce cost. Which of the following solutions will meet the requirement without compromising network security? (Choose two.)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Migrate all VPC resources into public subnets and remove the NAT Gateway.&lt;/p&gt;
