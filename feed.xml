@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-16T10:54:41-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-17T02:31:33-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
 
 &lt;p&gt;The notes below are WIP while I revise during a family break in Wales&lt;/p&gt;
 
@@ -7213,7 +7213,7 @@ You answered this question incorrectly. The correct answers are highlighted.&lt;
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;9.-Tutorials-DOJO---15/09/20---All-Modules---58%&quot;&gt;9. Tutorials DOJO - 15/09/20 - All Modules - 58%&lt;a class=&quot;anchor-link&quot; href=&quot;#9.-Tutorials-DOJO---15/09/20---All-Modules---58%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;h2 id=&quot;9.-Tutorials-DOJO---15/09/20---Timed-Set-1-All-Modules---58%&quot;&gt;9. Tutorials DOJO - 15/09/20 - Timed Set 1 All Modules - 58%&lt;a class=&quot;anchor-link&quot; href=&quot;#9.-Tutorials-DOJO---15/09/20---Timed-Set-1-All-Modules---58%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
 &lt;th&gt;FAIL&lt;/th&gt;
@@ -8582,6 +8582,327 @@ Deploy your application to multiple AWS regions to accommodate your users around
 &lt;/div&gt;
 &lt;/p&gt;
     &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;10.-Tutorials-DOJO---17/09/20---Timed-Set-1-All-Modules---90%&quot;&gt;10. Tutorials DOJO - 17/09/20 - Timed Set 1 All Modules - 90%&lt;a class=&quot;anchor-link&quot; href=&quot;#10.-Tutorials-DOJO---17/09/20---Timed-Set-1-All-Modules---90%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Timed Mode Set 1 - 2nd attempt&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;th&gt;FAIL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mark&lt;/td&gt;
+&lt;td&gt;90.77%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Attempted&lt;/td&gt;
+&lt;td&gt;65&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Correct&lt;/td&gt;
+&lt;td&gt;59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Module Breakdown&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Resillient Architectures&lt;/td&gt;
+&lt;td&gt;88.89%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- High Performing Architectures&lt;/td&gt;
+&lt;td&gt;87.5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Secure Applications &amp;amp; Architectures&lt;/td&gt;
+&lt;td&gt;94.74%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Cost Optimised Architectures&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A travel photo sharing website is using Amazon S3 to serve high-quality photos to visitors of your website. After a few days, you found out that there are other travel websites linking and using your photos. This resulted in financial losses for your business.&lt;/p&gt;
+&lt;p&gt;What is the MOST effective method to mitigate this issue?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Configure your S3 bucket to remove public read access and use pre-signed URLs with expiry dates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use CloudFront distributions for your photos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Block the IP addresses of the offending websites using NACL.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;tore and privately serve the high-quality photos on Amazon WorkDocs instead.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Configure your S3 bucket to remove public read access and use pre-signed URLs with expiry dates.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The object owner can choose to share objects by creating a pre-signed URL using IAM credentials that are only valid for a specified duration&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/s3-pre-signed-urls-vs-cloudfront-signed-urls-vs-origin-access-identity-oai/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use CloudFront distributions for your photos.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Block the IP addresses of the offending websites using NACL.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Store and privately serve the high-quality photos on Amazon WorkDocs instead.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;In the VPC that you are managing, it has one EC2 instance with its data stored in its root volume. A 2nd level support engineer tried to stop the EC2 instance using the AWS CLI to save costs. However, he received an UnsupportedOperation error as a response.&lt;/p&gt;
+&lt;p&gt;What might be the cause of this?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance was using EBS-backed root volumes hence, the instance cannot be stopped.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance has been hacked.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The EC2 instance was using an instance-store-backed root volume hence, the instance cannot be stopped.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;AWS does not allow instances to be stopped through API calls.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- The EC2 instance was using EBS-backed root volumes hence, the instance cannot be stopped.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;incorrect because an EC2 instance with EBS-backed root volumes supports the stop operation&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- The EC2 instance has been hacked.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ The EC2 instance was using an instance-store-backed root volume hence, the instance cannot be stopped.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- AWS does not allow instances to be stopped through API calls.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;An online cryptocurrency exchange platform is hosted in AWS which uses ECS Cluster and RDS in Multi-AZ Deployments configuration. The application is heavily using the RDS instance to process complex read and write database operations. To maintain the reliability, availability, and performance of your systems, you have to closely monitor how the different processes or threads on a DB instance use the CPU, including the percentage of the CPU bandwidth and total memory consumed by each process.&lt;/p&gt;
+&lt;p&gt;Which of the following is the most suitable solution to properly monitor your database?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Check the CPU% and MEM% metrics which are readily available in the Amazon RDS console that shows the percentage of the CPU bandwidth and total memory consumed by each database process of your RDS instance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enable Enhanced Monitoring in RDS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a script that collects and publishes custom metrics to CloudWatch, which tracks the real-time CPU Utilization of the RDS instance, and then set up a custom CloudWatch dashboard to view the metrics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use Amazon CloudWatch to monitor the CPU Utilization of your database.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Check the CPU&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;% a&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;nd MEM% metrics which are readily available in the Amazon RDS console that shows the percentage of the CPU bandwidth and total memory consumed by each database process of your RDS instance.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️Enable Enhanced Monitoring in RDS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Create a script that collects and publishes custom metrics to CloudWatch, which tracks the real-time CPU Utilization of the RDS instance, and then set up a custom CloudWatch dashboard to view the metrics.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use Amazon CloudWatch to monitor the CPU Utilization of your database.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A Forex trading platform, which frequently processes and stores global financial data every minute, is hosted in your on-premises data center and uses an Oracle database. Due to a recent cooling problem in their data center, the company urgently needs to migrate their infrastructure to AWS to improve the performance of their applications. As the Solutions Architect, you are responsible in ensuring that the database is properly migrated and should remain available in case of database server failure in the future.&lt;/p&gt;
+&lt;p&gt;Which of the following is the most suitable solution to meet the requirement?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Convert the database schema using the AWS Schema Conversion Tool and AWS Database Migration Service. Migrate the Oracle database to a non-cluster Amazon Aurora with a single instance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create an Oracle database in RDS with Multi-AZ deployments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Launch an Oracle Real Application Clusters (RAC) in RDS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Launch an Oracle database instance in RDS with Recovery Manager (RMAN) enabled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Convert the database schema using the AWS Schema Conversion Tool and AWS Database Migration Service. Migrate the Oracle database to a non-cluster Amazon Aurora with a single instance.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Create an Oracle database in RDS with Multi-AZ deployments.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Launch an Oracle Real Application Clusters (RAC) in RDS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Launch an Oracle database instance in RDS with Recovery Manager (RMAN) enabled.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are building a new data analytics application in AWS which will be deployed in an Auto Scaling group of On-Demand EC2 instances and a MongoDB database. It is expected that the database will have high-throughput workloads performing small, random I/O operations. As the Solutions Architect, you are required to properly set up and launch the required resources in AWS.&lt;/p&gt;
+&lt;p&gt;Which of the following is the most suitable EBS type to use for your database?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Provisioned IOPS SSD (io1)&lt;/li&gt;
+&lt;li&gt;General Purpose SSD (gp2)&lt;/li&gt;
+&lt;li&gt;Throughput Optimized HDD (st1)&lt;/li&gt;
+&lt;li&gt;Cold HDD (sc1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Provisioned IOPS SSD (io1)&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Provisioned IOPS SSD (io1), deliver consistent performance whether an I/O operation is random or sequential&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://udemy-images.s3.amazonaws.com/redactor/raw/2019-01-19_22-34-15-d1fd30e8eaa8701ddd964e5878e78242.png&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- General Purpose SSD (gp2)&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Throughput Optimized HDD (st1)&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;deliver optimal performance only when I/O operations are large and sequential&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Cold HDD (sc1)&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;The company that you are working for has a highly available architecture consisting of an elastic load balancer and several EC2 instances configured with auto-scaling in three Availability Zones. You want to monitor your EC2 instances based on a particular metric, which is not readily available in CloudWatch.&lt;/p&gt;
+&lt;p&gt;Which of the following is a custom metric in CloudWatch which you have to manually set up?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Memory Utilization of an EC2 instance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CPU Utilization of an EC2 instance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Disk Reads activity of an EC2 instance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Network packets out of an EC2 instance&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Memory Utilization of an EC2 instance&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - If you haven&amp;#39;t set up the cloudwatch agent, you can prepare custom metrics with a perl script&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/products/databases/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- CPU Utilization of an EC2 instance&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Disk Reads activity of an EC2 instance&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Network packets out of an EC2 instance&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;
     
 
