@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-20T06:26:43-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2020-09-21T11:45:46-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">AWS well-architected framework whitepapers</title><link href="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html" rel="alternate" type="text/html" title="AWS well-architected framework whitepapers" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/aws/revision/2020/09/06/aws-well-architected-framework.html">&lt;p&gt;In Chad Smith’s seminar he suggested being very familar with the Well Architected framework white papers is essential foundation for my upcoming associate architect exam.&lt;/p&gt;
 
 &lt;p&gt;The notes below are WIP while I revise during a family break in Wales&lt;/p&gt;
 
@@ -8931,7 +8931,7 @@ Deploy your application to multiple AWS regions to accommodate your users around
 &lt;h2 id=&quot;11.-Tutorials-DOJO---19/09/20---Timed-Set-2-All-Modules---78%&quot;&gt;11. Tutorials DOJO - 19/09/20 - Timed Set 2 All Modules - 78%&lt;a class=&quot;anchor-link&quot; href=&quot;#11.-Tutorials-DOJO---19/09/20---Timed-Set-2-All-Modules---78%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;
 &lt;th&gt;Result&lt;/th&gt;
-&lt;th&gt;FAIL&lt;/th&gt;
+&lt;th&gt;PASS&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -9096,31 +9096,6 @@ Which of the following options increase the fault tolerance of the connection to
     
     
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
-&lt;div class=&quot;input&quot;&gt;
-
-&lt;div class=&quot;inner_cell&quot;&gt;
-    &lt;div class=&quot;input_area&quot;&gt;
-&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Loss&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;availability&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;primary&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Availability&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Zone&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Compute&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;failure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondary&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DB&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Storage&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;failure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondary&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DB&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Storage&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;failure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;primary&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Read&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Replica&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;failure&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-    
-
-    
-    
-&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
 &lt;details class=&quot;description&quot;&gt;
       &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
         &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
@@ -9260,27 +9235,35 @@ Which of the following options increase the fault tolerance of the connection to
 &lt;/div&gt;
     
 
-&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
-&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;blockquote&gt;&lt;p&gt;You are working for a commercial bank as an AWS Infrastructure Engineer handling the forex trading application of the bank. You have an Auto Scaling group of EC2 instances that allow your company to cope up with the current demand of traffic and achieve cost-efficiency. You want the Auto Scaling group to behave in such a way that it will follow a predefined set of parameters before it scales down the number of EC2 instances, which protects your system from unintended slowdown or unavailability.&lt;/p&gt;
-&lt;p&gt;Which of the following statements are true regarding the cooldown period? (Select TWO.)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;It ensures that the Auto Scaling group launches or terminates additional EC2 instances without any downtime.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;It ensures that before the Auto Scaling group scales out, the EC2 instances have an ample time to cooldown.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;It ensures that the Auto Scaling group does not launch or terminate additional EC2 instances before the previous scaling activity takes effect.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Its default value is 600 seconds.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Its default value is 300 seconds.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;working&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;commercial&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bank&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;an&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AWS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Infrastructure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Engineer&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;handling&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;forex&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trading&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bank&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;have&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;an&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Scaling&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EC2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instances&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allow&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;company&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cope&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;up&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;demand&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;traffic&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;achieve&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;efficiency&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;want&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Scaling&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;behave&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;such&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;way&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;follow&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;predefined&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parameters&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;before&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scales&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;down&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EC2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instances&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;protects&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;unintended&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slowdown&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unavailability&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;following&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;statements&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;regarding&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cooldown&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;period&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TWO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;It&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ensures&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Scaling&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;launches&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;terminates&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;additional&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EC2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instances&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;without&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;any&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;downtime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;It&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ensures&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;before&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Scaling&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scales&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EC2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instances&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;have&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;an&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ample&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cooldown&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;It&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ensures&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Scaling&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;does&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;launch&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;terminate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;additional&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EC2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instances&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;before&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;previous&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scaling&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;activity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;takes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;effect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Its&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;seconds&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Its&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;seconds&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+    
+
     
     
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
@@ -9315,6 +9298,13 @@ Which of the following options increase the fault tolerance of the connection to
 &lt;/div&gt;
     
 
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://k2y3h8q6.stackpathcdn.com/wp-content/uploads/2019/05/Backuprestore-f-400x1146.jpg&quot; alt=&quot;DR strategies&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;blockquote&gt;&lt;p&gt;As part of the Business Continuity Plan of your company, your IT Director instructed you to set up an automated backup of all of the EBS Volumes for your EC2 instances as soon as possible.&lt;/p&gt;
@@ -10118,6 +10108,1200 @@ Which of the following options increase the fault tolerance of the connection to
 &lt;/div&gt;
     
 
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;h2 id=&quot;12.-Tutorials-DOJO---20/09/20---Timed-Set-3-All-Modules---67%&quot;&gt;12. Tutorials DOJO - 20/09/20 - Timed Set 3 All Modules - 67%&lt;a class=&quot;anchor-link&quot; href=&quot;#12.-Tutorials-DOJO---20/09/20---Timed-Set-3-All-Modules---67%&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;th&gt;FAIL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mark&lt;/td&gt;
+&lt;td&gt;67.69%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Attempted&lt;/td&gt;
+&lt;td&gt;65&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Correct&lt;/td&gt;
+&lt;td&gt;44&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Module Breakdown&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Resillient Architectures&lt;/td&gt;
+&lt;td&gt;59.09%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- High Performing Architectures&lt;/td&gt;
+&lt;td&gt;61.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Secure Applications &amp;amp; Architectures&lt;/td&gt;
+&lt;td&gt;86.67%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Cost Optimised Architectures&lt;/td&gt;
+&lt;td&gt;71%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A leading media company has an application hosted in an EBS-backed EC2 instance which uses Simple Workflow Service (SWF) to handle its sequential background jobs. The application works well in production and your manager asked you to also implement the same solution to other areas of their business.&lt;/p&gt;
+&lt;p&gt;In which other scenarios can you use both Simple Workflow Service (SWF) and Amazon EC2 as a solution? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;For applications that require a message queue.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For a distributed session management for your mobile application.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For web applications that require content delivery networks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Managing a multi-step and multi-decision checkout process of an e-commerce mobile app.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Orchestrating the execution of distributed business processes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; - For applications that require a message queue.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; - For a distributed session management for your mobile application.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; - For web applications that require content delivery networks.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; ✔️ Managing a multi-step and multi-decision checkout process of an e-commerce mobile app.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Amazon SWF enables applications for a range of use cases, including media processing, web application back-ends, business process workflows, and analytics pipelines, to be designed as a coordination of tasks. Tasks represent invocations of various processing steps in an application which can be performed by executable code, web service calls, human actions, and scripts.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-simple-workflow-amazon-swf/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; ✔️ Orchestrating the execution of distributed business processes.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A company is deploying a Microsoft SharePoint Server environment on AWS using CloudFormation. The Solutions Architect needs to install and configure the architecture that is composed of Microsoft Active Directory (AD) domain controllers, Microsoft SQL Server 2012, multiple Amazon EC2 instances to host the Microsoft SharePoint Server and many other dependencies. The Architect needs to ensure that the required components are properly running before the stack creation proceeds.&lt;/p&gt;
+&lt;p&gt;Which of the following should the Architect do to meet this requirement?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Configure the &lt;code&gt;DependsOn&lt;/code&gt; attribute in the CloudFormation template. Send a success signal after the applications are installed and configured using the cfn-init helper script.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure a &lt;code&gt;UpdatePolicy&lt;/code&gt; attribute to the instance in the CloudFormation template. Send a success signal after the applications are installed and configured using the cfn-signal helper script.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure a &lt;code&gt;CreationPolicy&lt;/code&gt; attribute to the instance in the CloudFormation template. Send a success signal after the applications are installed and configured using the cfn-signal helper script.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure the &lt;code&gt;UpdateReplacePolicy&lt;/code&gt; attribute in the CloudFormation template. Send a success signal after the applications are installed and configured using the cfn-signal helper script.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;❌ Configure the `DependsOn` attribute in the CloudFormation template. Send a success signal after the applications are installed and configured using the cfn-init helper script.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Configure a `UpdatePolicy` attribute to the instance in the CloudFormation template. Send a success signal after the applications are installed and configured using the cfn-signal helper script.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Configure a `CreationPolicy` attribute to the instance in the CloudFormation template. Send a success signal after the applications are installed and configured using the cfn-signal helper script.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;You can associate the CreationPolicy attribute with a resource to prevent its status from reaching create complete until AWS CloudFormation receives a specified number of success signals or the timeout period is exceeded&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The AWS resources supported by creation policy are EC2, AutoScalingGroup, CloudFormation::WaitCondition&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Use the CreationPolicy attribute when you want to wait on resource configuration actions before stack creation proceeds&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/aws-cloudformation/&lt;/span&gt;
+
+
+&lt;span class=&quot;s1&quot;&gt;- Configure the UpdateReplacePolicy attribute in the CloudFormation template. Send a success signal after the applications are installed and configured using the cfn-signal helper script.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are automating the creation of EC2 instances in your VPC. Hence, you wrote a python script to trigger the Amazon EC2 API to request 50 EC2 instances in a single Availability Zone. However, you noticed that after 20 successful requests, subsequent requests failed.&lt;/p&gt;
+&lt;p&gt;What could be a reason for this issue and how would you resolve it?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;By default, AWS allows you to provision a maximum of 20 instances per Availability Zone. Select a different Availability Zone and retry the failed request.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There is a vCPU-based On-Demand Instance limit per region which is why subsequent requests failed. Just submit the limit increase form to AWS and retry the failed requests once approved.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;By default, AWS allows you to provision a maximum of 20 instances per region. Select a different region and retry the failed request.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There was an issue with the Amazon EC2 API. Just resend the requests and these will be provisioned successfully.
+Correct&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- By default, AWS allows you to provision a maximum of 20 instances per Availability Zone. Select a different Availability Zone and retry the failed request.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; .. limit is set per region and not per Availability Zone&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;️️️✔️ There is a vCPU-based On-Demand Instance limit per region which is why subsequent requests failed. Just submit the limit increase form to AWS and retry the failed requests once approved.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- By default, AWS allows you to provision a maximum of 20 instances per region. Select a different region and retry the failed request.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- There was an issue with the Amazon EC2 API. Just resend the requests and these will be provisioned successfully.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are a Solutions Architect for a major TV network. They have a web application running on eight Amazon T3 EC2 instances, consuming about 55% of resources on each instance. You are using Auto Scaling to make sure that eight instances are running at all times. The number of requests that this application processes are consistent and do not experience spikes. Your manager instructed you to ensure high availability of this web application at all times to avoid any loss of revenue. You want the load to be distributed evenly between all instances. You also want to use the same Amazon Machine Image (AMI) for all EC2 instances.&lt;/p&gt;
+&lt;p&gt;How will you be able to achieve this?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Deploy four EC2 instances with Auto Scaling in one Availability Zone and four in another availability zone in the same region behind an Amazon Elastic Load Balancer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Deploy two EC2 instances with Auto Scaling in four regions behind an Amazon Elastic Load Balancer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Deploy eight EC2 instances with Auto Scaling in one Availability Zone behind an Amazon Elastic Load Balancer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Deploy four EC2 instances with Auto Scaling in one region and four in another region behind an Amazon Elastic Load Balancer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;️️️✔️ Deploy four EC2 instances with Auto Scaling in one Availability Zone and four in another availability zone in the same region behind an Amazon Elastic Load Balancer.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/aws-elastic-load-balancing-elb/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - When the first AZ goes down, the second AZ will only have an initial 4 EC2 instances. This will eventually be scaled up to 8 instances since the solution is using Auto Scaling.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Deploy two EC2 instances with Auto Scaling in four regions behind an Amazon Elastic Load Balancer.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Deploy eight EC2 instances with Auto Scaling in one Availability Zone behind an Amazon Elastic Load Balancer.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Deploy four EC2 instances with Auto Scaling in one region and four in another region behind an Amazon Elastic Load Balancer.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;the ELB is designed to only run in one region and not across multiple regions&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are setting up the cloud architecture for an international money transfer service to be deployed in AWS which will have thousands of users around the globe. The service should be available 24/7 to avoid any business disruption and should be resilient enough to handle the outage of an entire AWS region. To meet this requirement, you have deployed your AWS resources to multiple AWS Regions. You need to use Route 53 and configure it to set all of your resources to be available all the time as much as possible. When a resource becomes unavailable, your Route 53 should detect that it’s unhealthy and stop including it when responding to queries.&lt;/p&gt;
+&lt;p&gt;Which of the following is the most fault tolerant routing configuration that you should use in this scenario?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Configure an Active-Active Failover with One Primary and One Secondary Resource.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure an Active-Passive Failover with Weighted Records.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure an Active-Passive Failover with Multiple Primary and Secondary Resources.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Configure an Active-Active Failover with Weighted routing policy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;️️️- Configure an Active-Active Failover with One Primary and One Secondary Resource.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;.. you cannot set up an Active-Active Failover with One Primary and One Secondary Resource&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; - Configure an Active-Passive Failover with Weighted Records.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; - Configure an Active-Passive Failover with Multiple Primary and Secondary Resources.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; ️️️✔️ Configure an Active-Active Failover with Weighted routing policy.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Use the Active-Active configuration when you want all of your resources to be available the majority of the time&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Use an active-passive failover configuration when you want a primary resource or group of resources to be available the majority of the time and you want a secondary resource or group of resources to be on standby&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-types.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are working as a Solutions Architect for a tech company where you are instructed to build a web architecture using On-Demand EC2 instances and a database in AWS. However, due to budget constraints, the company instructed you to choose a database service in which they no longer need to worry about database management tasks such as hardware or software provisioning, setup, configuration, scaling and backups.&lt;/p&gt;
+&lt;p&gt;Which database service in AWS is best to use in this scenario?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Redshift&lt;/li&gt;
+&lt;li&gt;Amazon ElastiCache&lt;/li&gt;
+&lt;li&gt;DynamoDB&lt;/li&gt;
+&lt;li&gt;RDS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Redshift&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Amazon ElastiCache&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;️️✔️ DynamoDB&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;In RDS, you still have to manually scale up your resources and create Read Replicas to improve scalability while in DynamoDB, this is automatically done.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;DynamoDB is &amp;#39;fully-managed&amp;#39;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- RDS&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are working for a Social Media Analytics company as its head data analyst. You want to collect gigabytes of data per second from websites and social media feeds to gain insights from data generated by its offerings and continuously improve the user experience. To meet this design requirement, you have developed an application hosted on an Auto Scaling group of Spot EC2 instances which processes the data and stores the results to DynamoDB and Redshift.&lt;/p&gt;
+&lt;p&gt;Which AWS service can you use to collect and process large streams of data records in real time?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon S3&lt;/li&gt;
+&lt;li&gt;Amazon Redshift&lt;/li&gt;
+&lt;li&gt;Amazon SWF&lt;/li&gt;
+&lt;li&gt;Amazon Kinesis Data Streams&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Amazon S3&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Amazon Redshift&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Amazon SWF&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;️️✔️ Amazon Kinesis Data Streams&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; used to collect and process large streams of data records in real time. You can use Kinesis Data Streams for rapid and continuous data intake and aggregation. The type of data used includes IT infrastructure log data, application logs, social media, market data feeds, and web clickstream data&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-kinesis/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You have a VPC that has a CIDR block of 10.31.0.0/27 which is connected to your on-premises data center. There was a requirement to create a Lambda function that will process massive amounts of cryptocurrency transactions every minute and then store the results to EFS. After you set up the serverless architecture and connected Lambda function to your VPC, you noticed that there is an increase in invocation errors with EC2 error types such as &lt;code&gt;EC2ThrottledException&lt;/code&gt; on certain times of the day.&lt;/p&gt;
+&lt;p&gt;Which of the following are the possible causes of this issue? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You only specified one subnet in your Lambda function configuration. That single subnet runs out of available IP addresses and there is no other subnet or Availability Zone which can handle the peak load.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Your VPC does not have a NAT gateway.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Your VPC does not have sufficient subnet ENIs or subnet IPs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The associated security group of your function does not allow outbound connections.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The attached IAM execution role of your function does not have the necessary permissions to access the resources of your VPC.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ You only specified one subnet in your Lambda function configuration. That single subnet runs out of available IP addresses and there is no other subnet or Availability Zone which can handle the peak load.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;It is also recommended that you specify at least one subnet in each Availability Zone in your Lambda function configuration.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Your VPC does not have a NAT gateway.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Your VPC does not have sufficient subnet ENIs or subnet IPs.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;AWS Lambda runs your function code securely within a VPC by default. However, to enable your Lambda function to access resources inside your private VPC, you must provide additional VPC-specific configuration information that includes VPC subnet IDs and security group IDs. AWS Lambda uses this information to set up elastic network interfaces (ENIs) that enable your function to connect securely to other resources within your private VPC.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;you must make sure that your VPC has sufficient ENI capacity to support the scale requirements of your Lambda function&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/aws-lambda/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- The associated security group of your function does not allow outbound connections.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- The attached IAM execution role of your function does not have the necessary permissions to access the resources of your VPC.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;The media company that you are working for has a video transcoding application running on Amazon EC2. Each EC2 instance polls a queue to find out which video should be transcoded, and then runs a transcoding process. If this process is interrupted, the video will be transcoded by another instance based on the queuing system. This application has a large backlog of videos which need to be transcoded. Your manager would like to reduce this backlog by adding more EC2 instances, however, these instances are only needed until the backlog is reduced.&lt;/p&gt;
+&lt;p&gt;In this scenario, which type of Amazon EC2 instance is the most cost-effective type to use?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Dedicated instances&lt;/li&gt;
+&lt;li&gt;On-demand instances&lt;/li&gt;
+&lt;li&gt;Spot instances&lt;/li&gt;
+&lt;li&gt;Reserved instances&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; - Dedicated instances&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; - On-demand instances&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; ✔️ Spot instances&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;..  spare compute capacity in the AWS cloud available to you at steep discounts compared to On-Demand prices&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/how-spot-instances-work.html&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; - Reserved instances&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;You are working for a FinTech startup as their AWS Solutions Architect. You deployed an application on an Amazon EC2 instance with attached Instance Store volumes and an Elastic IP address. The server is only accessed from 8 AM to 6 PM and can be stopped from 6 PM to 8 AM for cost efficiency using Lambda with the script that automates this based on tags.&lt;/p&gt;
+&lt;p&gt;Which of the following will occur when the EC2 instance is stopped and started? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The Elastic IP address is disassociated with the instance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There will be no changes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The ENI (Elastic Network Interface) is detached.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The underlying host for the instance is possibly changed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;All data on the attached instance-store devices will be lost.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- The Elastic IP address is disassociated with the instance.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- There will be no changes.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- The ENI (Elastic Network Interface) is detached.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ The underlying host for the instance is possibly changed.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ All data on the attached instance-store devices will be lost.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;If you stopped an EBS-backed EC2 instance, the volume is preserved but the data in any attached instance store volume will be erased&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;Your manager has asked you to deploy a mobile application that can collect votes for a popular singing competition. Millions of users from around the world will submit votes using their mobile phones. These votes must be collected and stored in a highly scalable and highly available data store which will be queried for real-time ranking.&lt;/p&gt;
+&lt;p&gt;Which of the following combination of services should you use to meet this requirement&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Amazon Aurora and Amazon Cognito&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon Relational Database Service (RDS) and Amazon MQ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon Redshift and AWS Mobile Hub&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon DynamoDB and AWS AppSync&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Amazon Aurora and Amazon Cognito&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Amazon Relational Database Service (RDS) and Amazon MQ&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Amazon Redshift and AWS Mobile Hub&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Amazon DynamoDB and AWS AppSync&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;When the word durability pops out, the first service that should come to your mind is Amazon S3. Since this service is not available in the answer options, we can look at the other data store available which is Amazon DynamoDB.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;An online job site is using NGINX for its application servers hosted in EC2 instances and MongoDB Atlas for its database-tier. MongoDB Atlas is a fully automated third-party cloud service which is not provided by AWS, but supports VPC peering to connect to your VPC.&lt;/p&gt;
+&lt;p&gt;Which of the following items are invalid VPC peering configurations? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;One to one relationship between two Virtual Private Cloud networks&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Edge to Edge routing via a gateway&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One VPC Peered with two VPCs using longest prefix match&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Transitive Peering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Two VPCs peered to a specific CIDR block in one VPC&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- One to one relationship between two Virtual Private Cloud networks&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Edge to Edge routing via a gateway&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- One VPC Peered with two VPCs using longest prefix match&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;️️✔️ Transitive Peering&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Two VPCs peered to a specific CIDR block in one VPC&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;In Amazon EC2, you can manage your instances from the moment you launch them up to their termination. You can flexibly control your computing costs by changing the EC2 instance state.&lt;/p&gt;
+&lt;p&gt;Which of the following statements is true regarding EC2 billing? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You will be billed when your Reserved instance is in terminated state.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You will be billed when your On-Demand instance is in pending state.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You will be billed when your Spot instance is preparing to stop with a stopping state.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You will be billed when your On-Demand instance is preparing to hibernate with a stopping state.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You will not be billed for any instance usage while an instance is not in the running state.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ You will be billed when your Reserved instance is in terminated state.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- You will be billed when your On-Demand instance is in pending state.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- You will be billed when your Spot instance is preparing to stop with a stopping state.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ You will be billed when your On-Demand instance is preparing to hibernate with a stopping state.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- You will not be billed for any instance usage while an instance is not in the running state.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A company is storing its financial reports and regulatory documents in an Amazon S3 bucket. To comply with the IT audit, they tasked their Solutions Architect to track all new objects added to the bucket as well as the removed ones. It should also track whether a versioned object is permanently deleted. The Architect must configure Amazon S3 to publish notifications for these events to a queue for post-processing and to an Amazon SNS topic that will notify the Operations team.&lt;/p&gt;
+&lt;p&gt;Which of the following is the MOST suitable solution that the Architect should implement?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new Amazon SNS topic and Amazon SQS queue. Add an S3 event notification configuration on the bucket to publish &lt;code&gt;s3:ObjectCreated:*&lt;/code&gt; and &lt;code&gt;s3:ObjectRemoved:Delete&lt;/code&gt; event types to SQS and SNS.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a new Amazon SNS topic and Amazon MQ. Add an S3 event notification configuration on the bucket to publish &lt;code&gt;s3:ObjectAdded:*&lt;/code&gt; and &lt;code&gt;s3:ObjectRemoved:*&lt;/code&gt; event types to SQS and SNS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a new Amazon SNS topic and Amazon SQS queue. Add an S3 event notification configuration on the bucket to publish &lt;code&gt;s3:ObjectCreated:*&lt;/code&gt; and &lt;code&gt;ObjectRemoved:DeleteMarkerCreated&lt;/code&gt; event types to SQS and SNS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a new Amazon SNS topic and Amazon MQ. Add an S3 event notification configuration on the bucket to publish &lt;code&gt;s3:ObjectCreated:*&lt;/code&gt; and &lt;code&gt;ObjectRemoved:DeleteMarkerCreated&lt;/code&gt; event types to SQS and SNS&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Create a new Amazon SNS topic and Amazon SQS queue. Add an S3 event notification configuration on the bucket to publish `s3:ObjectCreated:*` and `s3:ObjectRemoved:Delete` event types to SQS and SNS.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;The Amazon S3 notification feature enables you to receive notifications when certain events happen in your bucket&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Can publish to: SNS topic, SQS queue, AWS Lambda&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-s3/ &lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Create a new Amazon SNS topic and Amazon MQ. Add an S3 event notification configuration on the bucket to publish `s3:ObjectAdded:*` and `s3:ObjectRemoved:*` event types to SQS and SNS.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Create a new Amazon SNS topic and Amazon SQS queue. Add an S3 event notification configuration on the bucket to publish `s3:ObjectCreated:*` and `ObjectRemoved:DeleteMarkerCreated` event types to SQS and SNS.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;.. the s3:ObjectRemoved:DeleteMarkerCreated type is only triggered when a delete marker is created for a versioned object and not when an object is deleted or a versioned object is permanently deleted.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Create a new Amazon SNS topic and Amazon MQ. Add an S3 event notification configuration on the bucket to publish `s3:ObjectCreated:*` and `ObjectRemoved:DeleteMarkerCreated` event types to SQS and SNS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt; &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A tech startup is launching an on-demand food delivery platform using Amazon ECS cluster with an AWS Fargate serverless compute engine and Amazon Aurora. It is expected that the database read queries will significantly increase in the coming weeks ahead. A Solutions Architect recently launched two Read Replicas to the database cluster to improve the platform’s scalability.&lt;/p&gt;
+&lt;p&gt;Which of the following is the MOST suitable configuration that the Architect should implement to load balance all of the incoming read requests equally to the two Read Replicas?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Create a new Network Load Balancer to evenly distribute the read queries to the Read Replicas of the Amazon Aurora database.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enable Amazon Aurora Parallel Query.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use the built-in Cluster endpoint of the Amazon Aurora database.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use the built-in Reader endpoint of the Amazon Aurora database.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Create a new Network Load Balancer to evenly distribute the read queries to the Read Replicas of the Amazon Aurora database.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Enable Amazon Aurora Parallel Query.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; this feature simply enables Amazon Aurora to push down and distribute the computational load of a single query across thousands of CPUs in Aurora’s storage layer&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use the built-in Cluster endpoint of the Amazon Aurora database.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Use the built-in Reader endpoint of the Amazon Aurora database.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;For certain Aurora tasks, different instances or groups of instances perform different roles&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;A reader endpoint for an Aurora DB cluster provides load-balancing support for read-only connections to the DB cluster. Use the reader endpoint for read operations, such as queries. By processing those statements on the read-only Aurora Replicas, this endpoint reduces the overhead on the primary instance&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-aurora/&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;Your customer has clients all across the globe that access product files stored in several S3 buckets, which are behind each of their own CloudFront web distributions. They currently want to deliver their content to a specific client, and they need to make sure that only that client can access the data. Currently, all of their clients can access their S3 buckets directly using an S3 URL or through their CloudFront distribution. The Solutions Architect must serve the private content via CloudFront only, to secure the distribution of files.&lt;/p&gt;
+&lt;p&gt;Which combination of actions should you implement to meet the above requirements? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use AWS Cloud Map to ensure that only their client can access the files.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use AWS App Mesh to ensure that only their client can access the files.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Restrict access to files in the origin by creating an origin access identity (OAI) and give it permission to read the files in the bucket.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Require the users to access the private content by using special CloudFront signed URLs or signed cookies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use S3 pre-signed URLs to ensure that only their client can access the files. Remove permission to use Amazon S3 URLs to read the files for anyone else.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Use AWS Cloud Map to ensure that only their client can access the files.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use AWS App Mesh to ensure that only their client can access the files.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Restrict access to files in the origin by creating an origin access identity (OAI) and give it permission to read the files in the bucket.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Require users access S3 content with CloudFront URLs by setting up an OAI for your S3 bucket.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Require the users to access the private content by using special CloudFront signed URLs or signed cookies.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/s3-pre-signed-urls-vs-cloudfront-signed-urls-vs-origin-access-identity-oai/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;❌ Use S3 pre-signed URLs to ensure that only their client can access the files. Remove permission to use Amazon S3 URLs to read the files for anyone else.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; it doesn’t satisfy the requirement to serve the private content via CloudFront only&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Hs25uy7.png&quot; alt=&quot;S3 Pre-signed URLs vs CloudFront signed URLs vs OAI&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;An Architect is managing a data analytics application which exclusively uses Amazon S3 as its data storage. For the past few weeks, the application works as expected until a new change was implemented to increase the rate at which the application updates its data. There have been reports that outdated data intermittently appears when the application accesses objects from S3 bucket. The development team investigated the application logic and didn’t find any issues.&lt;/p&gt;
+&lt;p&gt;Which of the following is the MOST likely cause of this issue?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The data analytics application is designed to fetch parts of objects from the S3 bucket using a range header.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The data analytics application is designed to fetch objects from the S3 bucket using parallel requests.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The data analytics application is designed to use atomic updates across object keys.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The data analytics application is designed to update its data with an object-locking mechanism.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;❌ The data analytics application is designed to fetch parts of objects from the S3 bucket using a range header.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;using a Range header is primarily used to retrieve an object in parts and is unlikely the root cause on why the application is intermittently getting old data&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ The data analytics application is designed to fetch objects from the S3 bucket using parallel requests.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;However, information about the changes must replicate across Amazon S3, which can take some time&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;support for parallel requests means you can scale your S3 performance by the factor of your compute cluster, without making any customizations to your application&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-s3/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- The data analytics application is designed to use atomic updates across object keys.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- The data analytics application is designed to update its data with an object-locking mechanism.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;Due to the large volume of query requests, the database performance of an online reporting application significantly slowed down. The Solutions Architect is trying to convince her client to use Amazon RDS Read Replica for their application instead of setting up a Multi-AZ Deployments configuration.&lt;/p&gt;
+&lt;p&gt;What are two benefits of using Read Replicas over Multi-AZ that the Architect should point out? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Provides asynchronous replication and improves the performance of the primary database by taking read-heavy database workloads from it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Allows both read and write operations on the read replica to complement the primary database.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It enhances the read performance of your primary database by increasing its IOPS and accelerates its query processing via AWS Global Accelerator.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It elastically scales out beyond the capacity constraints of a single DB instance for read-heavy database workloads.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Provides synchronous replication and automatic failover in the case of Availability Zone service failures.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Provides asynchronous replication and improves the performance of the primary database by taking read-heavy database workloads from it.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Allows both read and write operations on the read replica to complement the primary database.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- It enhances the read performance of your primary database by increasing its IOPS and accelerates its query processing via AWS Global Accelerator.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; Read Replicas do not do anything to upgrade or increase the read throughput on the primary DB instance per se, but it provides a way for your application to fetch data from replicas&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ It elastically scales out beyond the capacity constraints of a single DB instance for read-heavy database workloads.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-relational-database-service-amazon-rds/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Provides synchronous replication and automatic failover in the case of Availability Zone service failures.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A manufacturing company has EC2 instances running in AWS. The EC2 instances are configured with Auto Scaling. There are a lot of requests being lost because of too much load on the servers. The Auto Scaling is launching new EC2 instances to take the load accordingly yet, there are still some requests that are being lost.&lt;/p&gt;
+&lt;p&gt;Which of the following is the MOST suitable solution that you should implement to avoid losing recently submitted requests?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use an Amazon SQS queue to decouple the application components and scale-out the EC2 instances based upon the &lt;code&gt;ApproximateNumberOfMessages&lt;/code&gt; metric in Amazon CloudWatch.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Replace the Auto Scaling group with a cluster placement group to achieve a low-latency network performance necessary for tightly-coupled node-to-node communication.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use larger instances for your application with an attached Elastic Fabric Adapter (EFA).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up Amazon Aurora Serverless for on-demand, auto-scaling configuration of your EC2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Instances and also enable Amazon Aurora Parallel Query feature for faster analytical queries over your current data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;✔️ Use an Amazon SQS queue to decouple the application components and scale-out the EC2 instances based upon the ApproximateNumberOfMessages metric in Amazon CloudWatch.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;To determine message backlog, first determine length of SQS queue and divide that number by the fleet&amp;#39;s running capacity&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://tutorialsdojo.com/amazon-sqs/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Replace the Auto Scaling group with a cluster placement group to achieve a low-latency network performance necessary for tightly-coupled node-to-node communication.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use larger instances for your application with an attached Elastic Fabric Adapter (EFA).&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Set up Amazon Aurora Serverless for on-demand, auto-scaling configuration of your EC2 &lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Instances and also enable Amazon Aurora Parallel Query feature for faster analytical queries over your current data.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;An online stocks trading application that stores financial data in an S3 bucket has a lifecycle policy that moves older data to Glacier every month. There is a strict compliance requirement where a surprise audit can happen at anytime and you should be able to retrieve the required data in under 15 minutes under all circumstances. Your manager instructed you to ensure that retrieval capacity is available when you need it and should handle up to 150 MB/s of retrieval throughput.&lt;/p&gt;
+&lt;p&gt;Which of the following should you do to meet the above requirement? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Specify a range, or portion, of the financial data archive to retrieve.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Retrieve the data using Amazon Glacier Select.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Purchase provisioned retrieval capacity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use Expedited Retrieval to access the financial data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use Bulk Retrieval to access the financial data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Specify a range, or portion, of the financial data archive to retrieve.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Retrieve the data using Amazon Glacier Select.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Purchase provisioned retrieval capacity.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Ensures your retrieval capacity for expedited retrievals is available when you need it&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Use Expedited Retrieval to access the financial data.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;Allows you to quickly access your data when occasional urgent requests are required&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use Bulk Retrieval to access the financial data&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A Solutions Architect working for a startup is designing a High Performance Computing (HPC) application which is publicly accessible for their customers. The startup founders want to mitigate distributed denial-of-service (DDoS) attacks on their application.&lt;/p&gt;
+&lt;p&gt;Which of the following options are not suitable to be implemented in this scenario? (Select TWO.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Use an Application Load Balancer with Auto Scaling groups for your EC2 instances. Prevent direct Internet traffic to your Amazon RDS database by deploying it to a new private subnet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use AWS Shield and AWS WAF.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use an Amazon CloudFront service for distributing both static and dynamic content.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add multiple Elastic Fabric Adapters (EFA) to each EC2 instance to increase the network bandwidth.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use Dedicated EC2 instances to ensure that each instance has the maximum performance possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Use an Application Load Balancer with Auto Scaling groups for your EC2 instances. Prevent direct Internet traffic to your Amazon RDS database by deploying it to a new private subnet.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use AWS Shield and AWS WAF.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Use an Amazon CloudFront service for distributing both static and dynamic content.&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Add multiple Elastic Fabric Adapters (EFA) to each EC2 instance to increase the network bandwidth.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;this is mainly done for performance improvement, and not for DDoS attack mitigation&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Use Dedicated EC2 instances to ensure that each instance has the maximum performance possible.&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot; is not a viable mitigation technique because Dedicated EC2 instances are just an instance billing option&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/answers/networking/aws-ddos-attack-mitigation/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;A data analytics company is setting up an innovative checkout-free grocery store. Their Solutions Architect developed a real-time monitoring application that uses smart sensors to collect the items that the customers are getting from the grocery’s refrigerators and shelves then automatically deduct it from their accounts. The company wants to analyze the items that are frequently being bought and store the results in S3 for durable storage to determine the purchase behavior of its customers.&lt;/p&gt;
+&lt;p&gt;What service must be used to easily capture, transform, and load streaming data into Amazon S3, Amazon Elasticsearch Service, and Splunk?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Amazon Redshift&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon SQS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon Kinesis Data Firehose&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Amazon Kinesis&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;details class=&quot;description&quot;&gt;
+      &lt;summary class=&quot;btn btn-sm&quot; data-open=&quot;Hide Code&quot; data-close=&quot;Show Code&quot;&gt;&lt;/summary&gt;
+        &lt;p&gt;&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#collapse&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;️&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;- Amazon Redshift&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Amazon SQS&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;✔️ Amazon Kinesis Data Firehose&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;You can use Amazon Kinesis Data Firehose in conjunction with Amazon Kinesis Data Streams if you need to implement real-time processing of streaming big data&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - https://aws.amazon.com/kinesis/data-streams/faqs/&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;- Amazon Kinesis&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;    - &amp;quot;incorrect because this is the streaming data platform of AWS and has four distinct services under it: Kinesis Data Firehose, Kinesis Data Streams, Kinesis Video Streams, and Amazon Kinesis Data Analytics. For the specific use case just as asked in the scenario, use Kinesis Data Firehose.&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/div&gt;
+    
+
 &lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/s9blYpT.png" /><media:content medium="image" url="https://i.imgur.com/s9blYpT.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is it better?</title><link href="https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy.html" rel="alternate" type="text/html" title="Is it better?" /><published>2020-08-15T00:00:00-05:00</published><updated>2020-08-15T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/memories/2020/08/15/my-first-empathy.html">&lt;p&gt;Post-heatwave rainy. 19 degrees c.
 Eating a boiled egg before going to Kew Gardens.&lt;/p&gt;
 
@@ -10254,7 +11438,7 @@ table td {max-width:inherit}
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;4. &lt;a href=&quot;https://jonwhittlestone.github.io/notes/aws/revision/2020/07/29/saa-c02-chad-smith-pearson-live-lesson.html#Chad&amp;#39;s-Question-Breakdown&quot;&gt;Question Breakdown&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;4. &lt;a href=&quot;#Chad&amp;#39;s&quot;&gt;Question Breakdown&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -10269,7 +11453,7 @@ table td {max-width:inherit}
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;3. &lt;a href=&quot;https://jonwhittlestone.github.io/notes/aws/revision/2020/07/29/saa-c02-chad-smith-pearson-live-lesson.html#Chad&amp;#39;s-Question-Breakdown&quot;&gt;Questions Breakdown&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;3. Questions Breakdown&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -10526,7 +11710,7 @@ table td {max-width:inherit}
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;h2 id=&quot;Questions&quot;&gt;Questions&lt;a class=&quot;anchor-link&quot; href=&quot;#Questions&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is a good video course because at the end of each lesson, the instructor takes you through a couple of sample questions and explaining reasoning behind the correct/incorrect answers.&lt;/p&gt;
 &lt;p&gt;Questions that I have devised may be applicable. This technique came to me with the &lt;a href=&quot;http://lsc.cornell.edu/notes.html?utm_source=hackernewsletter&amp;amp;utm_medium=email&amp;amp;utm_term=learn&quot;&gt;Cornell Method&lt;/a&gt; of note-taking.&lt;/p&gt;
-&lt;h3 id=&quot;L2:-Resillient-Architectures-&amp;gt;-Multi-Tier&quot;&gt;L2: Resillient Architectures &amp;gt; Multi-Tier&lt;a class=&quot;anchor-link&quot; href=&quot;#L2:-Resillient-Architectures-&amp;gt;-Multi-Tier&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;L2-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_02_04&quot;&gt;L2 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L2-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is currently hosted on an EC2 Instance and consists of static images, Java code and a MySQL database. What steps could be performed to improve the resillience? (pick two.)&lt;/p&gt;
+&lt;h3 id=&quot;L2:-Resillient-Architectures-&amp;gt;-Multi-Tier&quot;&gt;L2: Resillient Architectures &amp;gt; Multi-Tier&lt;a class=&quot;anchor-link&quot; href=&quot;#L2:-Resillient-Architectures-&amp;gt;-Multi-Tier&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_02_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is currently hosted on an EC2 Instance and consists of static images, Java code and a MySQL database. What steps could be performed to improve the resillience? (pick two.)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Move the database to RDS and enable Multi-AZ.&lt;/li&gt;
@@ -10611,7 +11795,7 @@ table td {max-width:inherit}
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;hr /&gt;
-&lt;h3 id=&quot;L3:-Resillient-Architectures-&amp;gt;-Design-Highly-Available-and/or-Fault-Tolerant-Architectures&quot;&gt;L3: Resillient Architectures &amp;gt; Design Highly Available and/or Fault-Tolerant Architectures&lt;a class=&quot;anchor-link&quot; href=&quot;#L3:-Resillient-Architectures-&amp;gt;-Design-Highly-Available-and/or-Fault-Tolerant-Architectures&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;L3-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_03_03&quot;&gt;L3 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L3-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Assuming your application infrastructure has an availability requirement of 99.99%, which of the following resilience strategies would NOT achieve the required uptime?&lt;/p&gt;
+&lt;h3 id=&quot;L3:-Resillient-Architectures-&amp;gt;-Design-Highly-Available-and/or-Fault-Tolerant-Architectures&quot;&gt;L3: Resillient Architectures &amp;gt; Design Highly Available and/or Fault-Tolerant Architectures&lt;a class=&quot;anchor-link&quot; href=&quot;#L3:-Resillient-Architectures-&amp;gt;-Design-Highly-Available-and/or-Fault-Tolerant-Architectures&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_03_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Assuming your application infrastructure has an availability requirement of 99.99%, which of the following resilience strategies would NOT achieve the required uptime?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Deploying the database back end via RDS with Multi-AZ enabled.&lt;/li&gt;
@@ -10694,7 +11878,7 @@ table td {max-width:inherit}
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;hr /&gt;
-&lt;h3 id=&quot;L4:-Resillient-Architectures-&amp;gt;-Design-Decoupling-Mechanisms&quot;&gt;L4: Resillient Architectures &amp;gt; Design Decoupling Mechanisms&lt;a class=&quot;anchor-link&quot; href=&quot;#L4:-Resillient-Architectures-&amp;gt;-Design-Decoupling-Mechanisms&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;L4-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_04_04&quot;&gt;L4 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L4-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application team supports a service that runs on a single EC2 instance with an EIP attached. The service accepts HTTP requests and performs asynchronous work before placing results in a S3 bucket. There is a new requirement to improve the overall resilience of the application. Which of the following decoupling solutions will best improve the resilience of the infrastructure?&lt;/p&gt;
+&lt;h3 id=&quot;L4:-Resillient-Architectures-&amp;gt;-Design-Decoupling-Mechanisms&quot;&gt;L4: Resillient Architectures &amp;gt; Design Decoupling Mechanisms&lt;a class=&quot;anchor-link&quot; href=&quot;#L4:-Resillient-Architectures-&amp;gt;-Design-Decoupling-Mechanisms&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_04_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application team supports a service that runs on a single EC2 instance with an EIP attached. The service accepts HTTP requests and performs asynchronous work before placing results in a S3 bucket. There is a new requirement to improve the overall resilience of the application. Which of the following decoupling solutions will best improve the resilience of the infrastructure?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Create an AMI of the instance. Launch two instances from the AMI and place them behind an Application Load Balancer. &lt;/li&gt;
@@ -10779,7 +11963,7 @@ table td {max-width:inherit}
 &lt;hr /&gt;
 &lt;h3 id=&quot;L5:-Resillient-Architectures-&amp;gt;-Appropriate-storage&quot;&gt;L5: Resillient Architectures &amp;gt; Appropriate storage&lt;a class=&quot;anchor-link&quot; href=&quot;#L5:-Resillient-Architectures-&amp;gt;-Appropriate-storage&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Chad covers availability (S3 Intelligent tiering is 3 9s 99.9%) and durability metrics for instance storage, EBS and EFS as well as if it's scoped at the Availability zone or Region (S3-Standard)&lt;/p&gt;
 &lt;p&gt;The durability is measured in 'Annual Failure Rate'. The AFR of EBS is 0.1% - 0.2%. EG. The durability of EBS snapshots and S3 is 11 9s.&lt;/p&gt;
-&lt;h4 id=&quot;L5-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_05_04&quot;&gt;L5 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L5-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your team has been asked to implement an AWS storage infrastructure that can support multiple AZs within a region. Multiple EC2 instances will require access to the data. High availability is more important than performance. Which of the following solutions meet the requirements with the least operational overhead?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_02_05_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your team has been asked to implement an AWS storage infrastructure that can support multiple AZs within a region. Multiple EC2 instances will require access to the data. High availability is more important than performance. Which of the following solutions meet the requirements with the least operational overhead?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;AWS Storage Gateway in volume cache mode. Data stored in S3.&lt;/li&gt;
@@ -10866,7 +12050,7 @@ table td {max-width:inherit}
 &lt;hr /&gt;
 &lt;h3 id=&quot;L6:-Performant-Architectures-&amp;gt;-Elastic-&amp;amp;-Scalable-compute&quot;&gt;L6: Performant Architectures &amp;gt; Elastic &amp;amp; Scalable compute&lt;a class=&quot;anchor-link&quot; href=&quot;#L6:-Performant-Architectures-&amp;gt;-Elastic-&amp;amp;-Scalable-compute&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Scalability: The ability to increase resources to accomodate increase demand (vertically/horizontally)&lt;/p&gt;
 &lt;p&gt;Elasticity: The ability to &lt;strong&gt;increase&lt;/strong&gt; and &lt;strong&gt;decrease&lt;/strong&gt;. Automation is implied.&lt;/p&gt;
-&lt;h4 id=&quot;L6-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_06_03&quot;&gt;L6 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L6-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is currently deployed using AWS Auto Scaling on EC2. The application experiences a steep traffic spike twice per week, but not always at the same time. The spike usually starts within the same 60 minute window. What strategy could be used to optimize for both cost and a good user experience, as the current Auto Scaling configuration is not able to scale fast enough at the start of the traffic spike?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_06_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is currently deployed using AWS Auto Scaling on EC2. The application experiences a steep traffic spike twice per week, but not always at the same time. The spike usually starts within the same 60 minute window. What strategy could be used to optimize for both cost and a good user experience, as the current Auto Scaling configuration is not able to scale fast enough at the start of the traffic spike?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Configure Scheduled scale-out at the beginning of the hour window on the spike days.&lt;/li&gt;
@@ -10987,7 +12171,7 @@ table td {max-width:inherit}
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L7-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_07_06&quot;&gt;L7 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L7-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;When migrating an on-premises legacy database, an AWS architect must recommend an Oracle database hosting option that supports 32Tb of database storage and handles a sustained load higher than 60,000 IOPS. Which of the following choices should the architect recommend? (Choose two.)&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_07_06&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;When migrating an on-premises legacy database, an AWS architect must recommend an Oracle database hosting option that supports 32Tb of database storage and handles a sustained load higher than 60,000 IOPS. Which of the following choices should the architect recommend? (Choose two.)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;r5.12xlarge EC2 instance with multiple IOPS EBS volumes configured as a striped RAID. &lt;/li&gt;
@@ -11085,7 +12269,7 @@ table td {max-width:inherit}
 &lt;li&gt;&lt;p&gt;Enable Jumbo frames @ 9000 MTU to ensure the efficiency of TCP traffic (esp large payloads) and we need to know if data is egressing at a gateway, will the packet fragment.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L8-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_08_04&quot;&gt;L8 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L8-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is deployed with Apache Kafka onto a fleet of EC2 instances. There are multiple Kafka topics and multiple partitions per topic. The application requires high performance and low latency. Which of the following recommendations would achieve this? (Choose two.)&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_08_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;An application is deployed with Apache Kafka onto a fleet of EC2 instances. There are multiple Kafka topics and multiple partitions per topic. The application requires high performance and low latency. Which of the following recommendations would achieve this? (Choose two.)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Use an EC2 Spread Placement Group during instance launch.&lt;/li&gt;
@@ -11184,7 +12368,7 @@ table td {max-width:inherit}
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
 &lt;hr /&gt;
-&lt;h3 id=&quot;L9:-Performant-Architectures-&amp;gt;-High-performing-databases&quot;&gt;L9: Performant Architectures &amp;gt; High-performing databases&lt;a class=&quot;anchor-link&quot; href=&quot;#L9:-Performant-Architectures-&amp;gt;-High-performing-databases&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;L9-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_09_03&quot;&gt;L9 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L9-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;An HR application back end is running Postgres on an m5.xlarge EC2 instance with a single 100Gb IOPS EBS volume with 2000 provisioned IOPS. During company holidays and other slow times, the database experiences almost zero load. During mid-year and end-of-year reviews, the database gets overloaded during the days. What change would you propose to improve performance during the peaks while optimizing for cost during the slow times?&lt;/p&gt;
+&lt;h3 id=&quot;L9:-Performant-Architectures-&amp;gt;-High-performing-databases&quot;&gt;L9: Performant Architectures &amp;gt; High-performing databases&lt;a class=&quot;anchor-link&quot; href=&quot;#L9:-Performant-Architectures-&amp;gt;-High-performing-databases&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_03_09_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;p&gt;An HR application back end is running Postgres on an m5.xlarge EC2 instance with a single 100Gb IOPS EBS volume with 2000 provisioned IOPS. During company holidays and other slow times, the database experiences almost zero load. During mid-year and end-of-year reviews, the database gets overloaded during the days. What change would you propose to improve performance during the peaks while optimizing for cost during the slow times?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Provision the maximum (based on 100Gb) of 5000 IOPS on the EBS volume.&lt;/li&gt;
 &lt;li&gt;Migrate the database to RDS Aurora Serverless and provision appropriate min/max ACUS (Aurora Compute Units) to match the peaks and slow times.&lt;/li&gt;
@@ -11306,7 +12490,7 @@ table td {max-width:inherit}
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L10-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_10_04&quot;&gt;L10 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L10-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Which of the following would be an appropriate least-privilege policy addition for an SCP to be applied to all member accounts in an AWS Organization?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_10_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Which of the following would be an appropriate least-privilege policy addition for an SCP to be applied to all member accounts in an AWS Organization?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Deny EC2 Termination actions to all users.&lt;/li&gt;
@@ -11460,7 +12644,7 @@ table td {max-width:inherit}
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L11-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_11_05&quot;&gt;L11 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L11-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your team supports a Java-based application that uses a JDBC connection to an RDS database running MySQL. The connection string contains hard-coded credentials. You've been asked to improve the security of the database credentials, and must account for a new 30-day password rotation policy on RDS. Which of the following meet the requirements with the least ongoing overhead?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_11_05&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your team supports a Java-based application that uses a JDBC connection to an RDS database running MySQL. The connection string contains hard-coded credentials. You've been asked to improve the security of the database credentials, and must account for a new 30-day password rotation policy on RDS. Which of the following meet the requirements with the least ongoing overhead?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Move the database credentials to a text file on each instance. Read the text file upon application start. Update the text file on each instance when password is rotated. &lt;/li&gt;
@@ -11619,7 +12803,7 @@ application start. Update the Parameter when password is rotated.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L12-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_12_05&quot;&gt;L12 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L12-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;A company is building a data lake containing healthcare data that must be properly secured. The data will be stored in S3 using SSE-KMS and accessed by users who will be separated into two groups&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_04_12_05&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;A company is building a data lake containing healthcare data that must be properly secured. The data will be stored in S3 using SSE-KMS and accessed by users who will be separated into two groups&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;those that can view PHI (protected health information), and&lt;/li&gt;
 &lt;li&gt;those that cannot.
@@ -11814,7 +12998,7 @@ EBS Standard  +   Charged for IOPS        Lower limit on size      Lower IOPS ca
               |
               |
               v&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&quot;L13-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_13_03&quot;&gt;L13 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L13-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;After an audit of your company's AWS bill, there is an initiative to reduce costs, and you've been asked to focus on S3 usage. There are tens of millions of large objects spread across many buckets. The usage patterns are varied by bucket and prefix, and are not always predictable. Which of the following cost optimization strategies would be the most appropriate?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_13_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;After an audit of your company's AWS bill, there is an initiative to reduce costs, and you've been asked to focus on S3 usage. There are tens of millions of large objects spread across many buckets. The usage patterns are varied by bucket and prefix, and are not always predictable. Which of the following cost optimization strategies would be the most appropriate?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Provision CloudFront distributions using the S3 buckets as origins to reduce the cost of accessing the objects by caching.&lt;/li&gt;
@@ -11972,7 +13156,7 @@ EBS Standard  +   Charged for IOPS        Lower limit on size      Lower IOPS ca
               |  compute resources          Redis: depends on 1 node
               |  (in memory)
              &amp;lt;+&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&quot;L14-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04&quot;&gt;L14 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L14-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;A new application is being deployed onto EC2 instances, with a requirement for horizontal scaling. The EC2 instance type doesn't need to be static, as long as the instances meet minimum CPU and memory requirements. What would be the lowest cost deployment strategy for the application as well as lowest operational overhead?&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_14_04&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;A new application is being deployed onto EC2 instances, with a requirement for horizontal scaling. The EC2 instance type doesn't need to be static, as long as the instances meet minimum CPU and memory requirements. What would be the lowest cost deployment strategy for the application as well as lowest operational overhead?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Deploy one Auto Scaling group using single launch template with multiple instance types defined. Specify an appropriate percentage of On Demand instances to maintain resilience.&lt;/li&gt;
@@ -12110,7 +13294,7 @@ EBS Standard  +   Charged for IOPS        Lower limit on size      Lower IOPS ca
 &lt;li&gt;&lt;p&gt;To get data out to users, optimise with cloudfront instead of S3 or ALB&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;L15-Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_15_03&quot;&gt;L15 Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#L15-Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your production network consists of a VPC with public and private subnets. The private subnets (in three Availability Zones) use a single NAT Gateway in the first AZ for outbound access to S3 and the Internet. Network traffic charges have increased and you've been asked to propose network architecture changes that can reduce cost. Which of the following solutions will meet the requirement without compromising network security? (Choose two.)&lt;/p&gt;
+&lt;h4 id=&quot;Chad's-Question-Breakdown&quot;&gt;&lt;a href=&quot;https://learning.oreilly.com/videos/aws-certified-solutions/9780136721246/9780136721246-ACS2_05_15_03&quot;&gt;Chad's Question Breakdown&lt;/a&gt;&lt;a class=&quot;anchor-link&quot; href=&quot;#Chad's-Question-Breakdown&quot;&gt; &lt;/a&gt;&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;Your production network consists of a VPC with public and private subnets. The private subnets (in three Availability Zones) use a single NAT Gateway in the first AZ for outbound access to S3 and the Internet. Network traffic charges have increased and you've been asked to propose network architecture changes that can reduce cost. Which of the following solutions will meet the requirement without compromising network security? (Choose two.)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Migrate all VPC resources into public subnets and remove the NAT Gateway.&lt;/p&gt;
