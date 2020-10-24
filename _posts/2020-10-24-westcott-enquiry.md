@@ -1,7 +1,6 @@
 ---
 toc: true
 layout: post
-description: A simple answer for a simple question
 categories: ['Memories']
 title: Question
 image: https://i.imgur.com/6W2oktj.jpg
@@ -17,6 +16,7 @@ The transformers episode continues to roll over whilst he clambers around on the
 And then stops his clambering, turns to me and asks ....
 <br><br><br><br>
 > "Daddy, do Aliens live in Westcott ?"
+<br><br><br><br>
 
 <hr>
 
