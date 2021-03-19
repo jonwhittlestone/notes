@@ -18,7 +18,7 @@ Here are some toe-tappers. More as they come to me.
 
   Compiled by Datashat from the libraries of KPM, Bruton Rouge, DeWolfe and Atmosphere. 1972 - 1984
   
-  * [Music for Programming 36](  https://www.musicforprogramming.net/?thirtysix)
+* [Music for Programming 36](  https://www.musicforprogramming.net/?thirtysix)
 
   Minimal. Tribal.
   
