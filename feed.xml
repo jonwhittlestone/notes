@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2021-04-07T10:07:30-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">Video Course Notes - React Hooks</title><link href="https://jonwhittlestone.github.io/notes/revision/frontend%20development/2020/11/11/react-hooks-notes.html" rel="alternate" type="text/html" title="Video Course Notes - React Hooks" /><published>2020-11-11T00:00:00-06:00</published><updated>2020-11-11T00:00:00-06:00</updated><id>https://jonwhittlestone.github.io/notes/revision/frontend%20development/2020/11/11/react-hooks-notes</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/revision/frontend%20development/2020/11/11/react-hooks-notes.html">&lt;p&gt;Having the O’Reilly membership is a real developer super power.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://jonwhittlestone.github.io/notes/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonwhittlestone.github.io/notes/" rel="alternate" type="text/html" /><updated>2021-04-07T12:09:02-05:00</updated><id>https://jonwhittlestone.github.io/notes/feed.xml</id><title type="html">notes</title><subtitle>Notes on life - inspired by Zettlekasten.</subtitle><entry><title type="html">An experiment for a simpler life</title><link href="https://jonwhittlestone.github.io/notes/productivity/memories/2021/04/07/another-post-on-digital-detoxing-the-lightphone.html" rel="alternate" type="text/html" title="An experiment for a simpler life" /><published>2021-04-07T00:00:00-05:00</published><updated>2021-04-07T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/productivity/memories/2021/04/07/another-post-on-digital-detoxing-the-lightphone</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/productivity/memories/2021/04/07/another-post-on-digital-detoxing-the-lightphone.html">&lt;p&gt;The amount of time most of us spend looking at mobile phones is diverting our attention from what’s important.&lt;/p&gt;
+
+&lt;p&gt;I’ve taken a drastic step and started using a phone without the Internet and apps. Its an attempt to try and be in the moment a little more. Especially as lockdown restrictions are ending and everyone will finally be allowed outside. All that refound excitement in the world, who needs to check their feeds on a smartphone??&lt;/p&gt;
+
+&lt;p&gt;This week I started using &lt;a href=&quot;https://www.theguardian.com/technology/2019/sep/20/light-phone-one-week&quot;&gt;Light Phone II&lt;/a&gt; as an experiment. It’s an E Ink phone with limited features. 
+However, in case you need to use the internet connection with another device, it does have a 4g modem with the ability to tether the connection (It’s an Android OS under the bonnet)&lt;/p&gt;
+
+&lt;p&gt;I imagine I’ll feel fairly isolated at first but may mean I’m a better parent, husband and worker drone!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;no-whatsapp&quot;&gt;No WhatsApp?&lt;/h3&gt;
+
+&lt;p&gt;Yep, that’s right, no apps. But I can message with SMS, and I can get &lt;a href=&quot;https://www.thesun.co.uk/tech/13684416/what-is-signal-whatsapp-users-change-app/&quot;&gt;Signal&lt;/a&gt; on my computer.&lt;/p&gt;
+
+&lt;h3 id=&quot;maps-&quot;&gt;Maps ??&lt;/h3&gt;
+
+&lt;p&gt;Yes, apparently there’s a service that will text you directions&lt;/p&gt;</content><author><name></name></author><summary type="html">The amount of time most of us spend looking at mobile phones is diverting our attention from what’s important.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://i.imgur.com/fT25Ohd.png" /><media:content medium="image" url="http://i.imgur.com/fT25Ohd.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Video Course Notes - React Hooks</title><link href="https://jonwhittlestone.github.io/notes/revision/frontend%20development/2020/11/11/react-hooks-notes.html" rel="alternate" type="text/html" title="Video Course Notes - React Hooks" /><published>2020-11-11T00:00:00-06:00</published><updated>2020-11-11T00:00:00-06:00</updated><id>https://jonwhittlestone.github.io/notes/revision/frontend%20development/2020/11/11/react-hooks-notes</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/revision/frontend%20development/2020/11/11/react-hooks-notes.html">&lt;p&gt;Having the O’Reilly membership is a real developer super power.&lt;/p&gt;
 
 &lt;h2 id=&quot;im-needing-to-brush-up-on-the-latest-and-greatest-in-the-react-world-for-a-job-so-here-are-my-notes&quot;&gt;I’m needing to brush up on the latest and greatest in the React world for a job so here are my notes.&lt;/h2&gt;
 &lt;h2 id=&quot;chapter-notes&quot;&gt;Chapter Notes&lt;/h2&gt;
@@ -16006,80 +16023,4 @@ EBS Standard  +   Charged for IOPS        Lower limit on size      Lower IOPS ca
 
     &lt;p&gt;Minimal. Tribal.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Not in keeping with the traditional developer image, I’ve shyed away from listening to music through headphones whilst writing code.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/8vVz9I2.png" /><media:content medium="image" url="https://i.imgur.com/8vVz9I2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Book Notes - Managing Humans</title><link href="https://jonwhittlestone.github.io/notes/book%20notes/2020/07/19/book-notes-managing-humans.html" rel="alternate" type="text/html" title="Book Notes - Managing Humans" /><published>2020-07-19T00:00:00-05:00</published><updated>2020-07-19T00:00:00-05:00</updated><id>https://jonwhittlestone.github.io/notes/book%20notes/2020/07/19/book-notes-managing-humans</id><content type="html" xml:base="https://jonwhittlestone.github.io/notes/book%20notes/2020/07/19/book-notes-managing-humans.html">&lt;p&gt;A Christmas 2020 present from Mum and Steve on management and leadership.&lt;/p&gt;
-
-&lt;p&gt;It does a great job in explaining empathy, archetypes and ‘general craziness of dysfunctional bright people’ with plenty of pertinent and amusing anecodotes.&lt;/p&gt;
-
-&lt;p&gt;It’s written for aspiring and current managers and at 3rd edition, Michael writes as though he knows his audience well. He has clearly trodden the boards, delivered software projects, and led teams at Borland and Apple.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-rating-45&quot;&gt;My rating: 4/5&lt;/h2&gt;
-&lt;h2 id=&quot;chapter-notes&quot;&gt;Chapter Notes&lt;/h2&gt;
-
-&lt;h3 id=&quot;ch4---rands-test&quot;&gt;CH4 - Rands Test&lt;/h3&gt;
-
-&lt;p&gt;Where the &lt;a href=&quot;https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/&quot;&gt;‘Joel test’&lt;/a&gt; can be an effective way to get a health check on a software team, the Rands test does the same for general team fitness in the context of management.&lt;/p&gt;
-
-&lt;p&gt;A score of 10 or lower - ‘you’ve got serious problems’&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Do you have consistent one-on-ones, about topics other than status? (+1)&lt;/li&gt;
-  &lt;li&gt;Do you have consistent team meetings? (+1)&lt;/li&gt;
-  &lt;li&gt;Are handwritten status reports delivered weekly via email? (-1)&lt;/li&gt;
-  &lt;li&gt;Are you comfortable saying ‘no’ to your boss? (+1)&lt;/li&gt;
-  &lt;li&gt;Can you explain the strategy of your company to a stranger? (+1)&lt;/li&gt;
-  &lt;li&gt;Can you explain current health of the business? (+1)&lt;/li&gt;
-  &lt;li&gt;Is there a regular stand-up by the person in charge? Do you buy it? (+1)&lt;/li&gt;
-  &lt;li&gt;Do you know what you want to do next? (+1) Does your boss? (+1)&lt;/li&gt;
-  &lt;li&gt;Do you have time to be strategic? (+1)&lt;/li&gt;
-  &lt;li&gt;Are you actively killing the grapevine? ie. Do you make a point to kill gossip? (+1)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ch39---incrementalist-vs-realists&quot;&gt;CH39 - Incrementalist vs. Realists&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Incrementalists and Realists don’t disagree about whether or not we should do something about the problem. We are disagreeing about how much we should do. … There are two distinct personalities when it comes to devising solutions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Incrementalists are realists and they have a pretty good idea of what is achievable given a problem to solve, a product to ship. … They tend to know all the secrets.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Completionists are dreamers. Their mantra is “If you’re going to spend the time given to solve a problem, solve it in a manner so you aren’t going to be solving it again in 3 months”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Incrementalists need vision and are driven by the goal of progress and constantly moving forward.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Completionists can often see the immediate solution, and the two-year solution and the five-year solution.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;ch40---organics-and-mechanics&quot;&gt;CH40 - Organics and Mechanics&lt;/h3&gt;
-
-&lt;p&gt;The chapter covers how to speak to your manager and to identify if they are one of two personalities and the interpersonal conflict that may arise between the two. Lopp comments that the ensuing ‘organisational warfare’ is a waste of time (and money) as it focuses everyone on the peculiar personality quirks of the other rather than on the business.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Mechanics move forward methodically. They carefully gather information in a structured manner. They quietly observe and are comfortable predictable. They annoy the hell out of the organics&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Organics are all over the place. They tend to be loud and can tell a joke. They ask seemingly meaningless questions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Mechanic: “This guy is walking chaos”&lt;br /&gt;Organic: “This guy is totally uptight”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;ch52---chaotic-beautiful-snowflakes&quot;&gt;CH52 - Chaotic, Beautiful snowflakes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Engineers have a well-deserved reputation for regularly being off by a factor of three in their work estimates, partly due to the fact that we are really shitty at estimating the no-linear chaotic work that exists in keeping a group of humans pointed in the right direction.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Michael’s parting thought&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The hard work of great leadership isn’t just managing the expected tasks that we can predict - it’s the art of successfully traversing the unexpected.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">A Christmas 2020 present from Mum and Steve on management and leadership.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://i.imgur.com/924BgKj.png" /><media:content medium="image" url="http://i.imgur.com/924BgKj.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Not in keeping with the traditional developer image, I’ve shyed away from listening to music through headphones whilst writing code.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/8vVz9I2.png" /><media:content medium="image" url="https://i.imgur.com/8vVz9I2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
