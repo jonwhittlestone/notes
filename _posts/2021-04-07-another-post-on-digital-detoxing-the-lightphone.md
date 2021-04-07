@@ -3,7 +3,7 @@ toc: false
 layout: post
 description: Swapping the smartphone for the Lightphone II
 categories: ['Productivity', 'Memories']
-title: Simpler Life: An experiment
+title: An experiment for a simpler life
 image: http://i.imgur.com/fT25Ohd.png
 hide: false
 ---
