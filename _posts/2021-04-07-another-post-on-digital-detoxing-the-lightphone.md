@@ -4,10 +4,11 @@ layout: post
 description: Swapping the smartphone for the Lightphone II
 categories: [Productivity, Memories]
 title: Simpler Life: An experiment
-image: https://i.imgur.com/6fxD4eU.png
+image: http://i.imgur.com/fT25Ohd.png
+hide: false
 ---
 
-The amount of time most of us spend looking at mobile phones is diverting our attention from what's important. I'm an information junkie, and my dopamine feasts need taming.
+The amount of time most of us spend looking at mobile phones is diverting our attention from what's important. 
 
 I've taken a drastic step and started using a phone without the Internet and apps. Its an attempt to try and be in the moment a little more. Especially as lockdown restrictions are ending and everyone will finally be allowed outside. All that refound excitement in the world, who needs to check their feeds on a smartphone??
 
