@@ -4,7 +4,7 @@ layout: post
 description: Swapping the smartphone for the Light Phone II
 categories: ['Productivity', 'Memories']
 title: An experiment for a simpler life
-image: http://i.imgur.com/fT25Ohd.png
+image: https://i.imgur.com/6fxD4eU.png
 hide: false
 ---
 
