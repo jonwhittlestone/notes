@@ -5,6 +5,7 @@ description: Notes on Reed Barger's course
 categories: [Revision, Frontend Development]
 title: Video Course Notes - React Hooks
 image: https://i.imgur.com/zzHR1tI.png
+hide: true
 ---
 
 Having the O'Reilly membership is a real developer super power.
