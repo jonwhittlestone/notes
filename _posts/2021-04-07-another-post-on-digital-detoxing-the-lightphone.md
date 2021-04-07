@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-description: Swapping the smartphone for the Lightphone II
+description: Swapping the smartphone for the Light Phone II
 categories: ['Productivity', 'Memories']
 title: An experiment for a simpler life
 image: http://i.imgur.com/fT25Ohd.png
