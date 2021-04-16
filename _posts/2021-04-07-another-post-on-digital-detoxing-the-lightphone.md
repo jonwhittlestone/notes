@@ -29,6 +29,10 @@ Prehaps I will feel fairly isolated at first but may mean I'm a better parent, h
 
 Yep, that's right, no apps. But I can message with SMS, and I can get [Signal](https://www.thesun.co.uk/tech/13684416/what-is-signal-whatsapp-users-change-app/) on my computer.
 
+### Er, calendar?
+
+I have an integration with Google Calendar and Zapier set up which'll SMS me calendar entries.
+
 ### Maps ??
 
 Yes, apparently there's a service that will text you directions
