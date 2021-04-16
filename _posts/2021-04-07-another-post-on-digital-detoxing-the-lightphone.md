@@ -8,7 +8,7 @@ image: https://i.imgur.com/6fxD4eU.png
 hide: false
 ---
 
-The amount of time most I spend looking at mobile phones is diverting my attention from what's important. 
+The amount of time I spend looking at a mobile phone screen is diverting my attention from what's important. 
 
 I've taken a drastic step and started using a phone without a web browser and apps. It's an attempt to try and be in the moment a little more. Especially as lockdown restrictions are ending and everyone will finally be allowed outside. All that refound excitement in the world, why do I need to check social feeds on a smartphone??
 
