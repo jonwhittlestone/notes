@@ -21,7 +21,7 @@ I say, it's an attempt to try and be in the moment a bit more. Especially as loc
 This week I started using [Light Phone II](https://www.theguardian.com/technology/2019/sep/20/light-phone-one-week) as an experiment. It's an E Ink phone with limited features. 
 However, in case you need to use the internet connection with another device, it does have a 4G modem with the ability to tether the connection (It's an Android OS under the bonnet)
 
-I imagine I'll feel fairly isolated at first but may mean I'm a better parent, husband and worker drone!
+I imagine I'll feel fairly isolated at first but may mean I'm a better parent, husband and a more focused [consultant](http://howapped.com)!
 
 ---
 
