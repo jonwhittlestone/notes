@@ -8,22 +8,31 @@ image: https://i.imgur.com/JJOCbFg.png
 hide: false
 ---
 # Never split the difference - negotiating as though your life depended on-it by Chris Voss 
+
 > "Embrace conflict as its often the path to great deals and brings truth, creativity and resolution”
-The line above was the real take home point for me. It’s not to shy away from conflict. It can actually be fun and bring about real creativity and friendship.
+> 
+The line above was the real take home point for me. It’s, not to shy away from conflict. It can actually be fun and bring about real creativity and friendship.
+
 As a former FBI agent, Chris Voss explains his approaches to negotiation in high pressure real life hostage situations. 
-The second major point to resonate was his explanation of a bargaining approach. This could be described as a script or framework that you’d prepare to avoid the lacklustre dynamic where you and your negotiating counterpart would meet in the middle. (And no one is happy – as the title suggests)
-      Chris Voss' Ackerman system: 
-      1. Have your desired target price in mind 
-      2. If you're the buyer, initial price is 65% of forget If you're the seller, it's target * 35%
-3. If you're the buyer, calculate 3 raises at decreasing increments of 85%,95% and 100% 
+
+The second major point to resonate was his explanation of a bargaining approach. This could be described as a script or framework that you’d prepare to avoid the lacklustre dynamic where you and your negotiating counterpart would meet in the middle. (And no one is happy – as the book title suggests)
+
+Chris Voss' Ackerman system: 
+
+1. Have your desired target price in mind
+2. If you're the seller, it's target * 35%
+3. If you're the buyer, calculate 3 raises at decreasing increments of 85%, 95% and 100% 
 4. Use lots of empathy and ways to say 'No' to get your counterpart to counter before you increase your offer 
 5. When calculating the offer, use precise non-round numbers (e.g £37,983 instead of £38,000) to give your offer credibility and weight. 
 
-    • The book teaches overcoming fear of conflict to get what you want out of life It makes the point that personal relationships can fail if participants don't make their wishes and desires known as it can bring about compromise which can lead to bitterness and disillusionment It's all about rejecting the idea of chickening out of the wimp-win, and throwing out an extreme anchor. 
-Do not be a slave to the amygalda.The part of the brain the processes fear.
+The book teaches overcoming fear of conflict to get what you want out of life It makes the point that personal relationships can fail if participants don't make their wishes and desires known as it can bring about compromise which can lead to bitterness and disillusionment 
+
+It's all about rejecting the idea of chickening out of the wimp-win, and throwing out an extreme anchor. 
+Do not be a slave to the amygalda - the part of the brain the processes fear.
 
 ## Chapter One - How to become the smartest person in any room 
-      - Centrepeice of the book is Tactical Empathy. How to create trust through listening and acting upon what is heard.
+
+- Centrepeice of the book is Tactical Empathy. How to create trust through listening and acting upon what is heard.
 
     • Negotiation is the heart of collaboration and makes conflict potentially meaningful and productive for all parties
 ##Chapter Two - Be a mirror. How to quickly establish rapport 
