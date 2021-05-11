@@ -70,14 +70,19 @@ Do not be a slave to the amygalda - the part of the brain the processes fear.
  - "No" is not a failure and something to be avoided. It often just means "wait" or "I'm not comfortable with that." Learn to hear it calmly. It is not the end of a negotiation, but the beginning.
 
 - 'Yes' is the final aim of the negotiator, not the start Asking for a 'Yes' too early gets their guard up.
-- Saying 'No' makes the speaker feel safe and in control. Trigger this feeling by asking what they don't want or is not true. Eg. "Is now a bad time to talk?.
+
+- Saying 'No' makes the speaker feel safe and in control. Trigger this feeling by asking what they don't want or is not true. Eg. "Is now a bad time to talk?
+
 - Sometimes the only way to get your counterpart mislabelling their emotions or desires to force them into a “No” 
+
 EG ‘it seems like you want this project to fail?’
 - Negotiate in their world. Persuasion is not about how bright or smooth or forceful you are. It's about making them think it was their idea. Do not beat them with logic or brute force. Ask them questions that open paths to your goals.
+
 - If a potential business partner has given up, contact with a "no" oriented question that suggests you are ready to walk away. This works well 
 "Have you given up on this project?"
 
-## Chapter Five - Trigger the 2 words that transform any negotiation. How to gain "the permission to persuade " 
+## Chapter Five - Trigger the 2 words that transform any negotiation. How to gain "the permission to persuade"
+
 - Creating unconditional positive regard opens the doorsnto changing thoughts and behaviours. Humans have an innate urge to socially constructive behaviour.
 The more a person feels understood a positively affirmed in that understanding, the more likely that urge for constructive behaviour will take hold.
 
@@ -92,45 +97,72 @@ The more a person feels understood a positively affirmed in that understanding, 
 - Splitting the difference is often wearing one brown and one black shoe, so don't compromise. Meeting halfway often ends in bad deals for both sides.
  
 - Approaching deadlines entice people to rush and to do things that aren't beneficial to them.
+
 - The F. Word:" Fair" is an emotional team people use to put others on the defensive and gain concessions. If used by your counterpart, don't get sucked in. Calmly ask for an explanation on how they think you are mistreating them.
+
 - Bend your counterpart's reality by anchoring his starting point. Before you make an offer, emotionally anchor them by saying how bad it will be. When you get to numbers, make it extreme to make your real offer seem reasonable or set a range (with odd numbers) to seem less aggressive.
+
 - People will take more risks to avoid a loss than realise again so make sure your counterpart sees "that there is something to lose by inaction
-##Chapter Seven - Create the illusion of control. Calibrate questions to transform conflict to collaboration.
-- Don't try to strongarm your counterpart into admitting you are right. Aggressive confrontation is the enemy of constructive negotiation 
-- Avoid questions that can be answered with ‘Yes’ or tiny peices of information. These require little thought and inspire the human need for reciprocity You will be expected to give something back.     
-- Don't ask questions that start with 'Why' unless it's for your counterpart to defend a stance that serves your goals. "Why' is accusatory. 
+
+## Chapter Seven - Create the illusion of control. Calibrate questions to transform conflict to collaboration.
+
+- Don't try to strongarm your counterpart into admitting you are right. Aggressive confrontation is the enemy of constructive negotiation
+ 
+- Avoid questions that can be answered with ‘Yes’ or tiny peices of information. These require little thought and inspire the human need for reciprocity You will be expected to give something back.
+
+- Don't ask questions that start with 'Why' unless it's for your counterpart to defend a stance that serves your goals. "Why' is accusatory.
+
 - Calibrate your questions to point your counterpart to solving your problem. This will encourage them to expend energy devising a solution
+
 - Bite your tongue. When you're attacked in a negotiation, pause and avoid angry reactions. Instead ask a calibrated question to lower their hostage mentality. It also gives the implication you want what the other guy wants but needs their intelligence to overcome the problem.
+
 - There is always a team behind the table. If you're not influencing the decision makers, you are vulnerable.
-- 
+
 ## Chapter Eight - Guarantee Execution. How to spot the liars and ensure follow-through
 
 - Ask calibrated questions and ask them again and again. Asking 'How' keeps the counterpart engaged but off-balance. Answering them will give them the illusion of control but force them to think about your situation when making their demands.
+
 - Use 'How' questions to subtly say 'No' - this pushes your counterpart to think of other solutions that would serve your agenda Very often it will get them to bid against themselves. 
+
 - Don't just pay attention to those you're interacting with directly, find out the motivations of those behind the table. You can do this by asking how a deal will affect everyone and how on-board they are.
+
  - Follow the 7-38-55 rule by paying attention to words, tone of voice, body language. Incongruence between words and non-verbal indicators will show your counterpart is uncomfortable with a deal
+
 - Is the 'Yes' real or counterfeit? Use the rule of three, use labels, summaries and calibrated questions to have your counterpart reaffirm their agreement at least 3 times. It's hard to fake conviction repeatedly.
+
 - A person's use of pronouns offers deep insight into their relative authority. Hearing a lot of 'I’ 'Me' and 'My' the authority may lie elsewhere Picking up a lot of 'We', 'they 'and 'Them'- this is probably a savvy decision maker keeping options open.
+
 - Use your own name to make yourself a real person to the other side. Humour and Humanity are the best way to remove roadblocks.
 
 ## Chapter Nine - Bargain Hard. How to get your price
 
 - Identify your counterpart's negotiating style. You can approach accordingly once you know if they are, assertive, analyst, accomodator
-- Prepare, prepare, prepare. Design an ambitious but legitimate goal and then game out the labels, calibrated questions, and responses so you don't have to wing it at the bargaining table 
+
+- Prepare, prepare, prepare. Design an ambitious but legitimate goal and then game out the labels, calibrated questions, and responses so you don't have to wing it at the bargaining table
+
 - Get ready to take a punch. Kick-ass negotiators usually lead with an extreme anchor to knock you off your game. Prepare your dodging tactics to avoid getting sucked into the compromise trap.
-- Set boundaries and learn to take a punch or punch back without anger. The person opposite isn't the problem, the situation is. 
+
+- Set boundaries and learn to take a punch or punch back without anger. The person opposite isn't the problem, the situation is.
+
 - To have the counterpart believe they are squeezing you for all you're worth prepare on ackerman plan before you start with decreasing rates of 65%,85%, 95% and 100% of target price using calibrated questions to avoid saying 'no'  to compel them to revise their offer
 
 ## Chapter Ten. Find the black swan. How to make breakthroughs by finding the unknown unknowns 
 
 - Let what you know, your known knowns, guide you but not blind you.  Every situation is different so be flexible and adaptable 
+
 - Black swans are leverage multipliers. 
+
   The three types of leverage: 
   - Positive: Ability to give someone what they want 
   - Negative: Ability to hurt someone 
   - Normative: Using your counterpart's norms to bring them round 
+
 - Work to understand the other side's religion. Digging into worldviews, life, emotions is where black swans lie.
+
 - Review everything you hear from the counterpart. Use backup listeners, compare notes with team members
+
 - Exploit the similarity principle. People are more likely to concede with some one they share a cultural similarity with so find out what makes them tick. and show them common ground 
+
 - When someone's choice seems they are crazy, they probably aren't. Search for hidden desires, bad information, constraints. 
+
 - Face to face discussions are most valuable to get the non-verbal cues and unguarded moments.
