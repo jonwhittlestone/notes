@@ -17,9 +17,9 @@ A former FBI agent, Chris Voss explains his approaches to negotiation in high pr
 
 The second major point to resonate was his explanation of a bargaining approach. This could be described as a script or framework that you’d prepare to avoid the lacklustre dynamic where you and your negotiating counterpart would meet in the middle. (And no one is happy – as the book title suggests)
 
-Chris Voss' Ackerman system: 
+Chris Voss' Ackerman system for buyers: 
 
-1. Have your desired target price in mind
+1. Have your desired target price in mind. A sensible and realistic amount could be 65% of asking price.
 2. Calculate 3 raises at decreasing increments of 85%, 95% and 100% 
 3. Use lots of empathy and ways to say 'No' to get your counterpart to counter before you increase your offer 
 4. When calculating the offer, use precise non-round numbers (e.g £37,983 instead of £38,000) to give your offer credibility and weight. 
