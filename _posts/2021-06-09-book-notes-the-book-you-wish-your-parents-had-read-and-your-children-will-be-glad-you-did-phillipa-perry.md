@@ -25,7 +25,7 @@ I found useful strategy after useful strategy (parenting hacks) for how to creat
 
 The above statement is something we've all thought or said at some point. My hypothesis is that maybe the 'harm' is subtle and with help of the wisdom by the author, the habbit may be best avoided in your own parenting approach.
 
-Covering the first part of the title, the author makes the point about your own upbringing. If the parent has been subjected certain parenting misdemeanours/techniques, these could be have become internalised and this may be something you may not wish to repeat as a parent.
+Covering the first part of the title, the author makes the point about your own upbringing. If the parent has been subjected to certain parenting misdemeanours/techniques, these could be have become internalised and this may be something you may not wish to repeat as a parent.
 
 Here are a few of my key takeaways.
 
