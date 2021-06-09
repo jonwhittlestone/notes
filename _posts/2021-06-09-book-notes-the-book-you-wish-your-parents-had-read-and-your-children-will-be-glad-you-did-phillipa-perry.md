@@ -9,7 +9,7 @@ hide: false
 ---
 # The Book You Wish Your Parents Had Read (and your children will be glad you did) by Phillpa Perry
 
-I read this April 2021 and thoroughly enjoyed it. I write up these notes on a morning J has been up through the night with a continuous cough [^1].. I've been up since 4am. I hope this makes sense.
+I read this April 2021 and thoroughly enjoyed it. I write up these notes on a morning that J has been up through the night with a continuous cough [^1].. I've been up since 4am. I hope this makes sense.
 
 I decided to pick it up because I aim to have more tuned in emotional intelligence/empathy. I'd like to be able to deal with anger better and learn to regulate my emotions.
 
@@ -25,7 +25,7 @@ I found useful strategy after useful strategy (parenting hacks) for how to creat
 
 The above statement is something we've all thought or said at some point. My hypothesis is that maybe the 'harm' is subtle and with help of the wisdom by the author, the habbit may be best avoided in your own parenting approach.
 
-Covering the first part of the title, the author makes the point about your own upbrining and how the strategies and treatment that you were subjected to have become internalised and this may be something you repeat as a parent.
+Covering the first part of the title, the author makes the point about your own upbringing. If the parent has been subjected certain parenting misdemeanours/techniques, these could be have become internalised and this may be something you may not wish to repeat as a parent.
 
 Here are a few of my key takeaways.
 
@@ -40,7 +40,7 @@ Here are a few of my key takeaways.
 * Validating feelings is often more productive / gets you to your goal than denying/surppressing them.
 
     She makes the point, that telling a child off can make them more stubborn and validating a feeling can be like steering into a skid when you're driving on ice.
-  * > It is rarely quicker to deny a child’s feelings. When we are in a hurry to get the school or nusery, and they don’t want to go. We could grab a toddler to put their coat on and then ask them to put it on by themselves. By which time they’re determined to put it on. It would have been better to initially respect them and ackknowledge their feelings and observe, listen and repect their feelings. This may be by verbally acknowledging by saying ‘You hate being too hot, that’s why you don’t want to wear your coat. Okay, we’ll put it on once we’re outside and you start to feel cold’
+  * > It is rarely quicker to deny a child’s feelings. When we are in a hurry to get the school or nusery, and they don’t want to go. We could grab a toddler to put their coat on and then ask them to put it on by themselves. By which time they’re determined to not put it on. It would have been better to initially respect them and ackknowledge their feelings and observe, listen and repect their feelings. This may be by verbally acknowledging by saying ‘You hate being too hot, that’s why you don’t want to wear your coat. Okay, we’ll put it on once we’re outside and you start to feel cold’
  
 * Constructive conflict.
   * Conflict of all varieties doesn't make a for a great atmosphere in a home and puts children on alert and threatens their sense of security which leaves them less able to be open and curious about the world since all their enery are swtiched into a sort of emergency mode.
@@ -50,7 +50,7 @@ Here are a few of my key takeaways.
     * > “To tackle difference, it’s important to know how you feel about the context and to share that. The next step is to learn how the other person feels about the context and to take their feelings into consideration. If feelings are left out of it, both sides can get more and more heated as they play what the author calls ‘Fact Tennis’, logging reasons over the net to each other, finding more and more to hit the other person with. In this style of argument to aim of the conflict becomes to win”
 
 * Rupture and Repair
-  * If you F-up, apologise when tempers have settled.
+  * If you F-up and lose your rag/temper, apologise when tempers have settled.
     
     It's ultimitely setting a good example for your kids.
 
