@@ -35,11 +35,11 @@ Here are a few of my key takeaways.
   * > “No one is wrong because their experience is different from what ours would be. Such differences need to be respected rather than causing you to get into arguments aas to who is having the ‘right’ experience”
 
 * Judgement-Free and taking a feeling seriously without overreactiving and learning how to contain a chlid's feelings.
- * > “You can take a feeling seriously without overreacting and remain contained and optimistic. .. If a child knows they will be seen and soothed by not judget by you, they are more likely to tell you what is going on for them .. This is what a child needs: for a parent to be a container for their emotions .. and perhaps putting that into words for them. Finding acceptable ways for them to express their anger and not being punitive or overhwlmed by the anger”
+  * > “You can take a feeling seriously without overreacting and remain contained and optimistic. .. If a child knows they will be seen and soothed by not judget by you, they are more likely to tell you what is going on for them .. This is what a child needs: for a parent to be a container for their emotions .. and perhaps putting that into words for them. Finding acceptable ways for them to express their anger and not being punitive or overhwlmed by the anger”
 
 * Validating feelings is often more productive / gets you to your goal than denying/surppressing them.
 
-She uses the analogy that telling a child off can make them more stubborn and validating a feeling can be like steering into a skid when you're driving on ice.
+    She uses the analogy that telling a child off can make them more stubborn and validating a feeling can be like steering into a skid when you're driving on ice.
   * > It is rarely quicker to deny a child’s feelings. When we are in a hurry to get the school or nusery, and they don’t want to go. We could grab a toddler to put their coat on and then ask them to put it on by themselves. By which time they’re determined to put it on. It would have been better to initially respect them and ackknowledge their feelings and observe, listen and repect their feelings. This may be by verbally acknowledging by saying ‘You hate being too hot, that’s why you don’t want to wear your coat. Okay, we’ll put it on once we’re outside and you start to feel cold’
  
 * Constructive conflict.
@@ -63,4 +63,4 @@ She uses the analogy that telling a child off can make them more stubborn and va
 ![](https://i.imgur.com/ybjiwdV.png)
 
 ---
-* He recently had a negative covid test. Phew.
+&ast; He recently had a negative covid test. Phew.
