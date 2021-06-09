@@ -7,7 +7,7 @@ title: The Book You Wish Your Parents Had Read .. by Phillpa Perry
 image: https://i.imgur.com/Nk0U7Bj.png
 hide: false
 ---
-# The Book You Wish Your Parents Had Read (and your chldren will be glad you did) by Phillpa Perry
+# The Book You Wish Your Parents Had Read (and your children will be glad you did) by Phillpa Perry
 
 I read this April 2021 and thoroughly enjoyed it. I write up these notes on a morning J has been up through the night with a continuous cough [^1].. I've been up since 4am. I hope this makes sense.
 
@@ -39,7 +39,7 @@ Here are a few of my key takeaways.
 
 * Validating feelings is often more productive / gets you to your goal than denying/surppressing them.
 
-    She uses the analogy that telling a child off can make them more stubborn and validating a feeling can be like steering into a skid when you're driving on ice.
+    She makes the point, that telling a child off can make them more stubborn and validating a feeling can be like steering into a skid when you're driving on ice.
   * > It is rarely quicker to deny a child’s feelings. When we are in a hurry to get the school or nusery, and they don’t want to go. We could grab a toddler to put their coat on and then ask them to put it on by themselves. By which time they’re determined to put it on. It would have been better to initially respect them and ackknowledge their feelings and observe, listen and repect their feelings. This may be by verbally acknowledging by saying ‘You hate being too hot, that’s why you don’t want to wear your coat. Okay, we’ll put it on once we’re outside and you start to feel cold’
  
 * Constructive conflict.
