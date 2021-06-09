@@ -9,7 +9,7 @@ hide: false
 ---
 # The Book You Wish Your Parents Had Read (and your chldren will be glad you did) by Phillpa Perry
 
-I read this April 2021 and thoroughly enjoyed it. I write up these notes on a morning J has been up through the night with a continuous cough*. I've been up since 4am. I hope this makes sense.
+I read this April 2021 and thoroughly enjoyed it. I write up these notes on a morning J has been up through the night with a continuous cough [^1].. I've been up since 4am. I hope this makes sense.
 
 I decided to pick it up because I aim to have more tuned in emotional intelligence/empathy. I'd like to be able to deal with anger better and learn to regulate my emotions.
 
@@ -63,4 +63,4 @@ Here are a few of my key takeaways.
 ![](https://i.imgur.com/ybjiwdV.png)
 
 ---
-&ast; He recently had a negative covid test. Phew.
+[^1]: He recently had a negative covid test. Phew.
