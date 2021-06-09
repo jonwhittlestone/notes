@@ -11,17 +11,23 @@ hide: false
 
 I read this April 2021 and thorughly enjoyed it.
 
-I decided to pick it up because I aim to have more tuned in emotional intelligence/empathy. I'd like to be deal with anger better and learn to regulate my emotions.
+I decided to pick it up because I aim to have more tuned in emotional intelligence/empathy. I'd like to be able to deal with anger better and learn to regulate my emotions.
 
-The book is not about weaning and potty taining but more about relationships with our children, what gets in the way of a good connection and what can enhance it.
+The book is not about weaning and potty taining but more about "relationships with our children, what gets in the way of a good connection and what can enhance it."
 
 Reflecting, after finishing the book, it may seem to contain a lot of touchy feely wisdom but it's rooted in empirical pyschological study and research as well as containing case studies of Phillipa's patients.
 
 Phillipa Perry is a psychotherarpist for 20+ years. Her and her husband (Grayson, the artist) have a daughter.
 
-I found useful strategy after useful strategy for how to create and maintain a happy and harmonious household, but I found it hard to believe that her own life bringing up a toddler was completely conflict free and hippy dippy lovely as her advice conveys!
+I found useful strategy after useful strategy (parenting hacks) for how to create and maintain a happy and harmonious household, but I found it hard to believe that her own life bringing up a toddler was completely conflict free and hippy dippy lovely as her advice conveys! I find that lot of the strategy can go out of the window when you've had 5 hours of broken sleep!
 
-With that said, here are a few of my key takeaways.
+> "I did 'X' growing up and it never did me any harm"
+
+The above statement is something we've all thought or said at some point. My hypothesis is that maybe the 'harm' is subtle and with help of the wisdom by the author, the habbit may be best avoided in your own parenting approach.
+
+Covering the first part of the title, the author makes the point about your own upbrining and how the strategies and treatment that you were subjected to have become internalised and this may be something you repeat as a parent.
+
+Here are a few of my key takeaways.
 
 # My takeaways
 
