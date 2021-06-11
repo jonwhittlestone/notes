@@ -32,20 +32,20 @@ Here are a few of my key takeaways.
 # My takeaways
 
 * Respect feelings
-  * > “No one is wrong because their experience is different from what ours would be. Such differences need to be respected rather than causing you to get into arguments aas to who is having the ‘right’ experience”
+  * > “No one is wrong because their experience is different from what ours would be. Such differences need to be respected rather than causing you to get into arguments as to who is having the ‘right’ experience”
 
 * Judgement-Free and taking a feeling seriously without overreactiving and learning how to contain a chlid's feelings.
-  * > “You can take a feeling seriously without overreacting and remain contained and optimistic. .. If a child knows they will be seen and soothed by not judget by you, they are more likely to tell you what is going on for them .. This is what a child needs: for a parent to be a container for their emotions .. and perhaps putting that into words for them. Finding acceptable ways for them to express their anger and not being punitive or overhwlmed by the anger”
+  * > “You can take a feeling seriously without overreacting and remain contained and optimistic. .. If a child knows they will be seen and soothed by not judged by you, they are more likely to tell you what is going on for them .. This is what a child needs: for a parent to be a container for their emotions .. and perhaps putting that into words for them. Finding acceptable ways for them to express their anger and not being punitive or overwhelmed by the anger”
 
-* Validating feelings is often more productive / gets you to your goal than denying/surppressing them.
+* Validating feelings is often more productive / gets you to your goal than denying/suppressing them.
 
     She makes the point, that telling a child off can make them more stubborn and validating a feeling can be like steering into a skid when you're driving on ice.
   * > It is rarely quicker to deny a child’s feelings. When we are in a hurry to get the school or nusery, and they don’t want to go. We could grab a toddler to put their coat on and then ask them to put it on by themselves. By which time they’re determined to not put it on. It would have been better to initially respect them and ackknowledge their feelings and observe, listen and repect their feelings. This may be by verbally acknowledging by saying ‘You hate being too hot, that’s why you don’t want to wear your coat. Okay, we’ll put it on once we’re outside and you start to feel cold’
  
 * Constructive conflict.
-  * Conflict, of all varieties, doesn't make a great atmosphere in a home and puts children on alert and threatens their sense of security which leaves them less able to be open and curious about the world since all their enery are swtiched into a sort of emergency mode.
-  * Using 'I-statements' rather than 'You-statements' are less accusatory
-    * > “A good rule of thumb when arguing is to do it with ‘I- statements’, not ‘you-statements’, for example ‘I feel hurt when you don’t answer me when you’re on your phone’, not ‘You’re always ignoring me when you’re on your phone.’ Few of use like to be defined or pigeon-holed – especially negatively – by someone else. If you instead describe how what you hear or see makes you feel, then you are talking about yourself, which is far easier for the other person to hear."
+  * Conflict, of all varieties, doesn't make a great atmosphere in a home and puts children on alert and threatens their sense of security which leaves them less able to be open and curious about the world since all their energy are switched into a sort of emergency mode.
+  * 'I-statements' rather than 'You-statements' are less accusatory
+    * > “A good rule of thumb when arguing is to do it with ‘I- statements’, not ‘you-statements’, for example ‘I feel hurt when you don’t answer me when you’re on your phone’, not ‘You’re always ignoring me when you’re on your phone.’ Few of us like to be defined or pigeon-holed – especially negatively – by someone else. If you instead describe how what you hear or see makes you feel, then you are talking about yourself, which is far easier for the other person to hear."
   * Arguing can become 'Fact tennis' - and the overall aim shouldn't be to win
     * > “To tackle difference, it’s important to know how you feel about the context and to share that. The next step is to learn how the other person feels about the context and to take their feelings into consideration. If feelings are left out of it, both sides can get more and more heated as they play what the author calls ‘Fact Tennis’, logging reasons over the net to each other, finding more and more to hit the other person with. In this style of argument to aim of the conflict becomes to win”
 
