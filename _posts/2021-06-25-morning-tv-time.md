@@ -12,47 +12,36 @@ Morning
 
 It's TV time. J is engrossed with super hero action.
 
-> Me. Want some breakfast?
+> Me.&nbsp;&nbsp;&nbsp;&nbsp; Want some breakfast?
 
-> J. No
+> J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No
 
-> Me. No... what?
+> Me.&nbsp;&nbsp;&nbsp;&nbsp; No... what?
 
-> J. No, thank-you
+> J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No, thank-you
 
-> Me. I'm going to have some toast.
+> Me.&nbsp;&nbsp;&nbsp;&nbsp; I'm going to have some toast.
 
 > ...
 
-> Me. Would you like some?
+> Would you like some?
 
-> J. I can't hear the TV.
+> J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... I can't hear the TV.
 
-> Me. 
-  Starts to make toast.
+> <br>Start to make toast.<br><br>L's sourdough. Lovely stuff<br><br>\*Toast done\*<br><br>Prepares and puts slices on 2 plates<br><br>"Here you go J."
 
-  L's sourdough. Lovely stuff
+> J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Is that honey?
 
-  *Toast done*
+> Me.&nbsp;&nbsp;&nbsp;&nbsp; No, just butter.
 
-  Prepares and puts slices on 2 plates
+> J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I said honey.
 
-  "Here you go J."
+> Me.&nbsp;&nbsp;&nbsp;&nbsp; You didn't say anything.
 
-> J. Is that honey?
-
-> Me. No, just butter.
-
-> J. I said honey.
-
-> Me. You didn't say anything.
-
-> J. I wanted honey.
+> J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I wanted honey.
 
 
-> Me.
-
-  *Gets out honey*
+> Me.&nbsp;&nbsp;&nbsp;&nbsp;<br><br>\*Gets out honey\*
 
 
 
