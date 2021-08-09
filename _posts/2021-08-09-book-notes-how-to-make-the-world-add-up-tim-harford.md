@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 title: How to Make the World Add Up - Tim Harford
 categories: ['Book Notes']
@@ -34,11 +34,11 @@ Length of a medium-sized novel: ~10,000 words
 
   * Distance / Dimensions
     * 🌍 circumference 
-      * 40,0000 km / 25,000 mi
+     * 40,0000 km / 25,000 mi
     * Drive Boston > Seattle
-      * 5,000 km
+     * 5,000 km
     * 🏢 Empire State Building
-      * 381m / ~ 100 storeys
+     * 381m / ~ 100 storeys
     * 🛏️ Bed length
-      * 2m / 7ft
+     * 2m / 7ft
 ---
