@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>FastAI Notes | notes</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="FastAI Notes" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learning Deep Learning in Public" />
+<meta property="og:description" content="Learning Deep Learning in Public" />
+<link rel="canonical" href="https://jonwhittlestone.github.io/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html" />
+<meta property="og:url" content="https://jonwhittlestone.github.io/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:image" content="https://i.imgur.com/sKDI04h.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-18T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"FastAI Notes","dateModified":"2021-08-18T00:00:00-05:00","datePublished":"2021-08-18T00:00:00-05:00","image":"https://i.imgur.com/sKDI04h.png","description":"Learning Deep Learning in Public","mainEntityOfPage":{"@type":"WebPage","@id":"https://jonwhittlestone.github.io/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html"},"@type":"BlogPosting","url":"https://jonwhittlestone.github.io/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jonwhittlestone.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>FastAI Notes | notes</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="FastAI Notes" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learning Deep Learning in Public" />
+<meta property="og:description" content="Learning Deep Learning in Public" />
+<link rel="canonical" href="https://jonwhittlestone.github.io/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html" />
+<meta property="og:url" content="https://jonwhittlestone.github.io/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:image" content="https://i.imgur.com/sKDI04h.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-18T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"FastAI Notes","dateModified":"2021-08-18T00:00:00-05:00","datePublished":"2021-08-18T00:00:00-05:00","image":"https://i.imgur.com/sKDI04h.png","description":"Learning Deep Learning in Public","mainEntityOfPage":{"@type":"WebPage","@id":"https://jonwhittlestone.github.io/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html"},"@type":"BlogPosting","url":"https://jonwhittlestone.github.io/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://jonwhittlestone.github.io/notes/feed.xml" title="notes" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">FastAI Notes</h1><p class="page-description">Learning Deep Learning in Public</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-08-18T00:00:00-05:00" itemprop="datePublished">
+        Aug 18, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#Learning Data Science">Learning Data Science</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#End-of-Chapter-Questions">End of Chapter Questions </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Chapter-One:-Your-Deep-Learning-Journey">Chapter One: Your Deep Learning Journey </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#Do-you-need-these-for-deep-learning?">Do you need these for deep learning? </a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-08-18-fast-ai-notes.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<style>
+table {font-size:100%; white-space:inherit}
+table td {max-width:inherit}
+</style>
+<p>This is my tracker for following this much-celebrated MooC.</p>
+<p>It marks the start of my data science education and follows the <a href="https://www.swyx.io/learn-in-public/">'Learning in Public'</a> ethos.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Chapter</th>
+<th>Section</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Deep Learning in Practice</td>
+<td>1. Your Deep Learning Journey</td>
+<td><a href="https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/ch01.html#idm46055308627688">Deep Learning is for Everyone</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Neural Networks: A Brief History</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Who We Are</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>How to Learn Deep Learning</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Your Projects and Your Mindset</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>The Software: PyTorch, fastai, and Jupyter (And Why It Doesn't Matter)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Your First Model</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Getting a GPU Deep Learning Server</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Running Your First Notebook</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>What Is Machine Learning?</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>What Is a Neural Network?</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>A Bit of Deep Learning Jargon</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Limitations In herent to Machine Learning</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>How Our Image Recognizer Works</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>What Our Image Recognizer Learned</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Image Recognizers Can Tackle Non-Image Tasks</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Jargon Recap</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Deep Learning Is Not Just for Image Classification</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Validation Sets and Test Sets</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>A Choose Your Own Adventure Moment</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Questionnaire <a href="https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/ch01.html#idm46055317162952">O'Reilly</a> • <a href="http://www.google.com">Answers</a>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>2. From Model to Production</td>
+<td>The Practice of Deep Learning</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Starting Your Project</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>The State of Deep Learning</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>The Drivetrain Approach</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Gathering Data</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>From Data to DataLoaders</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Data Augmentation</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Training Your Model, and Using It to Clean Your Data</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Turning Your Model into an Online Application</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Using the Model for Inference</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Creating a Notebook App from the Model</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Turning Your Notebook into a Real App</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Deploying Your App</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>How to Avoid Disaster</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Unforeseen Consequences and Feedback Loops</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Get Writing!</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Questionnaire <a href="https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/ch01.html#idm46055317162952">O'Reilly</a> • <a href="http://www.google.com">Answers</a>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>3. From Model to Production</td>
+<td>Key Examples for Data Ethics</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Bugs and Recourse: Euggy Algorithm Used for Healthcare Benfits</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Feedback Loops: YouTube's Recommendation System</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Bias: Professor Latanya Sweeney "Arrested"</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Why Does This Matter?</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Integrating Machine Learning with Product Design</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Topics in Data Ethics</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Recourse and Accountability</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Feedback Loops</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Bias</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Disinformation</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Identifying and Addressing Ethical Issues</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Analyze a Project You Are Working On</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Processes to Implement</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>The Power of Diversity</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Fairness, Accountability and Transparency</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Role of Policy</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>The Effectiveness of Regulation</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Rights and Policy</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Cars: A Historical Precedent</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Conclusion</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Questionnaire <a href="https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/ch01.html#idm46055317162952">O'Reilly</a> • <a href="http://www.google.com">Answers</a>
+</td>
+</tr>
+<tr>
+<td>2. Understanding Fastai's Applications</td>
+<td>4. Under The Hood: Training A Digit Classifier</td>
+<td>Pixels: The Foundations of Computer Vision</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>First Try: Pixel Similarity</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>NumPy Arrays and PyTorch Sensors</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Computing Metics Using Broadcasting</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Stochastic Gradient Descent</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Calculating Gradients</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Stepping with a Learning Rate</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>An End-to-End SGD Example</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Summarizing Gradient Descent</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>The MNIST Loss Function</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Sigmoid</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>SGD and Mini-Batches</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Putting It All Together</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Creating an Optimizer</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Adding a Nonlinearity</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Going Deeper</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Jargon Recap</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Questionnaire <a href="https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/ch01.html#idm46055317162952">O'Reilly</a> • <a href="http://www.google.com">Answers</a>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>5. Image Classification</td>
+<td>From Dogs and Cats to Pet Breeds</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Presizing</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Checking and Debugging a DataBlock</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Cross-Entropy Loss</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Viewing Activations and Labels</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Softmax</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Log Likelihood</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Taking the log</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Model Interpretation</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Improving Our Model</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>The Learning Rate Finder</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Unfreezing and Transfer Learning</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Discriminative Learning Rates</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Selecting the Number of Epochs</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Deeper Architectures</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Conclusion</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Questionnaire <a href="https://learning.oreilly.com/library/view/deep-learning-for/9781492045519/ch01.html#idm46055317162952">O'Reilly</a> • <a href="http://www.google.com">Answers</a>
+</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Further Research</td>
+</tr>
+<tr>
+<td></td>
+<td>6. Other Computer Vision Problems</td>
+<td>Multi-Label Classification</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="End-of-Chapter-Questions">
+<a class="anchor" href="#End-of-Chapter-Questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>End of Chapter Questions<a class="anchor-link" href="#End-of-Chapter-Questions"> </a>
+</h2>
+<h3 id="Chapter-One:-Your-Deep-Learning-Journey">
+<a class="anchor" href="#Chapter-One:-Your-Deep-Learning-Journey" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chapter One: Your Deep Learning Journey<a class="anchor-link" href="#Chapter-One:-Your-Deep-Learning-Journey"> </a>
+</h3>
+<h4 id="Do-you-need-these-for-deep-learning?">
+<a class="anchor" href="#Do-you-need-these-for-deep-learning?" aria-hidden="true"><span class="octicon octicon-link"></span></a>Do you need these for deep learning?<a class="anchor-link" href="#Do-you-need-these-for-deep-learning?"> </a>
+</h4>
+<ul>
+<li>Lots of Math T/F</li>
+<li>Lots of data T/F</li>
+<li>Lots of expensive computers T/F</li>
+<li>A PhD T/F</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answers</span> <span class="o">=</span> <span class="s1">'''</span>
+<span class="s1">F Lots of Math T/F</span>
+<span class="s1">- Lots of data T/F</span>
+<span class="s1">- Lots of expensive computers T/F</span>
+<span class="s1">- A PhD T/F</span>
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/learning%20data%20science/2021/08/18/fast-ai-notes.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Notes on life - inspired by Zettlekasten.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jonwhittlestone" title="jonwhittlestone"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
