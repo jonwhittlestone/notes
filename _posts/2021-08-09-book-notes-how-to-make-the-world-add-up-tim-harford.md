@@ -12,6 +12,30 @@ My notes
 
 ---
 
+Tim Harford is a very engaging writer who appears part statistician, part economist, part historian.
+
+The ultimate message from this `very entertaining author is _be curious_
+
+> Rule One: Notice your emotional response<br><br>_Don't accept or reject a claim just because of how it makes us feel_
+
+> Rule Two: Combine Statistical perspective with the 'worm's eye' personal view
+
+> Rule Three: Do we actually understand the labels?
+
+> Rule Four: Put claims into perspective by looking for comparisons and context.
+
+> Rule Five: Look behind the stats and where they came from.
+
+> Rule Six: What's missing or not being represented.<br><br>_Would our conclusions differ if they were included?_
+
+> Rule Seven: Ask tough questions about algorithms?<br><br>_Without intelligent openness, the big datasets that drive the algos cannot be trusted_
+
+> Rule Eight: Pay attention to the bedrock of official statistics.
+
+> Rule Nine: Look under the surface of any beautiful graph or chart.
+
+> Rule Ten: Keep an open mind.<br><br>_Be like John Maynard Keynes who can change his mind and adapt with the times, not like Irving Fisher_
+
 ## Andrew Elliot's 'Landmark Numbers'
 
 Tim's point is that having a few of these comitted to memory, makes it easy to compare one thing to another.
