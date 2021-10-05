@@ -11,5 +11,6 @@
         "latex",
         "plaintext",
         "markdown"
-    ]
+    ],
+    "python.pythonPath": "./venv/bin/python"
 }
