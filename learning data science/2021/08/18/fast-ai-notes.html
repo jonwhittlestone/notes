@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      6 min read
     
 </span></p>
 
@@ -122,6 +122,12 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h4"><a href="#1.5-What-were-the-two-theoretical-misunderstandings-that-held-back-the-field-of-neural-networks?">1.5 What were the two theoretical misunderstandings that held back the field of neural networks? </a></li>
 <li class="toc-entry toc-h4"><a href="#1.6-What-is-a-GPU?">1.6 What is a GPU? </a></li>
 <li class="toc-entry toc-h4"><a href="#1.7-Open-a-notebook-and-execute-a-cell-containing:-1+1">1.7 Open a notebook and execute a cell containing: 1+1 </a></li>
+<li class="toc-entry toc-h4"><a href="#1.8-Follow-through-each-cell-of-the-stripped-down-version-of-the-notebook-for-this-chapter.-Before-executing-each-cell,-guess-what-will-happen.">1.8 Follow through each cell of the stripped down version of the notebook for this chapter. Before executing each cell, guess what will happen. </a></li>
+<li class="toc-entry toc-h4"><a href="#1.9-Complete-the-Jupyter-Notebook-online-appendix">1.9 Complete the Jupyter Notebook online appendix </a></li>
+<li class="toc-entry toc-h4"><a href="#1.10-Why-is-it-hard-to-use-a-traditional-computer-program-to-recognize-images-in-a-photo?">1.10 Why is it hard to use a traditional computer program to recognize images in a photo? </a></li>
+<li class="toc-entry toc-h4"><a href="#1.11-What-did-Samuel-mean-by-'Weight-Assignment'-?">1.11 What did Samuel mean by &#39;Weight Assignment&#39; ? </a></li>
+<li class="toc-entry toc-h4"><a href="#1.12-What-term-do-we-normally-use-in-deep-learning-for-what-Samuel-called-"Weights"">1.12 What term do we normally use in deep learning for what Samuel called &quot;Weights&quot; </a></li>
+<li class="toc-entry toc-h4"><a href="#1.13-Draw-a-picture-that-summarizes-Samel's-view-of-a-machine-learning-model.">1.13 Draw a picture that summarizes Samel&#39;s view of a machine learning model. </a></li>
 </ul>
 </li>
 </ul>
@@ -977,6 +983,159 @@ table td {max-width:inherit}
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="1.8-Follow-through-each-cell-of-the-stripped-down-version-of-the-notebook-for-this-chapter.-Before-executing-each-cell,-guess-what-will-happen.">
+<a class="anchor" href="#1.8-Follow-through-each-cell-of-the-stripped-down-version-of-the-notebook-for-this-chapter.-Before-executing-each-cell,-guess-what-will-happen." aria-hidden="true"><span class="octicon octicon-link"></span></a>1.8 Follow through each cell of the stripped down version of the notebook for this chapter. Before executing each cell, guess what will happen.<a class="anchor-link" href="#1.8-Follow-through-each-cell-of-the-stripped-down-version-of-the-notebook-for-this-chapter.-Before-executing-each-cell,-guess-what-will-happen."> </a>
+</h4>
+<ul>
+<li><a href="https://course.fast.ai/start_colab">course.fast.ai - Using Colab</a></li>
+<li>
+<a href="https://colab.research.google.com/drive/1MvngrPu-vvXtE-DNV7dje5VQTeVJ7cHG?authuser=1">Stripped Copy of 01_intro.ipynb on my Google Drive</a> <a href="https://colab.research.google.com/github/fastai/fastbook/blob/master/clean/01_intro.ipynb">original</a><ul>
+<li>Change Runtime Type to GPU</li>
+<li>Then run cells</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="1.9-Complete-the-Jupyter-Notebook-online-appendix">
+<a class="anchor" href="#1.9-Complete-the-Jupyter-Notebook-online-appendix" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.9 Complete the Jupyter Notebook online appendix<a class="anchor-link" href="#1.9-Complete-the-Jupyter-Notebook-online-appendix"> </a>
+</h4>
+<ul>
+<li><a href="https://colab.research.google.com/drive/1FsYPafxZNUlOfm8VeRbh_W-KtuNPniwM?authuser=1">copy of app_jupyter.ipynb on my drive</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="1.10-Why-is-it-hard-to-use-a-traditional-computer-program-to-recognize-images-in-a-photo?">
+<a class="anchor" href="#1.10-Why-is-it-hard-to-use-a-traditional-computer-program-to-recognize-images-in-a-photo?" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.10 Why is it hard to use a traditional computer program to recognize images in a photo?<a class="anchor-link" href="#1.10-Why-is-it-hard-to-use-a-traditional-computer-program-to-recognize-images-in-a-photo?"> </a>
+</h4>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answer</span><span class="o">=</span><span class="s1">'''</span>
+<span class="s1">- For a traditional computer program, we'd have to translate the exact steps necessary to recognize images into code but we don't really know what those steps are since it happens in our brain.</span>
+<span class="s1">- There would be the need to 'spell out every minute step of the process in the most exasperating detail'</span>
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="1.11-What-did-Samuel-mean-by-'Weight-Assignment'-?">
+<a class="anchor" href="#1.11-What-did-Samuel-mean-by-'Weight-Assignment'-?" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.11 What did Samuel mean by 'Weight Assignment' ?<a class="anchor-link" href="#1.11-What-did-Samuel-mean-by-'Weight-Assignment'-?"> </a>
+</h4>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+
+<span class="n">answer</span><span class="o">=</span><span class="s1">'''</span>
+<span class="s1">- Weights ("Parameters" in ML jargon) are variables and an assignment is a particular choice of values for those variables.</span>
+
+<span class="s1">- They are the inputs for the program ('model') and altering them will define how the program operates.</span>
+
+<span class="s1">- In Arthur Samuel's work, his checkers-playing program had different values of weights that would result in different checkers-playing strategies.</span>
+
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id='1.12-What-term-do-we-normally-use-in-deep-learning-for-what-Samuel-called-"Weights"'>
+<a class="anchor" href="#1.12-What-term-do-we-normally-use-in-deep-learning-for-what-Samuel-called-" weights aria-hidden="true"><span class="octicon octicon-link"></span></a>1.12 What term do we normally use in deep learning for what Samuel called "Weights"<a class="anchor-link" href="#1.12-What-term-do-we-normally-use-in-deep-learning-for-what-Samuel-called-%22Weights%22"> </a>
+</h4>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse</span>
+<span class="n">answer</span><span class="o">=</span><span class="s1">'''</span>
+<span class="s1">Parameters</span>
+<span class="s1">'''</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="1.13-Draw-a-picture-that-summarizes-Samel's-view-of-a-machine-learning-model.">
+<a class="anchor" href="#1.13-Draw-a-picture-that-summarizes-Samel's-view-of-a-machine-learning-model." aria-hidden="true"><span class="octicon octicon-link"></span></a>1.13 Draw a picture that summarizes Samel's view of a machine learning model.<a class="anchor-link" href="#1.13-Draw-a-picture-that-summarizes-Samel's-view-of-a-machine-learning-model."> </a>
+</h4>
+<details>
+  <summary>Answer</summary>
+
+  ![](https://i.imgur.com/Dw3CaOt.png)
+</details>
+</div>
+</div>
+</div>
 </div>
 
 
