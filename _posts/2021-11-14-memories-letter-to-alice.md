@@ -2,18 +2,21 @@
 toc: false
 layout: post
 title: Giving ourselves a reason - a letter to Alice
-categories: ['Memories']
+categories: ["Memories"]
 descriptions: Thoughts on the community bandstand.
 image: https://i.imgur.com/5ZqgRqk.png
 hide: false
 ---
+
 <style>
   td {line-height: 1.8}
+  div#letter {
+    border:1px solid grey;
+    padding: 0.7rem
+  }
   /* td p {padding-bottom:1rem} */
 </style>
-<table>
-  <tr>
-  <td>
+  <div id='letter'>
   <p>
   Dorking, Surrey<br>
   14th November 2021
@@ -73,6 +76,4 @@ hide: false
   <p>I love you.<p>
   <p>Daddy x</p>
  
- </td>
-  </tr>
-<table>
+  </div>
