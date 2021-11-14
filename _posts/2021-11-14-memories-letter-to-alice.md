@@ -40,37 +40,37 @@ hide: false
   It's all about giving us reasons.
   </p>
   <p>
-  Giving us reason to come together and talk and listen and enjoy.<br>
+  It's giving us reason to come together and talk and listen and enjoy.<br>
   We're all finding it a bit hard at the moment Alice. It's not just that we've had a big health scare (more on that in a minute) but we've been forced inside and everyone's a bit nervous and suspicious of each other.
   
-  We all do less together now that means less interacting with people different to us. Add in to the mix, the online echo chambers like Twitter and the usual suspects and this can create a thing called the <a href="http://web.archive.org/web/20211104160122/https://static1.squarespace.com/static/5c171ac1710699e060ed3d94/t/5eebe2649fe4e4788eaf7d07/1592517269128/the-lesser-minds-problem.pdf" target="_blank">lesser minds problem</a>.<br>
-  Tolerance through unity. The aim is giving people a reason to be together so you don't forget the person standing next to you is a competent, sentient, capable, thoughtful person just like us. (ok Alice, maybe not you just yet.).
+  We all do things less together now and that means less interacting with people different to us. Add in to the mix, the online echo chambers like Twitter and the usual suspects and this can lead to something called the <a href="http://web.archive.org/web/20211104160122/https://static1.squarespace.com/static/5c171ac1710699e060ed3d94/t/5eebe2649fe4e4788eaf7d07/1592517269128/the-lesser-minds-problem.pdf" target="_blank">lesser minds problem.</a>.<br>
+  The aim is giving people a reason to be together so you don't forget the person standing next to you is a competent, sentient, capable, thoughtful person just like us. (ok Alice, maybe not you just yet.).
   </p>
   <p>
-  It would give us a reason to remember and be grateful.<br>
+  It giving us a reason to remember and be grateful.<br>
   The global Cornavirus pandemic is a catastrophe where many people and their loved ones lost their lives or endured painful struggle. In this country, our heroic NHS were the ones who tirelessly dealt with it and for that everyone is eternally grateful. Like the war memorial on South street, the community bandstand would forever remind us.
   </p>
   <p>
-  It would give us reason to enjoy the arts<br>
-  Not only does our local area have a deep musical heritage, I'm very proud to live in a country that has artistic and creative essence so woven into the seams. Being able to see live music regularly and support local musicians would be a fantastic thing for our mental well-being.
+  It's giving us a reason to enjoy the arts<br>
+  Not only does our local area have a deep musical heritage, I'm very proud to live in a country that has artistic and creative essence so woven into the seams. It would be a fantastic thing for our mental well-being and healing, to see live music regularly and support local musicians.
   </p>
   <p>
   You might be thinking one of a few things.<br><br>
-  One might be, "This is all getting a bit preachy. Is it time for my nap yet, or you could probably start folding the washing or sterilise my bottles"<br>
+  One might be, "This is all getting a bit preachy. Things aren't that bad. Is it time for my nap yet, or you could probably start folding the washing or sterilise my bottles"<br>
   I can also imagine you saying something like<br><br>
   "In theory, the idea of this musical fandango sounds great. But in practice won't it be noisy and there's propensity for after-hours mischief from ne'er do-wells and vagrants. It's pretty close to our house after all"<br><br>
   The response that comes back might be - thanks for reminding me about sticking to a firm napping regieme, leading to good sleep hygeine in adult life.<br>
   To your point about noise pollution - if it's recognised that it is a residential area, and performances should be seldom and rarely amplified - then I think the space can exist in harmony with its surroundings.<br><br>
   And 'will it get abused' ?<br><br>
-  Ultimately, we have good kids and the space will be respected. Yes, intially there will be some excitement. We might get a few hicupps when boredom has taken hold like in the latter part of the summer holidays. I'm optimistic we can educate that it's a joint space for all will be encouraged to look after what's ours.
+  Ultimately, we have good kids and the space will be respected. Yes, intially there will be some excitement. We might get a few hicupps when boredom has taken hold like in the latter part of the summer holidays. I'm optimistic we can educate. The message is that it's a joint space for all and so we're all encouraged to look after what's ours.
   </p>
   <p>
   That's the point really<br>
-  Creating a richer, more harmonious living environment to hand down to as we get old and wrinkly.<br>
+  It's giving us a reason to create a richer, more harmonious living environment to hand down to our young as we get old and wrinkly.<br>
   Thats all we're trying to do, even though it might not seem like it sometimes.
   </p>
   <p>Right nap time for you little ally pally</p>
-  <p>Love you<p>
+  <p>I love you.<p>
   <p>Daddy x</p>
  
  </td>
