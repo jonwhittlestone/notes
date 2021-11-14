@@ -11,8 +11,8 @@ hide: false
 <style>
   td {line-height: 1.8}
   div#letter {
-    border:1px solid grey;
-    padding: 0.7rem
+    border:1px solid lightgrey;
+    padding: 1em
   }
   /* td p {padding-bottom:1rem} */
 </style>
@@ -47,7 +47,7 @@ hide: false
   It's giving us reason to come together and talk and listen and enjoy.<br>
   We're all finding it a bit hard at the moment Alice. It's not just that we've had a big health scare (more on that in a minute) but we've been forced inside and everyone's a bit nervous and suspicious of each other.
   </p>
-  
+  <p> 
   We all do things less together now and that means less interacting with people different to us. Add in to the mix, the online echo chambers like Twitter and the usual suspects and this can lead to something called the <a href="http://web.archive.org/web/20211104160122/https://static1.squarespace.com/static/5c171ac1710699e060ed3d94/t/5eebe2649fe4e4788eaf7d07/1592517269128/the-lesser-minds-problem.pdf" target="_blank">lesser minds problem.</a>.<br>
   The aim is giving people a reason to be together so you don't forget the person standing next to you is a competent, sentient, capable, thoughtful person just like us. (ok Alice, maybe not you just yet.).
   </p>
