@@ -43,7 +43,7 @@ hide: false
   It's all about giving us reasons.
   </p>
   <p>
-  It's giving us reason to come together and talk and listen and enjoy.<br>
+  The bandstand is giving us reason to come together and talk and listen and enjoy.<br>
   We're all finding it a bit hard at the moment Alice. It's not just that we've had a big health scare (more on that in a minute) but we've been forced inside and everyone's a bit nervous and suspicious of each other.
   </p>
   <p> 
@@ -51,11 +51,11 @@ hide: false
   The aim is giving people a reason to be together so you don't forget the person standing next to you is a competent, sentient, capable, thoughtful person just like us. (ok Alice, maybe not you just yet.).
   </p>
   <p>
-  It giving us a reason to remember and be grateful.<br>
-  The global Cornavirus pandemic is a catastrophe where many people and their loved ones lost their lives or endured painful struggle. In this country, our heroic NHS were the ones who tirelessly dealt with it and for that everyone is eternally grateful. Like the war memorial on South street, the community bandstand would forever remind us.
+  The bandstand is giving us a reason to remember and be grateful.<br>
+  The global Cornavirus pandemic is a catastrophe where many people and their loved ones lost their lives or endured painful struggle. In this country, our heroic NHS were the ones who tirelessly dealt with it and for that everyone is eternally grateful. Like the war memorial on South street [^1], the community bandstand would forever remind us.
   </p>
   <p>
-  It's giving us a reason to enjoy the arts<br>
+  The bandstand is giving us a reason to enjoy the arts<br>
   Not only does our local area have a deep musical heritage, I'm very proud to live in a country that has artistic and creative essence so woven into the seams. It would be a fantastic thing for our mental well-being and healing, to see live music regularly and support local musicians.
   </p>
   <p>
@@ -70,9 +70,11 @@ hide: false
   </p>
   <p>
   That's the point really<br>
-  It's giving us a reason to create a richer, more harmonious living environment to hand down to our young as we get old and wrinkly.<br>
+  The bandstand is giving us a reason to create a richer, more harmonious living environment to hand down to our young as we get old and wrinkly.<br>
   Thats all we're trying to do, even though it might not seem like it sometimes.
   </p>
   <p>Right nap time for you little ally pally</p>
   <p>I love you.<p>
   <p>Daddy x</p>
+
+[^1]: Incidentally, on the site of that war memorial on South Street, there stood the previous Dorking bandstand up until the 1960's.
