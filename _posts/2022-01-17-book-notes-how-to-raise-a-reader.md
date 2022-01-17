@@ -30,8 +30,10 @@ The beginning had a bunch of good tips and tactics for young kids
 at the start which I'll take away. Things like...
 
 babies
-- read to your baby, instilling familiarity
+- read to your baby, instilling familiarity with the mechanics of reading
 - wordless books are fantastic opportunity to build visual literacy
+- board books!
+- simple art and design
 
 young kids
 - book discussion at the dinner table and in normal family life, not just bedtime
