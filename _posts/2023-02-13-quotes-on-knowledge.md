@@ -12,7 +12,7 @@ hide: false
 
 <style> strong {background-color: yellow; font-weight:normal} .post-content #header-image img {width:40%}</style>
 <div id="header-image">
-![](https://i.imgur.com/WVrk1S9.png)
+![]([https://i.imgur.com/WVrk1S9.png](https://i.imgur.com/dQLBIgi.jpg))
 </div>
 
 # The paradox of Knowledge
@@ -23,11 +23,11 @@ It's an excellent resource, thank-you team!
 
 Anyway, there was a thread asking the community the following:
 
-<img src="https://i.imgur.com/8aOItMb.png">
+![](https://i.imgur.com/8aOItMb.png)
 
 The subsequent comments had a few useful quotes so I thought I'd capture them for posterity.
 
 > ```The purpose of knowledge is action, not knowledge.
-    ― Aristotle``` 
+    ― Aristotle```
 
 ---
