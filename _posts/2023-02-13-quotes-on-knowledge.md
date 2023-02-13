@@ -52,4 +52,8 @@ A preoccupation with the means is a lack of commitment to the end
 
 Many more interesting tidbits, on [the thread](https://news.ycombinator.com/item?id=34710830).
 
+Like this one
+
+![](https://i.imgur.com/rMvwOL7.png)
+
 ---
