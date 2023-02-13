@@ -10,7 +10,7 @@ hide: false
 
 <style> strong {background-color: yellow; font-weight:normal} .post-content #header-image img {width:40%}</style>
 <div id="header-image">
-![](https://i.imgur.com/dQLBIgi.jpg)
+<img src="https://i.imgur.com/dQLBIgi.jpg">
 </div>
 
 # The paradox of Knowledge
