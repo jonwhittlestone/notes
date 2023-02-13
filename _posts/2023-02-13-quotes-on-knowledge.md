@@ -13,7 +13,7 @@ hide: false
 <img src="https://i.imgur.com/dQLBIgi.jpg">
 </div>
 
-In the last few years I've managed to wean myself of my Hacker News addiction but only subscribing to the weekly digest email, [HackerNewsLetter](https://hackernewsletter.com/?ref=find-your-newsletter)
+In the last few years I've managed to wean myself of my Hacker News addiction by only subscribing to the weekly digest email, [HackerNewsLetter](https://hackernewsletter.com/?ref=find-your-newsletter)
 
 It's an excellent resource, thank-you team!
 
