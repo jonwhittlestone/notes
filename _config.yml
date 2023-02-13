@@ -37,9 +37,8 @@ url: "https://jonwhittlestone.github.io" # the base hostname & protocol for your
 baseurl: "/notes" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
-minima:
-  social_links:
-    github: jonwhittlestone
+social_links:
+  - { platform: github, user_url: "https://github.com/jonwhittlestone/" }
 
 # Set this to true to get LaTeX math equation support
 use_math: 
