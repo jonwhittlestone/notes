@@ -3,7 +3,7 @@ toc: true
 layout: post
 categories: [Music, Productivity]
 title: March to the Beat - Music to code to 2020
-image: https://i.imgur.com/8vVz9I2.png
+image: /images/posts/8vVz9I2.png
 ---
 
 Not in keeping with the traditional developer image, I've shyed away from listening to music through headphones whilst writing code.

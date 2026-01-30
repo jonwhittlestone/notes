@@ -4,7 +4,7 @@ layout: post
 description: Brain hacks help motivate and maintain focus.
 categories: ['Productivity']
 title: Just Do It
-image: http://i.imgur.com/Dq5lSRg.png
+image: /images/posts/Dq5lSRg.png
 ---
 
 I'm partial to a brain hack.

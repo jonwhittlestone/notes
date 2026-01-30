@@ -3,7 +3,7 @@ toc: true
 layout: post
 categories: ['Memories']
 title: Question
-image: https://i.imgur.com/6W2oktj.jpg
+image: /images/posts/6W2oktj.jpg
 hide: false
 ---
 
@@ -20,4 +20,4 @@ And then stops his clambering, turns to me and asks ....
 
 <hr>
 
-![Where is Westcott](https://i.imgur.com/8Pwbycv.png)
+![Where is Westcott](/images/posts/8Pwbycv.png)

@@ -4,7 +4,7 @@ layout: post
 description: Psychotherapist explains.
 categories: [Book Notes]
 title: The Book You Wish Your Parents Had Read .. by Phillpa Perry
-image: https://i.imgur.com/Nk0U7Bj.png
+image: /images/posts/Nk0U7Bj.png
 hide: false
 ---
 # The Book You Wish Your Parents Had Read (and your children will be glad you did) by Phillpa Perry
@@ -57,10 +57,10 @@ Here are a few of my key takeaways.
 
 ## Contents
 
-![](https://i.imgur.com/HPK9Y84.png)
-![](https://i.imgur.com/1sySku7.png)
-![](https://i.imgur.com/abtD9Ny.png)
-![](https://i.imgur.com/ybjiwdV.png)
+![](/images/posts/HPK9Y84.png)
+![](/images/posts/1sySku7.png)
+![](/images/posts/abtD9Ny.png)
+![](/images/posts/ybjiwdV.png)
 
 ---
 [^1]: He recently had a negative covid test. Phew.

@@ -4,7 +4,7 @@ layout: post
 title: 10 days to a less defiant child - Jeffrey Bernstein
 categories: ['Book Notes']
 descriptions: My notes
-image: https://i.imgur.com/WVrk1S9.png
+image: /images/posts/WVrk1S9.png
 hide: false
 ---
 
@@ -12,7 +12,7 @@ hide: false
 
 <style> strong {background-color: yellow; font-weight:normal} .post-content #header-image img {width:40%}</style>
 <div id="header-image">
-![](https://i.imgur.com/WVrk1S9.png)
+![](/images/posts/WVrk1S9.png)
 </div>
 
 # My notes on "10 Days to a Less Defiant Child"

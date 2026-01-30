@@ -6,7 +6,7 @@ toc: true
 badges: false
 comments: false
 categories: ['AWS', 'Revision']
-image: http://i.imgur.com/AlR4Rmk.png
+image: /images/posts/AlR4Rmk.png
 nb_path: _notebooks/2020-07-29-saa-c02-chad-smith-pearson-live-lesson.ipynb
 layout: notebook
 ---

@@ -4,7 +4,7 @@ layout: post
 description: Notes on Reed Barger's course
 categories: [Revision, Frontend Development]
 title: Video Course Notes - React Hooks
-image: https://i.imgur.com/zzHR1tI.png
+image: /images/posts/zzHR1tI.png
 hide: true
 ---
 

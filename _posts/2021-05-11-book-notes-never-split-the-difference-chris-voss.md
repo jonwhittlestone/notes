@@ -4,7 +4,7 @@ layout: post
 description: FBI hostage negotiator explains.
 categories: [Book Notes]
 title: Never Split the difference by Chris Voss
-image: https://i.imgur.com/JJOCbFg.png
+image: /images/posts/JJOCbFg.png
 hide: false
 ---
 # Never split the difference - negotiating as though your life depended on-it by Chris Voss 

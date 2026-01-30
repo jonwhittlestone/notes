@@ -4,7 +4,7 @@ layout: post
 title: How to Make the World Add Up - Tim Harford
 categories: ['Book Notes']
 descriptions: FT Statistician fella lists guidelines to avoid the lies and damned lies.
-image: https://i.imgur.com/YFgTw9J.png
+image: /images/posts/YFgTw9J.png
 hide: false
 ---
 

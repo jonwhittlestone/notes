@@ -4,7 +4,7 @@ layout: post
 title: How to raise a reader - Pamela Paul and Maria Russo
 categories: ['Book Notes']
 descriptions: Very brief review from Goodreads
-image: https://i.imgur.com/wJ7pwwO.png
+image: /images/posts/wJ7pwwO.png
 hide: false
 ---
 
@@ -12,7 +12,7 @@ My sister and I had previously spoken about the fact I was reading this book.
 
 When she'd seen on Goodreads that I'd finished it and given it 3/5 she said this:
 
-![](https://i.imgur.com/j5aX4cY.png)
+![](/images/posts/j5aX4cY.png)
 
 Here's my response, my hastily written notes.
 

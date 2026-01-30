@@ -4,7 +4,7 @@ layout: post
 title: Giving ourselves a reason - a letter to Alice
 categories: ["Memories"]
 descriptions: Thoughts on the community bandstand.
-image: https://i.imgur.com/5ZqgRqk.png
+image: /images/posts/5ZqgRqk.png
 hide: false
 ---
 

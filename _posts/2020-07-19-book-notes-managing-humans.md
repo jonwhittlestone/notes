@@ -4,7 +4,7 @@ layout: post
 description: Notes on 'Managing Humans' by Michael Lopp.
 categories: [Book Notes]
 title: Book Notes - Managing Humans
-image: http://i.imgur.com/924BgKj.png
+image: /images/posts/924BgKj.png
 ---
 
 A Christmas 2020 present from Mum and Steve on management and leadership. 

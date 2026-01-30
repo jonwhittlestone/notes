@@ -4,7 +4,7 @@ layout: post
 description: My first empathy
 categories: ['Memories']
 title: Is it better?
-image: http://i.imgur.com/fT25Ohd.png
+image: /images/posts/fT25Ohd.png
 hide: false
 ---
 
