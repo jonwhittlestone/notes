@@ -4,7 +4,7 @@ toc: true
 title: "SAA-C02 AWS solutions architect notes"
 description: "Chad Smith's video course"
 categories: [AWS, Revision]
-image: http://i.imgur.com/AlR4Rmk.png
+image: /images/posts/AlR4Rmk.png
 ---
 
 <style>

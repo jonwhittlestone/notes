@@ -4,7 +4,7 @@ toc: true
 title: "FastAI Notes"
 description: "Learning Deep Learning in Public"
 categories: [Learning Data Science]
-image: https://i.imgur.com/sKDI04h.png
+image: /images/posts/sKDI04h.png
 hide: true
 ---
 
@@ -333,7 +333,7 @@ Parameters
 <details>
   <summary>Answer</summary>
   <p>
-  <img src="https://i.imgur.com/Dw3CaOt.png">
+  <img src="/images/posts/Dw3CaOt.png">
   </p>
 </details>
 
