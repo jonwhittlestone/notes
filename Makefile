@@ -1,54 +1,27 @@
+.PHONY: help install serve build clean
+
+# Bundle path - modify if your Ruby gems are installed elsewhere
+BUNDLE ?= $(HOME)/snap/code/208/.local/share/gem/ruby/3.3.0/bin/bundle
+
 help:
-	cat Makefile
+	@echo "Available commands:"
+	@echo "  make install  - Install Ruby dependencies"
+	@echo "  make serve    - Start local Jekyll server at http://localhost:4000/notes/"
+	@echo "  make build    - Build the site to _site/"
+	@echo "  make clean    - Remove generated files"
+	@echo ""
+	@echo "If bundle is in PATH, run: BUNDLE=bundle make serve"
 
-# start (or restart) the services
-server: .FORCE
-	docker-compose down --remove-orphans || true;
-	docker-compose up
+install:
+	$(BUNDLE) config set --local path 'vendor/bundle'
+	$(BUNDLE) install
 
-# start (or restart) the services in detached mode
-server-detached: .FORCE
-	docker-compose down || true;
-	docker-compose up -d
+serve:
+	$(BUNDLE) exec jekyll serve --livereload
 
-# build or rebuild the services WITHOUT cache
-build: .FORCE
-	chmod 777 Gemfile.lock
-	docker-compose stop || true; docker-compose rm || true;
-	docker build --no-cache -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .
-	docker build --no-cache -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
-	docker-compose build --force-rm --no-cache
+build:
+	JEKYLL_ENV=production $(BUNDLE) exec jekyll build
 
-# rebuild the services WITH cache
-quick-build: .FORCE
-	docker-compose stop || true;
-	docker build -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .
-	docker build -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
-	docker-compose build 
-
-# convert word & nb without Jekyll services
-convert: .FORCE
-	docker-compose up converter
-
-# stop all containers
-stop: .FORCE
-	docker-compose stop
-	docker ps | grep fastpages | awk '{print $1}' | xargs docker stop
-
-# remove all containers
-remove: .FORCE
-	docker-compose stop  || true; docker-compose rm || true;
-
-# get shell inside the notebook converter service (Must already be running)
-bash-nb: .FORCE
-	docker-compose exec watcher /bin/bash
-
-# get shell inside jekyll service (Must already be running)
-bash-jekyll: .FORCE
-	docker-compose exec jekyll /bin/bash
-
-# restart just the Jekyll server
-restart-jekyll: .FORCE
-	docker-compose restart jekyll
-
-.FORCE:
+clean:
+	$(BUNDLE) exec jekyll clean
+	rm -rf _site .jekyll-cache .jekyll-metadata
