@@ -1,0 +1,34 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+    {
+      "path": "../words",
+    },
+    {
+      "path": "../../Dropbox/DropsyncFiles/jw-mind",
+    },
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#153138",
+      "titleBar.activeBackground": "#1E454F",
+      "titleBar.activeForeground": "#F8FBFC",
+    },
+    "folder-color.pathColors": [
+      {
+        "folderPath": "/home/jon/code/words/",
+        "color": "foldercolorizer.color_9966ff",
+      },
+      {
+        "folderPath": "/home/jon/Dropbox/DropsyncFiles/jw-mind/",
+        "color": "foldercolorizer.color_ffcc00",
+      },
+      {
+        "folderPath": "notes/",
+        "color": "foldercolorizer.color_00cc33",
+      },
+    ],
+  },
+}
