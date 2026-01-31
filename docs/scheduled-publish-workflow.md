@@ -140,7 +140,11 @@ Or via GitHub web interface:
 2. Confirm the PR was merged
 3. Confirm the draft branch was deleted
 4. Check that the deploy workflow triggered
-5. Visit your site to see the published post
+5. Visit the post directly (it won't appear on the home page due to `hide: true`):
+   ```
+   https://jonwhittlestone.github.io/notes/test/2026/01/31/test-scheduled-publish.html
+   ```
+   (Adjust the date in the URL to match when you created the post)
 
 ### Step 6: Clean up test post
 
