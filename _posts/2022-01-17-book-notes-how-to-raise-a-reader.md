@@ -12,7 +12,7 @@ My sister and I had previously spoken about the fact I was reading this book.
 
 When she'd seen on Goodreads that I'd finished it and given it 3/5 she said this:
 
-![](/images/posts/j5aX4cY.png)
+![]({{ site.baseurl }}/images/posts/j5aX4cY.png)
 
 Here's my response, my hastily written notes.
 

@@ -12,7 +12,7 @@ hide: false
 
 <style> strong {background-color: yellow; font-weight:normal} .post-content #header-image img {width:40%}</style>
 <div id="header-image">
-![](/images/posts/WVrk1S9.png)
+![]({{ site.baseurl }}/images/posts/WVrk1S9.png)
 </div>
 
 # My notes on "10 Days to a Less Defiant Child"

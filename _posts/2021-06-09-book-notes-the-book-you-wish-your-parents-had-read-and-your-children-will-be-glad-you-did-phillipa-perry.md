@@ -57,10 +57,10 @@ Here are a few of my key takeaways.
 
 ## Contents
 
-![](/images/posts/HPK9Y84.png)
-![](/images/posts/1sySku7.png)
-![](/images/posts/abtD9Ny.png)
-![](/images/posts/ybjiwdV.png)
+![]({{ site.baseurl }}/images/posts/HPK9Y84.png)
+![]({{ site.baseurl }}/images/posts/1sySku7.png)
+![]({{ site.baseurl }}/images/posts/abtD9Ny.png)
+![]({{ site.baseurl }}/images/posts/ybjiwdV.png)
 
 ---
 [^1]: He recently had a negative covid test. Phew.

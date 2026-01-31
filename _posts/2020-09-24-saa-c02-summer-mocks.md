@@ -6704,7 +6704,7 @@ answers = '''️
 
 </details>
 
-![S3 Pre-signed URLs vs CloudFront signed URLs vs OAI](/images/posts/Hs25uy7.png)
+![S3 Pre-signed URLs vs CloudFront signed URLs vs OAI]({{ site.baseurl }}/images/posts/Hs25uy7.png)
 
 > An Architect is managing a data analytics application which exclusively uses Amazon S3 as its data storage. For the past few weeks, the application works as expected until a new change was implemented to increase the rate at which the application updates its data. There have been reports that outdated data intermittently appears when the application accesses objects from S3 bucket. The development team investigated the application logic and didn’t find any issues.
 
@@ -6998,7 +6998,7 @@ answers = '''️
 
 </details>
 
-![CloudFront -> ACM/IAM Cert store -> ELB -> S3 or Instance Origin](/images/posts/dark-mode-01.png)
+![CloudFront -> ACM/IAM Cert store -> ELB -> S3 or Instance Origin]({{ site.baseurl }}/images/posts/dark-mode-01.png)
 
 > A web application requires a minimum of six Amazon Elastic Compute Cloud (EC2) instances running at all times. You are tasked to deploy the application to three availability zones in the EU Ireland region (eu-west-1a, eu-west-1b, and eu-west-1c). It is required that the system is fault-tolerant up to the loss of one Availability Zone.
 
@@ -7456,7 +7456,7 @@ answers = '''️
 
 </details>
 
-![Step Functions vs SWF vs SQS](/images/posts/j3xISAT.png)
+![Step Functions vs SWF vs SQS]({{ site.baseurl }}/images/posts/j3xISAT.png)
 
 > You are employed by a large electronics company that uses Amazon Simple Storage Service. For reporting purposes, they want to track and log every request access to their S3 buckets including the requester, bucket name, request time, request action, referrer, turnaround time, and error code information. The solution should also provide more visibility into the object-level operations of the bucket.
 
@@ -7491,7 +7491,7 @@ answers = '''️
 
 > A newly hired Solutions Architect is checking all of the security groups and network access control list rules of the company’s AWS resources. For security purposes, the MS SQL connection via port 1433 of the database tier should be secured. Below is the security group configuration of their Microsoft SQL Server database:
 
-![Inbound NACL example](/images/posts/II3Hzqb.png)
+![Inbound NACL example]({{ site.baseurl }}/images/posts/II3Hzqb.png)
 
 - For the MS SQL rule, change the Source to the security group ID attached to the application tier.
 
@@ -8034,7 +8034,7 @@ Check out this AWS WAF Cheat Sheet:
 
 https://tutorialsdojo.com/aws-waf/
 
-![Add Rules in WAF in a web ACl](/images/posts/Hmf13I9.png)
+![Add Rules in WAF in a web ACl]({{ site.baseurl }}/images/posts/Hmf13I9.png)
 
 
 ```python
@@ -8364,7 +8364,7 @@ answers = '''️
 
 Route 53’s DNS implementation connects user requests to infrastructure running inside (and outside) of Amazon Web Services (AWS). For example, if you have multiple web servers running on EC2 instances behind an Elastic Load Balancing load balancer, Route 53 will route all traffic addressed to your website (e.g. `www.tutorialsdojo.com`) to the load balancer DNS name (e.g. `elbtutorialsdojo123.elb.amazonaws.com`).
 
-![Route 53 -> Cloudfront -> ELB -> Instances](/images/posts/8VtgMSx.png)
+![Route 53 -> Cloudfront -> ELB -> Instances]({{ site.baseurl }}/images/posts/8VtgMSx.png)
 
 Check out this Amazon Route 53 Cheat Sheet:
 

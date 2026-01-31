@@ -20,4 +20,4 @@ And then stops his clambering, turns to me and asks ....
 
 <hr>
 
-![Where is Westcott](/images/posts/8Pwbycv.png)
+![Where is Westcott]({{ site.baseurl }}/images/posts/8Pwbycv.png)

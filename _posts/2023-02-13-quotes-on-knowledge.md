@@ -10,7 +10,7 @@ hide: false
 
 <style> strong {background-color: yellow; font-weight:normal} .post-content #header-image img {width:40%}</style>
 <div id="header-image">
-<img src="/images/posts/dQLBIgi.jpg">
+<img src="{{ site.baseurl }}/images/posts/dQLBIgi.jpg">
 </div>
 
 In the last few years I've managed to wean myself of my Hacker News addiction by only subscribing to the weekly digest email, [HackerNewsLetter](https://hackernewsletter.com/?ref=find-your-newsletter)
@@ -19,7 +19,7 @@ It's an excellent resource, thank-you team!
 
 Anyway, there was [a thread](https://news.ycombinator.com/item?id=34710830) asking the community the following:
 
-![](/images/posts/8aOItMb.png)
+![]({{ site.baseurl }}/images/posts/8aOItMb.png)
 
 The subsequent comments had a few useful quotes so I thought I'd capture them for posterity.
 
@@ -52,6 +52,6 @@ Many more interesting tidbits, on [the thread](https://news.ycombinator.com/item
 
 Like this one
 
-![](/images/posts/rMvwOL7.png)
+![]({{ site.baseurl }}/images/posts/rMvwOL7.png)
 
 ---

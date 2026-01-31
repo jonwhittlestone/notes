@@ -333,7 +333,7 @@ Parameters
 <details>
   <summary>Answer</summary>
   <p>
-  <img src="/images/posts/Dw3CaOt.png">
+  <img src="{{ site.baseurl }}/images/posts/Dw3CaOt.png">
   </p>
 </details>
 
