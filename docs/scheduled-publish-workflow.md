@@ -57,6 +57,12 @@ flowchart TD
 
 The workflow is defined in `.github/workflows/scheduled-publish.yaml`.
 
+The workflow has two jobs:
+1. **merge-ready-posts**: Finds and merges PRs with the `ready-to-publish` label
+2. **deploy**: Builds and deploys to GitHub Pages (only runs if PRs were merged)
+
+> **Note**: The deploy step is included directly in this workflow because GitHub Actions using `GITHUB_TOKEN` to merge PRs don't trigger other workflows (by design, to prevent infinite loops).
+
 ### Create the label
 
 Before using this workflow, create the `ready-to-publish` label in your GitHub repository:
