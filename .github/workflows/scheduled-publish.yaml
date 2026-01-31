@@ -1,0 +1,74 @@
+name: Scheduled Publish
+
+on:
+  schedule:
+    # Run at 2pm UK time daily
+    # Note: UK is UTC+0 in winter (GMT), UTC+1 in summer (BST)
+    # Using 14:00 UTC which is 2pm GMT / 3pm BST
+    - cron: '0 14 * * *'
+  workflow_dispatch: # Allow manual trigger for testing
+
+jobs:
+  merge-ready-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Merge PRs with 'ready-to-publish' label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+
+            // Find all open PRs with the 'ready-to-publish' label
+            const { data: pullRequests } = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: 'open',
+              base: 'master'
+            });
+
+            const readyPRs = pullRequests.filter(pr =>
+              pr.labels.some(label => label.name === 'ready-to-publish')
+            );
+
+            if (readyPRs.length === 0) {
+              console.log('No PRs with "ready-to-publish" label found. Nothing to do.');
+              return;
+            }
+
+            console.log(`Found ${readyPRs.length} PR(s) ready to publish:`);
+
+            for (const pr of readyPRs) {
+              console.log(`\nProcessing PR #${pr.number}: ${pr.title}`);
+
+              try {
+                // Merge the PR
+                await github.rest.pulls.merge({
+                  owner,
+                  repo,
+                  pull_number: pr.number,
+                  merge_method: 'squash',
+                  commit_title: `${pr.title} (#${pr.number})`,
+                  commit_message: `Auto-published via scheduled workflow.\n\nOriginal PR: #${pr.number}`
+                });
+
+                console.log(`✅ Successfully merged PR #${pr.number}`);
+
+                // Delete the branch after merge
+                try {
+                  await github.rest.git.deleteRef({
+                    owner,
+                    repo,
+                    ref: `heads/${pr.head.ref}`
+                  });
+                  console.log(`🗑️ Deleted branch: ${pr.head.ref}`);
+                } catch (deleteError) {
+                  console.log(`⚠️ Could not delete branch ${pr.head.ref}: ${deleteError.message}`);
+                }
+
+              } catch (error) {
+                console.error(`❌ Failed to merge PR #${pr.number}: ${error.message}`);
+              }
+            }
