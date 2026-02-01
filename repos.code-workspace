@@ -1,13 +1,19 @@
 {
   "folders": [
     {
+      "path": "../../Dropbox/DropsyncFiles/jw-mind",
+    },
+    {
       "path": ".",
     },
     {
       "path": "../words",
     },
     {
-      "path": "../../Dropbox/DropsyncFiles/jw-mind",
+      "path": "../../Dropbox/DropsyncFiles/jw-mind/_www//test-vault-for-obsidian-development/26-obsidian-github-web-publish/test-vault-for-obsidian-development",
+    },
+    {
+      "path": "../playground/obsidian-github-web-publish",
     },
   ],
   "settings": {
@@ -28,6 +34,14 @@
       {
         "folderPath": "notes/",
         "color": "foldercolorizer.color_00cc33",
+      },
+      {
+        "folderPath": "jw-mind/",
+        "color": "foldercolorizer.color_ffcc00",
+      },
+      {
+        "folderPath": "/home/jon/code/playground/obsidian-github-web-publish/",
+        "color": "foldercolorizer.color_006699",
       },
     ],
   },
