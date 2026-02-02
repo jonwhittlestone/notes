@@ -15,4 +15,4 @@ Tested: PASS
 - Republish
 - Updating image base url in a post
 
-![Gemini_Generated_Image_yib1bayib1bayib1](/assets/images/test-post-polish-live-url-4-Gemini_Generated_Image_yib1bayib1bayib1.png)
+![Gemini_Generated_Image_yib1bayib1bayib1](/notes/assets/images/test-post-polish-live-url-4-Gemini_Generated_Image_yib1bayib1bayib1.png)
