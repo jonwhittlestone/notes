@@ -13,6 +13,6 @@ date: 2026-01-02
 
 Tested: PASS
 - Republish
-- yip
+- Updating image base url in a post
 
 ![Gemini_Generated_Image_yib1bayib1bayib1](/assets/images/test-post-polish-live-url-4-Gemini_Generated_Image_yib1bayib1bayib1.png)
