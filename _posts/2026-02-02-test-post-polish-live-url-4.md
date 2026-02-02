@@ -11,10 +11,8 @@ date: 2026-01-02
 ---
 ## hooahhhh - it aligns! correctly formatted?
 
-update log with correct url?
-
-This is:
-- what we're after
+Tested: PASS
+- Republish
 - yip
 
 ![Gemini_Generated_Image_yib1bayib1bayib1](/assets/images/test-post-polish-live-url-4-Gemini_Generated_Image_yib1bayib1bayib1.png)
